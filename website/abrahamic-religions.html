@@ -1,0 +1,1496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Abrahamic Faiths — A Comparative Study</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Source+Sans+3:ital,wght@0,300;0,400;0,600;0,700;1,400&family=Noto+Sans+Hebrew:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root {
+  --parchment: #f4edd3;
+  --parchment-dark: #e8dfc4;
+  --ink: #2a1f0e;
+  --ink-light: #5c4a2a;
+  --gold: #b8860b;
+  --gold-light: #d4a843;
+  --gold-glow: rgba(184,134,11,0.15);
+  --christianity: #8b1a1a;
+  --islam: #1a6b3c;
+  --judaism: #1a3c6b;
+  --christianity-bg: rgba(139,26,26,0.08);
+  --islam-bg: rgba(26,107,60,0.08);
+  --judaism-bg: rgba(26,60,107,0.08);
+  --section-gap: 4rem;
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: 'Source Sans 3', sans-serif;
+  background: var(--parchment);
+  color: var(--ink);
+  line-height: 1.7;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+/* Texture overlay */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: url("data:image/svg+xml,%3Csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='0.65' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100' height='100' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E");
+  pointer-events: none;
+  z-index: 999;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* ── HERO ── */
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+  position: relative;
+  background: radial-gradient(ellipse at 50% 30%, rgba(184,134,11,0.12) 0%, transparent 70%),
+              linear-gradient(180deg, #e8dab5 0%, var(--parchment) 100%);
+}
+
+.hero::after {
+  content: '☽ ✡ ✝';
+  position: absolute;
+  top: 15%;
+  font-size: 2.5rem;
+  letter-spacing: 3rem;
+  opacity: 0.1;
+  animation: fadeDown 2s ease-out;
+}
+
+.hero h1 {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  color: var(--ink);
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.02em;
+  animation: fadeUp 1.2s ease-out;
+}
+
+.hero h1 span {
+  color: var(--gold);
+  font-style: italic;
+}
+
+.hero .subtitle {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: clamp(1.1rem, 2.5vw, 1.6rem);
+  color: var(--ink-light);
+  font-style: italic;
+  margin-bottom: 2rem;
+  animation: fadeUp 1.4s ease-out;
+}
+
+.hero .scroll-hint {
+  position: absolute;
+  bottom: 2rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gold);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes fadeUp {
+  from { opacity:0; transform:translateY(30px); }
+  to { opacity:1; transform:translateY(0); }
+}
+@keyframes fadeDown {
+  from { opacity:0; transform:translateY(-20px); }
+  to { opacity:0.1; transform:translateY(0); }
+}
+@keyframes pulse {
+  0%,100% { opacity:0.4; }
+  50% { opacity:1; }
+}
+
+/* ── NAVIGATION ── */
+.nav {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: rgba(232,223,196,0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(184,134,11,0.2);
+  padding: 0.5rem 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.nav a {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--ink-light);
+  text-decoration: none;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2px;
+  transition: all 0.3s;
+  white-space: nowrap;
+}
+
+.nav a:hover, .nav a.active {
+  color: var(--gold);
+  background: var(--gold-glow);
+}
+
+/* ── MAIN CONTENT ── */
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem;
+}
+
+/* Section titles */
+.section-title {
+  text-align: center;
+  margin: var(--section-gap) 0 2rem;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.section-title h2 {
+  font-size: clamp(1.8rem, 4vw, 2.8rem);
+  color: var(--ink);
+}
+
+.section-title h2 span { color: var(--gold); }
+
+.section-title::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80px;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+}
+
+.section-intro {
+  max-width: 800px;
+  margin: 0 auto 2.5rem;
+  text-align: center;
+  font-size: 1.05rem;
+  color: var(--ink-light);
+  font-style: italic;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.2rem;
+}
+
+/* ── THREE COLUMN CARDS ── */
+.tri-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.tri-card {
+  background: #fffdf5;
+  border: 1px solid rgba(0,0,0,0.08);
+  border-top: 3px solid;
+  padding: 1.8rem 1.5rem;
+  border-radius: 2px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.tri-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 24px rgba(0,0,0,0.08);
+}
+
+.tri-card.christianity { border-top-color: var(--christianity); }
+.tri-card.islam { border-top-color: var(--islam); }
+.tri-card.judaism { border-top-color: var(--judaism); }
+
+.tri-card .card-icon {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.tri-card h3 {
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
+
+.tri-card.christianity h3 { color: var(--christianity); }
+.tri-card.islam h3 { color: var(--islam); }
+.tri-card.judaism h3 { color: var(--judaism); }
+
+.tri-card p, .tri-card li {
+  font-size: 0.95rem;
+  color: var(--ink-light);
+  margin-bottom: 0.5rem;
+}
+
+.tri-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.tri-card ul li::before {
+  content: '◆ ';
+  font-size: 0.5rem;
+  vertical-align: middle;
+  margin-right: 0.3rem;
+}
+
+.tri-card.christianity ul li::before { color: var(--christianity); }
+.tri-card.islam ul li::before { color: var(--islam); }
+.tri-card.judaism ul li::before { color: var(--judaism); }
+
+.detail-label {
+  font-weight: 600;
+  color: var(--ink);
+  display: block;
+  margin-top: 0.8rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+/* ── COMPARISON TABLES ── */
+.comp-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 3rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.comp-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffdf5;
+  font-size: 0.95rem;
+}
+
+.comp-table thead th {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 1rem 1.2rem;
+  text-align: left;
+  border-bottom: 2px solid var(--gold);
+  background: rgba(184,134,11,0.06);
+}
+
+.comp-table thead th:first-child {
+  width: 18%;
+}
+
+.comp-table thead th:nth-child(2) { color: var(--christianity); }
+.comp-table thead th:nth-child(3) { color: var(--islam); }
+.comp-table thead th:nth-child(4) { color: var(--judaism); }
+
+.comp-table tbody td {
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  vertical-align: top;
+  color: var(--ink-light);
+}
+
+.comp-table tbody td:first-child {
+  font-weight: 600;
+  color: var(--ink);
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  background: rgba(184,134,11,0.03);
+}
+
+.comp-table tbody tr:hover td {
+  background: rgba(184,134,11,0.04);
+}
+
+/* ── MYTHS vs FACTS TABLE ── */
+.myths-table-wrap {
+  overflow-x: auto;
+  margin-bottom: 3rem;
+  border-radius: 4px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+}
+
+.myths-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fffdf5;
+  font-size: 0.95rem;
+}
+
+.myths-table thead th {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+  padding: 1rem 1.2rem;
+  text-align: left;
+  border-bottom: 2px solid var(--gold);
+}
+
+.myths-table thead th:nth-child(1) {
+  background: rgba(180,40,40,0.06);
+  color: #8b1a1a;
+  width: 14%;
+}
+.myths-table thead th:nth-child(2) {
+  background: rgba(180,40,40,0.06);
+  color: #8b1a1a;
+  width: 36%;
+}
+.myths-table thead th:nth-child(3) {
+  background: rgba(26,107,60,0.06);
+  color: #1a6b3c;
+  width: 50%;
+}
+
+.myths-table tbody td {
+  padding: 0.9rem 1.2rem;
+  border-bottom: 1px solid rgba(0,0,0,0.06);
+  vertical-align: top;
+  line-height: 1.6;
+}
+
+.myths-table tbody td:first-child {
+  font-weight: 600;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1rem;
+  color: var(--ink);
+}
+
+.myths-table tbody td:nth-child(2) {
+  color: #8b1a1a;
+  background: rgba(180,40,40,0.02);
+}
+
+.myths-table tbody td:nth-child(3) {
+  color: #1a5c32;
+  background: rgba(26,107,60,0.02);
+}
+
+.myth-tag, .fact-tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding: 0.15rem 0.5rem;
+  border-radius: 2px;
+  margin-bottom: 0.3rem;
+}
+
+.myth-tag { background: rgba(180,40,40,0.12); color: #8b1a1a; }
+.fact-tag { background: rgba(26,107,60,0.12); color: #1a6b3c; }
+
+/* ── TIMELINE ── */
+.timeline {
+  position: relative;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(180deg, transparent, var(--gold), var(--gold), transparent);
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.timeline-item:nth-child(odd) {
+  flex-direction: row;
+  padding-right: calc(50% + 2rem);
+  text-align: right;
+}
+
+.timeline-item:nth-child(even) {
+  flex-direction: row-reverse;
+  padding-left: calc(50% + 2rem);
+  text-align: left;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--gold);
+  background: var(--parchment);
+  z-index: 2;
+}
+
+.timeline-content {
+  background: #fffdf5;
+  padding: 1.2rem 1.5rem;
+  border-radius: 3px;
+  border: 1px solid rgba(0,0,0,0.06);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.timeline-date {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 700;
+  color: var(--gold);
+  font-size: 1.1rem;
+}
+
+.timeline-content h4 {
+  font-size: 1.1rem;
+  margin: 0.3rem 0 0.4rem;
+}
+
+.timeline-content p {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+}
+
+/* ── DEMOGRAPHIC BAR CHART ── */
+.demo-bars {
+  max-width: 700px;
+  margin: 0 auto 3rem;
+}
+
+.demo-bar-row {
+  margin-bottom: 1.5rem;
+}
+
+.demo-bar-label {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.4rem;
+  font-weight: 600;
+}
+
+.demo-bar-label span:last-child {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.1rem;
+}
+
+.demo-bar-track {
+  height: 28px;
+  background: rgba(0,0,0,0.04);
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+}
+
+.demo-bar-fill {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 1.5s ease-out;
+  width: 0;
+}
+
+.demo-bar-fill.christianity { background: linear-gradient(90deg, var(--christianity), #b53030); }
+.demo-bar-fill.islam { background: linear-gradient(90deg, var(--islam), #2a9d56); }
+.demo-bar-fill.judaism { background: linear-gradient(90deg, var(--judaism), #2a6ab5); }
+
+/* ── ACCORDION / EXPANDABLE ── */
+.accordion {
+  margin-bottom: 3rem;
+}
+
+.accordion-item {
+  border: 1px solid rgba(0,0,0,0.08);
+  margin-bottom: 0.5rem;
+  border-radius: 3px;
+  overflow: hidden;
+  background: #fffdf5;
+}
+
+.accordion-header {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.15rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.accordion-header:hover {
+  background: rgba(184,134,11,0.05);
+}
+
+.accordion-arrow {
+  transition: transform 0.3s;
+  color: var(--gold);
+  font-size: 1.2rem;
+}
+
+.accordion-item.open .accordion-arrow {
+  transform: rotate(180deg);
+}
+
+.accordion-body {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+}
+
+.accordion-body-inner {
+  padding: 0 1.5rem 1.2rem;
+  font-size: 0.95rem;
+  color: var(--ink-light);
+  line-height: 1.8;
+}
+
+/* ── SHARED FIGURES GRID ── */
+.figures-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+
+.figure-card {
+  background: #fffdf5;
+  border: 1px solid rgba(0,0,0,0.06);
+  border-radius: 3px;
+  padding: 1.2rem;
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.figure-card:hover { transform: translateY(-3px); }
+
+.figure-icon { font-size: 2.2rem; margin-bottom: 0.4rem; }
+
+.figure-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.3rem;
+  color: var(--gold);
+}
+
+.figure-card .traditions {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-bottom: 0.5rem;
+}
+
+.figure-card .traditions span {
+  padding: 0.1rem 0.4rem;
+  border-radius: 2px;
+  margin: 0 0.1rem;
+}
+
+.figure-card .traditions .c { background: var(--christianity-bg); color: var(--christianity); }
+.figure-card .traditions .i { background: var(--islam-bg); color: var(--islam); }
+.figure-card .traditions .j { background: var(--judaism-bg); color: var(--judaism); }
+
+.figure-card p {
+  font-size: 0.85rem;
+  color: var(--ink-light);
+}
+
+/* ── FOOTER ── */
+.footer {
+  text-align: center;
+  padding: 3rem 1rem;
+  border-top: 1px solid rgba(184,134,11,0.2);
+  margin-top: var(--section-gap);
+  color: var(--ink-light);
+  font-size: 0.85rem;
+}
+
+.footer .ornament {
+  font-size: 1.5rem;
+  color: var(--gold);
+  margin-bottom: 0.5rem;
+  letter-spacing: 1rem;
+}
+
+/* ── RESPONSIVE ── */
+@media (max-width: 900px) {
+  .tri-grid { grid-template-columns: 1fr; }
+  .timeline-item:nth-child(odd),
+  .timeline-item:nth-child(even) {
+    padding: 0 0 0 2.5rem;
+    text-align: left;
+    flex-direction: row;
+  }
+  .timeline::before { left: 0.5rem; }
+  .timeline-dot { left: 0.5rem; }
+  .comp-table, .myths-table { font-size: 0.85rem; }
+  .comp-table thead th, .myths-table thead th { padding: 0.7rem; }
+  .comp-table tbody td, .myths-table tbody td { padding: 0.6rem 0.7rem; }
+}
+
+/* ── TAB SYSTEM ── */
+.tab-nav {
+  display: flex;
+  border-bottom: 2px solid rgba(184,134,11,0.2);
+  margin-bottom: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.tab-btn {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 1.05rem;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  border: none;
+  background: none;
+  color: var(--ink-light);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  transition: all 0.3s;
+}
+
+.tab-btn:hover { color: var(--gold); }
+.tab-btn.active {
+  color: var(--gold);
+  border-bottom-color: var(--gold);
+}
+
+.tab-panel { display: none; }
+.tab-panel.active { display: block; }
+
+/* ── ANIMATE ON SCROLL ── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+</style>
+</head>
+<body>
+
+<!-- ═══════════════════ HERO ═══════════════════ -->
+<section class="hero">
+  <h1>The <span>Abrahamic</span> Faiths</h1>
+  <p class="subtitle">Christianity · Islam · Judaism — A Comprehensive Comparative Study</p>
+  <div class="scroll-hint">↓ Scroll to explore ↓</div>
+</section>
+
+<!-- ═══════════════════ NAVIGATION ═══════════════════ -->
+<nav class="nav" id="nav">
+  <a href="#origins">Origins</a>
+  <a href="#theology">Theology</a>
+  <a href="#scriptures">Scriptures</a>
+  <a href="#prophets">Shared Prophets</a>
+  <a href="#practices">Practices</a>
+  <a href="#afterlife">Afterlife & Salvation</a>
+  <a href="#denominations">Denominations</a>
+  <a href="#women">Women & Law</a>
+  <a href="#history">Historical Relations</a>
+  <a href="#demographics">Demographics</a>
+  <a href="#myths">Myths vs Facts</a>
+</nav>
+
+<div class="content">
+
+<!-- ═══════════════════ ORIGINS ═══════════════════ -->
+<section id="origins">
+  <div class="section-title reveal"><h2>Origins & <span>History</span></h2></div>
+  <p class="section-intro reveal">Three faiths, one patriarch. All trace their lineage to Abraham — yet diverged across millennia into vastly different civilizations.</p>
+
+  <div class="timeline reveal">
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">c. 2000 BCE</div>
+        <h4>Abraham's Covenant</h4>
+        <p>God establishes a covenant with Abraham in Mesopotamia, promising him descendants as numerous as the stars. This foundational event is the shared root of all three faiths.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">c. 1300 BCE</div>
+        <h4>Moses & the Torah</h4>
+        <p>Moses receives the Torah at Mount Sinai — the foundational law of Judaism. The Exodus from Egypt becomes the defining narrative of the Jewish people.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">c. 960 BCE</div>
+        <h4>Solomon's Temple</h4>
+        <p>King Solomon builds the First Temple in Jerusalem, establishing it as the spiritual center of Judaism and a site that remains sacred to all three faiths.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">c. 4 BCE – 30 CE</div>
+        <h4>Jesus of Nazareth</h4>
+        <p>Jesus's ministry, crucifixion, and — according to Christian belief — resurrection, give rise to Christianity. His followers proclaim him the Messiah (Christ) foretold in Jewish scripture.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">325 CE</div>
+        <h4>Council of Nicaea</h4>
+        <p>Emperor Constantine convenes the first ecumenical council, formalizing core Christian doctrines including the Nicene Creed and the nature of Christ's divinity.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">610 CE</div>
+        <h4>Revelation to Muhammad</h4>
+        <p>The Prophet Muhammad receives the first revelation of the Quran in the cave of Hira near Mecca, marking the beginning of Islam — understood by Muslims as the final and complete revelation from God.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">622 CE</div>
+        <h4>The Hijra</h4>
+        <p>Muhammad and his followers migrate from Mecca to Medina, establishing the first Muslim community (ummah). This event marks Year 1 of the Islamic calendar.</p>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-dot"></div>
+      <div class="timeline-content">
+        <div class="timeline-date">1096–1291 CE</div>
+        <h4>The Crusades</h4>
+        <p>A series of religious wars launched by European Christians to reclaim the Holy Land. This period profoundly shaped Christian-Muslim-Jewish relations for centuries to come.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ THEOLOGY ═══════════════════ -->
+<section id="theology">
+  <div class="section-title reveal"><h2>Core <span>Theology</span></h2></div>
+  <p class="section-intro reveal">All three affirm monotheism — belief in one God — yet their understanding of God's nature, humanity, and the path to righteousness differ profoundly.</p>
+
+  <div class="comp-table-wrap reveal">
+    <table class="comp-table">
+      <thead>
+        <tr>
+          <th>Concept</th>
+          <th>✝ Christianity</th>
+          <th>☽ Islam</th>
+          <th>✡ Judaism</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Nature of God</td>
+          <td>Trinitarian monotheism — One God in three persons: Father, Son (Jesus), Holy Spirit. The Trinity is a mystery of faith, not three gods.</td>
+          <td>Strict monotheism (Tawhid). God (Allah) is absolutely one, indivisible, without partner or equal. The 99 Names describe His attributes.</td>
+          <td>Strict monotheism. God (YHWH/HaShem) is one, indivisible, incorporeal. The Shema declares: "Hear O Israel, the Lord our God, the Lord is One."</td>
+        </tr>
+        <tr>
+          <td>Original Sin</td>
+          <td>Humanity inherited a fallen nature from Adam & Eve's disobedience. All humans are born with original sin and require salvation through grace.</td>
+          <td>No concept of inherited sin. Adam repented and was forgiven. Every person is born in a pure state (fitrah) and is accountable only for their own deeds.</td>
+          <td>No concept of original sin. The "evil inclination" (yetzer hara) exists in everyone, but it can be overcome through free will and adherence to the Torah.</td>
+        </tr>
+        <tr>
+          <td>Jesus</td>
+          <td>The Son of God, the Messiah, divine and human. His death atoned for humanity's sins; his resurrection is the cornerstone of faith.</td>
+          <td>A great prophet (Isa) born of the Virgin Mary, performer of miracles. Not divine, not crucified (according to the Quran), but raised to heaven.</td>
+          <td>Not the Messiah. Regarded as a historical Jewish figure. The Messiah is still awaited — expected to be a human leader who will restore Israel and bring world peace.</td>
+        </tr>
+        <tr>
+          <td>Muhammad</td>
+          <td>Not recognized as a prophet. Generally viewed as a historical religious figure.</td>
+          <td>The final prophet and "Seal of the Prophets" — God's last messenger to humanity. He restored the original monotheistic message.</td>
+          <td>Not recognized as a prophet. Not part of Jewish theological tradition.</td>
+        </tr>
+        <tr>
+          <td>Relationship with God</td>
+          <td>Personal, intimate. God as loving Father. Access through prayer, sacraments, and the Holy Spirit. Jesus is the mediator.</td>
+          <td>Direct relationship of submission (islam) to God. No intermediary needed. Relationship built through the five pillars and constant remembrance (dhikr).</td>
+          <td>Covenantal partnership. God chose Israel; Israel accepts the commandments. Relationship maintained through study, prayer, and mitzvot (commandments).</td>
+        </tr>
+        <tr>
+          <td>Free Will</td>
+          <td>Debated across denominations. Catholics emphasize cooperation of grace and free will; Calvinists lean toward predestination; most affirm meaningful human choice.</td>
+          <td>Complex balance: God has absolute knowledge and power (qadr), yet humans have moral freedom and accountability. Actions are judged fairly.</td>
+          <td>Strongly affirmed. "Everything is foreseen, yet freedom of choice is given" (Pirkei Avot 3:15). Human choice is central to moral life.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════════════ SCRIPTURES ═══════════════════ -->
+<section id="scriptures">
+  <div class="section-title reveal"><h2>Sacred <span>Scriptures</span></h2></div>
+  <p class="section-intro reveal">Each tradition preserves its revelation in texts considered authoritative — though the degree and nature of divine inspiration varies.</p>
+
+  <div class="tri-grid reveal">
+    <div class="tri-card christianity">
+      <div class="card-icon">📖</div>
+      <h3>The Bible</h3>
+      <span class="detail-label">Structure</span>
+      <p>Old Testament (shared with Judaism, in different order) + New Testament (27 books: Gospels, Epistles, Acts, Revelation).</p>
+      <span class="detail-label">Inspiration</span>
+      <p>Inspired by God through human authors. Views range from literal inerrancy (fundamentalist) to inspired but contextual (mainline/liberal).</p>
+      <span class="detail-label">Languages</span>
+      <p>Hebrew & Aramaic (OT), Greek (NT). Key translations: Latin Vulgate, King James Version, modern translations.</p>
+      <span class="detail-label">Key Feature</span>
+      <p>The Gospels (Matthew, Mark, Luke, John) narrate Jesus's life and teachings — the heart of Christian faith.</p>
+    </div>
+
+    <div class="tri-card islam">
+      <div class="card-icon">📗</div>
+      <h3>The Quran</h3>
+      <span class="detail-label">Structure</span>
+      <p>114 chapters (surahs), ~6,236 verses (ayat). Arranged roughly by length, not chronology. Supplemented by Hadith (sayings of Muhammad).</p>
+      <span class="detail-label">Inspiration</span>
+      <p>Believed to be the literal word of God, dictated to Muhammad through the angel Gabriel (Jibril) over 23 years. Unchanged since compilation.</p>
+      <span class="detail-label">Languages</span>
+      <p>Arabic. Translations are considered "interpretations" — the Arabic text is the only true Quran. Recitation (tajweed) is itself an act of worship.</p>
+      <span class="detail-label">Key Feature</span>
+      <p>Muslims believe it is the final, uncorrupted revelation, confirming and superseding earlier scriptures given to Moses and Jesus.</p>
+    </div>
+
+    <div class="tri-card judaism">
+      <div class="card-icon">📜</div>
+      <h3>The Tanakh & Talmud</h3>
+      <span class="detail-label">Structure</span>
+      <p>Tanakh (Torah, Nevi'im, Ketuvim — Law, Prophets, Writings). The Talmud (Mishnah + Gemara) is the vast oral tradition of legal and ethical commentary.</p>
+      <span class="detail-label">Inspiration</span>
+      <p>The Torah is considered direct divine revelation to Moses. The Prophets and Writings carry high authority. The Talmud represents centuries of rabbinic scholarship.</p>
+      <span class="detail-label">Languages</span>
+      <p>Hebrew (Torah, most of Tanakh), Aramaic (parts of Daniel, Ezra, and the Talmud).</p>
+      <span class="detail-label">Key Feature</span>
+      <p>The 613 mitzvot (commandments) derived from the Torah form the legal and ethical backbone of Jewish life. Interpretation is ongoing and dynamic.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ SHARED PROPHETS ═══════════════════ -->
+<section id="prophets">
+  <div class="section-title reveal"><h2>Shared <span>Prophets</span> & Figures</h2></div>
+  <p class="section-intro reveal">Many prophets and patriarchs appear across all three traditions, often with different names, emphases, and theological roles.</p>
+
+  <div class="figures-grid reveal">
+    <div class="figure-card">
+      <div class="figure-icon">🕊️</div>
+      <h4>Abraham / Ibrahim</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>Father of all three faiths. Judaism traces lineage through Isaac; Islam through Ishmael.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🌊</div>
+      <h4>Moses / Musa</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>Received God's law. Central to Judaism; a major prophet in Islam and Christianity.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🐋</div>
+      <h4>Noah / Nuh</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>Survivor of the Great Flood. All three traditions teach the story of divine judgment and renewal.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">👑</div>
+      <h4>David / Dawud</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>King, warrior, psalmist. Author of the Psalms (Zabur in Islam). Ancestor of the Messiah in Judaism & Christianity.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🏛️</div>
+      <h4>Solomon / Sulaiman</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>Known for wisdom and building the First Temple. In Islam, he was given power over nature and jinn.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🌟</div>
+      <h4>Jesus / Isa</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span></div>
+      <p>Divine Son of God in Christianity; a revered prophet and Messiah figure in Islam. Not accepted as Messiah in Judaism.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">📿</div>
+      <h4>Elijah / Ilyas</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>Fiery prophet who challenged idolatry. Tradition holds he never died, but was taken to heaven.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🐑</div>
+      <h4>Joseph / Yusuf</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span><span class="j">J</span></div>
+      <p>His story of betrayal, imprisonment, and rise to power in Egypt appears in all three traditions. Surah Yusuf is the Quran's longest narrative.</p>
+    </div>
+    <div class="figure-card">
+      <div class="figure-icon">🕊️</div>
+      <h4>Mary / Maryam</h4>
+      <div class="traditions"><span class="c">C</span><span class="i">I</span></div>
+      <p>Mother of Jesus. Venerated in Christianity; an entire chapter of the Quran (Surah Maryam) honors her as the most righteous of women.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ PRACTICES ═══════════════════ -->
+<section id="practices">
+  <div class="section-title reveal"><h2>Practices & <span>Rituals</span></h2></div>
+  <p class="section-intro reveal">From daily prayers to dietary laws, each faith structures the lives of its followers through distinct — yet sometimes surprisingly similar — practices.</p>
+
+  <div class="comp-table-wrap reveal">
+    <table class="comp-table">
+      <thead>
+        <tr><th>Practice</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Prayer</td>
+          <td>No fixed number; varies by denomination. Catholics may pray the Liturgy of the Hours (7 times daily). Protestants emphasize personal, spontaneous prayer. Sunday worship is central.</td>
+          <td>Five obligatory daily prayers (salat) at prescribed times, facing Mecca. Friday congregational prayer (Jumu'ah) is especially important. Preceded by ritual washing (wudu).</td>
+          <td>Three daily prayer services (Shacharit, Mincha, Maariv). Prayer often involves a minyan (quorum of 10). Shabbat (Saturday) services are the weekly highlight.</td>
+        </tr>
+        <tr>
+          <td>Fasting</td>
+          <td>Varies by tradition. Catholics fast during Lent (40 days) and on specific days. Orthodox Christians observe extensive fasting seasons. Protestants less structured.</td>
+          <td>Ramadan: one full lunar month of dawn-to-sunset fasting. Also recommended fasts on Mondays, Thursdays, and specific days. Fasting cultivates self-discipline and empathy.</td>
+          <td>Several fast days: Yom Kippur (most solemn, 25-hour fast), Tisha B'Av, and four other minor fasts. Fasting is a form of affliction and repentance.</td>
+        </tr>
+        <tr>
+          <td>Pilgrimage</td>
+          <td>Not obligatory, but visiting holy sites (Jerusalem, Rome, Santiago de Compostela, Lourdes) is a cherished tradition with deep spiritual significance.</td>
+          <td>Hajj to Mecca — obligatory once in a lifetime for every able Muslim who can afford it. One of the Five Pillars. Umrah (lesser pilgrimage) can be performed anytime.</td>
+          <td>Historically, pilgrimage to the Temple in Jerusalem three times yearly (Pesach, Shavuot, Sukkot). Today, the Western Wall is the holiest accessible site.</td>
+        </tr>
+        <tr>
+          <td>Dietary Laws</td>
+          <td>Few formal restrictions. Catholics abstain from meat on Ash Wednesday and Lenten Fridays. Some Orthodox traditions observe extensive fasting diets. Most Protestants have no dietary laws.</td>
+          <td>Halal requirements: no pork, no alcohol, meat must be slaughtered with God's name invoked (dhabihah). Seafood is generally permissible. All intoxicants are forbidden.</td>
+          <td>Kashrut (kosher law): no pork or shellfish, no mixing of meat and dairy, ritual slaughter (shechita). Requires separate kitchen utensils. Detailed and all-encompassing.</td>
+        </tr>
+        <tr>
+          <td>Charity</td>
+          <td>Tithing (10% of income) encouraged. Catholic social teaching emphasizes "preferential option for the poor." Charity is a moral duty, not a fixed legal obligation.</td>
+          <td>Zakat: obligatory 2.5% annual tax on wealth — one of the Five Pillars. Sadaqah (voluntary charity) is also highly encouraged and considered a form of worship.</td>
+          <td>Tzedakah: not mere charity but "justice." Maimonides outlined eight levels of giving. It is a religious obligation, often set at 10% of income.</td>
+        </tr>
+        <tr>
+          <td>Holy Day of Rest</td>
+          <td>Sunday for most Christians (commemorating Jesus's resurrection). Seventh-Day Adventists observe Saturday.</td>
+          <td>Friday (Jumu'ah) is the day of congregational prayer, but it is not a full rest day like the Sabbath. No theological prohibition on work.</td>
+          <td>Shabbat — from Friday sunset to Saturday nightfall. Strict rest from 39 categories of creative work. A cornerstone of Jewish life and identity.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════════════ AFTERLIFE & SALVATION ═══════════════════ -->
+<section id="afterlife">
+  <div class="section-title reveal"><h2>Afterlife, Sin & <span>Salvation</span></h2></div>
+  <p class="section-intro reveal">How is a person "saved"? What happens after death? These questions sit at the heart of each tradition — and the answers are strikingly different.</p>
+
+  <div class="tri-grid reveal">
+    <div class="tri-card christianity">
+      <div class="card-icon">✝</div>
+      <h3>Christianity</h3>
+      <span class="detail-label">Path to Salvation</span>
+      <p>Through faith in Jesus Christ and God's grace. Catholics emphasize faith + works + sacraments; Protestants often stress "faith alone" (sola fide). The atonement of Jesus on the cross is central.</p>
+      <span class="detail-label">Afterlife</span>
+      <p>Heaven (eternal communion with God) and Hell (eternal separation from God). Catholics add Purgatory — a state of purification. Many modern theologians debate the nature of Hell.</p>
+      <span class="detail-label">Judgment</span>
+      <p>Particular judgment at death + Final Judgment at Christ's Second Coming. The dead will be resurrected in body for the Last Judgment.</p>
+      <span class="detail-label">Sin & Repentance</span>
+      <p>Confession and repentance are essential. Catholics practice the Sacrament of Reconciliation (Confession to a priest). God's mercy is boundless for the truly repentant.</p>
+    </div>
+
+    <div class="tri-card islam">
+      <div class="card-icon">☽</div>
+      <h3>Islam</h3>
+      <span class="detail-label">Path to Salvation</span>
+      <p>Through submission to God, faith, and righteous deeds. The Five Pillars are the framework. On Judgment Day, deeds are weighed — God's mercy and justice determine the outcome.</p>
+      <span class="detail-label">Afterlife</span>
+      <p>Jannah (Paradise) — described vividly as gardens of bliss. Jahannam (Hellfire) — for those who rejected God. Some scholars hold that Hell may not be eternal for all sinners.</p>
+      <span class="detail-label">Judgment</span>
+      <p>Yawm al-Qiyamah (Day of Resurrection). Every soul is resurrected and judged. The deeds are recorded in a book; the scales (mizan) determine one's fate.</p>
+      <span class="detail-label">Sin & Repentance</span>
+      <p>Tawbah (repentance) is direct to God — no intermediary. God is al-Ghafur (The Forgiving) and al-Rahim (The Merciful). Sincere repentance erases sins. Shirk (associating partners with God) is the only unforgivable sin if one dies without repenting.</p>
+    </div>
+
+    <div class="tri-card judaism">
+      <div class="card-icon">✡</div>
+      <h3>Judaism</h3>
+      <span class="detail-label">Path to Salvation</span>
+      <p>Judaism focuses less on "salvation" and more on living a righteous life (olam hazeh — "this world"). Observing the commandments, doing good deeds, and pursuing justice are paramount.</p>
+      <span class="detail-label">Afterlife</span>
+      <p>Views vary widely. Olam Ha-Ba (World to Come) is affirmed but not elaborately described. Some traditions include Gehinnom — a temporary purification process (up to 12 months), not eternal damnation.</p>
+      <span class="detail-label">Judgment</span>
+      <p>Rosh Hashanah and Yom Kippur are annual periods of divine judgment. The concept of a final messianic age exists, but emphasis is on present-life ethics rather than eschatology.</p>
+      <span class="detail-label">Sin & Repentance</span>
+      <p>Teshuvah (return/repentance) is central, especially during the Days of Awe. Sins against God can be forgiven by God; sins against people require making amends with that person first.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ DENOMINATIONS ═══════════════════ -->
+<section id="denominations">
+  <div class="section-title reveal"><h2>Denominations & <span>Sects</span></h2></div>
+  <p class="section-intro reveal">None of these faiths is monolithic. Each has fractured into diverse branches — sometimes through theology, sometimes through politics, often both.</p>
+
+  <div class="tri-grid reveal">
+    <div class="tri-card christianity">
+      <div class="card-icon">⛪</div>
+      <h3>Christianity</h3>
+      <ul>
+        <li><strong>Roman Catholicism</strong> (~1.3 billion) — Headed by the Pope. Emphasizes sacraments, apostolic tradition, the Magisterium, and the Virgin Mary. The largest single denomination.</li>
+        <li><strong>Eastern Orthodoxy</strong> (~220 million) — A communion of autocephalous churches (Greek, Russian, Serbian, etc.). Rich liturgical tradition, icons, and mystical theology.</li>
+        <li><strong>Protestantism</strong> (~900 million total) — Born from the 16th-century Reformation. Includes Lutherans, Calvinists, Anglicans, Baptists, Methodists, Pentecostals, and hundreds more. Emphasizes Scripture alone and individual faith.</li>
+        <li><strong>Oriental Orthodoxy</strong> (~60 million) — Ancient churches (Coptic, Ethiopian, Armenian, Syriac) that split after the Council of Chalcedon (451 CE) over Christological differences.</li>
+      </ul>
+    </div>
+
+    <div class="tri-card islam">
+      <div class="card-icon">🕌</div>
+      <h3>Islam</h3>
+      <ul>
+        <li><strong>Sunni</strong> (~85-90%) — The majority. Follows the Quran, Hadith, and the consensus of the community. Four major legal schools: Hanafi, Maliki, Shafi'i, Hanbali.</li>
+        <li><strong>Shia</strong> (~10-13%) — Believes leadership should have passed through Ali (Muhammad's cousin and son-in-law). Subdivisions include Twelvers (Iran, Iraq), Ismailis, and Zaidis.</li>
+        <li><strong>Sufism</strong> — The mystical dimension of Islam (can be Sunni or Shia). Emphasizes inner purification, love of God, and spiritual practices (dhikr, whirling, poetry).</li>
+        <li><strong>Ibadi</strong> (~0.5%) — A distinct sect, neither Sunni nor Shia, predominant in Oman. Known for moderate and tolerant theological positions.</li>
+      </ul>
+    </div>
+
+    <div class="tri-card judaism">
+      <div class="card-icon">🕍</div>
+      <h3>Judaism</h3>
+      <ul>
+        <li><strong>Orthodox</strong> — Strict adherence to halakha (Jewish law). Includes Modern Orthodox (engaged with secular world) and Haredi/Ultra-Orthodox (more insular communities).</li>
+        <li><strong>Conservative/Masorti</strong> — Middle ground: respects halakha but allows for historical evolution and change. Strong in North America.</li>
+        <li><strong>Reform/Liberal</strong> — Emphasizes ethical principles over ritual law. Adapts traditions to modern life. Ordains women and LGBTQ+ rabbis. Largest movement in the US.</li>
+        <li><strong>Reconstructionist & Renewal</strong> — Smaller movements. Reconstructionists view Judaism as an evolving civilization. Renewal integrates mysticism and meditation.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ WOMEN & SOCIAL LAW ═══════════════════ -->
+<section id="women">
+  <div class="section-title reveal"><h2>Women & <span>Social Law</span></h2></div>
+  <p class="section-intro reveal">The role of women is one of the most debated and evolving areas within all three traditions — with significant variation across denominations and cultures.</p>
+
+  <div class="comp-table-wrap reveal">
+    <table class="comp-table">
+      <thead>
+        <tr><th>Aspect</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Religious Leadership</td>
+          <td>Varies widely. Catholics and Orthodox prohibit female clergy. Many Protestant denominations ordain women as pastors, priests, and bishops.</td>
+          <td>Traditionally, women do not lead mixed-gender prayers or serve as imams in mainstream Sunni/Shia Islam. Female scholars (alimat) have always existed. Modern reform movements are emerging.</td>
+          <td>Reform, Conservative, and Reconstructionist Judaism ordain women as rabbis and cantors. Orthodox Judaism does not, though some Modern Orthodox have created new roles (Yoetzet Halakha).</td>
+        </tr>
+        <tr>
+          <td>Marriage & Family</td>
+          <td>Monogamy is the standard. Marriage is a sacrament in Catholicism (indissoluble) and a covenant in Protestantism. Divorce views range from forbidden (Catholic) to permissible (Protestant).</td>
+          <td>Marriage is a civil and sacred contract (nikah). Polygamy (up to 4 wives) is permitted under strict conditions of justice and equality, though it is rare and banned in some Muslim-majority countries. Divorce (talaq) is permitted but considered the "most disliked permissible thing."</td>
+          <td>Monogamy has been the norm since Rabbeinu Gershom's decree (~1000 CE). Marriage is a contract (ketubah). Divorce (get) is permitted — both parties' consent is ideally required.</td>
+        </tr>
+        <tr>
+          <td>Dress & Modesty</td>
+          <td>Historically, head coverings were required for women in church. Still practiced in some Orthodox and traditional communities. Most modern denominations have relaxed these norms.</td>
+          <td>Hijab (headscarf) is widely practiced, with varying interpretations of what "modesty" requires: from simple headscarf to full niqab/burka. Modesty also applies to men. Cultural practice varies enormously.</td>
+          <td>Orthodox women practice tzniut (modesty): covering elbows, knees, collarbone. Married women cover their hair (sheitel/wig or tichel/scarf). Reform and Conservative Judaism generally do not require these.</td>
+        </tr>
+        <tr>
+          <td>Inheritance</td>
+          <td>No specific religious inheritance laws in most modern practice. Historically influenced by local civil law.</td>
+          <td>Detailed Quranic inheritance law: daughters receive half the share of sons; wives and mothers have guaranteed fixed shares. Considered revolutionary for 7th-century Arabia, as women previously inherited nothing.</td>
+          <td>Biblical law favored sons, but rabbinic law developed mechanisms to provide for daughters. Modern practice in most communities follows civil law.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════════════ HISTORICAL RELATIONS ═══════════════════ -->
+<section id="history">
+  <div class="section-title reveal"><h2>Historical <span>Relations</span></h2></div>
+  <p class="section-intro reveal">Centuries of coexistence, conflict, alliance, and mutual influence — the Abrahamic faiths have shaped each other profoundly.</p>
+
+  <div class="accordion reveal">
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span>The Golden Age of Coexistence — Al-Andalus (711–1492 CE)</span>
+        <span class="accordion-arrow">▼</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        Muslim-ruled Spain (Al-Andalus) is often cited as a high point of interfaith coexistence. Jewish scholars like Maimonides flourished under Muslim rule. Arabic-speaking Jews and Christians contributed to science, philosophy, and medicine alongside Muslim scholars. The "Convivencia" (living together) was not without tensions, but it produced extraordinary intellectual cross-pollination. Jewish philosophy was deeply influenced by Islamic thought (Kalam, Falsafa), and both traditions engaged with Greek philosophy — which would later re-enter Christian Europe through Arabic translations.
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span>The Crusades (1096–1291 CE)</span>
+        <span class="accordion-arrow">▼</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        Pope Urban II's call to reclaim the Holy Land launched two centuries of warfare. The First Crusade captured Jerusalem in 1099, massacring both Muslim and Jewish inhabitants. The Crusades entrenched mutual hostility between Christianity and Islam, while Jewish communities in Europe suffered brutal pogroms along Crusader routes. The period also opened trade routes and cultural exchanges that would reshape Europe. Saladin's recapture of Jerusalem (1187) is remembered in Islamic tradition for his chivalry and mercy.
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span>The Ottoman Millet System (14th–20th Century)</span>
+        <span class="accordion-arrow">▼</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        The Ottoman Empire organized religious minorities (Christians, Jews) into semi-autonomous "millets" — communities with their own courts, schools, and leaders. Jews expelled from Spain in 1492 were welcomed by Sultan Bayezid II. While not equality in the modern sense (non-Muslims paid a special tax, the jizya), it provided a framework for pluralistic governance that was remarkable for its era. Istanbul, Thessaloniki, and other Ottoman cities became major centers of Jewish life.
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span>Anti-Semitism & The Holocaust (19th–20th Century)</span>
+        <span class="accordion-arrow">▼</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        Christian anti-Judaism — rooted in theological disputes about deicide and supersessionism — contributed to centuries of persecution: expulsions, ghettos, pogroms, and blood libels. This culminated in the Holocaust (1939–1945), in which six million Jews were murdered by Nazi Germany. While the Nazis' ideology was racial rather than religious, centuries of Christian anti-Semitism created the cultural preconditions. After the Holocaust, many Christian denominations undertook deep theological reckoning, most notably the Catholic Church's Nostra Aetate (1965), which repudiated collective Jewish guilt for Jesus's death and opened a new era of Jewish-Christian dialogue.
+      </div></div>
+    </div>
+    <div class="accordion-item">
+      <div class="accordion-header">
+        <span>Modern Interfaith Dialogue</span>
+        <span class="accordion-arrow">▼</span>
+      </div>
+      <div class="accordion-body"><div class="accordion-body-inner">
+        The 20th and 21st centuries have seen unprecedented interfaith efforts. Vatican II (1962–65) transformed Catholic-Jewish relations. The Amman Message (2004) and A Common Word (2007) were major Muslim-Christian dialogue initiatives. Interfaith organizations, academic programs, and grassroots movements promote mutual understanding. While political conflicts (especially in the Middle East) continue to strain relations, theological dialogue has never been more active — with scholars from all three traditions engaging in honest, rigorous conversation about shared values and real disagreements.
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════════════════ DEMOGRAPHICS ═══════════════════ -->
+<section id="demographics">
+  <div class="section-title reveal"><h2>Global <span>Demographics</span></h2></div>
+  <p class="section-intro reveal">Together, the Abrahamic faiths represent over half the world's population — but their size, growth, and geographic distribution vary enormously.</p>
+
+  <div class="demo-bars reveal">
+    <div class="demo-bar-row">
+      <div class="demo-bar-label">
+        <span>✝ Christianity</span>
+        <span>~2.4 billion (31%)</span>
+      </div>
+      <div class="demo-bar-track">
+        <div class="demo-bar-fill christianity" data-width="100%"></div>
+      </div>
+    </div>
+    <div class="demo-bar-row">
+      <div class="demo-bar-label">
+        <span>☽ Islam</span>
+        <span>~1.9 billion (25%)</span>
+      </div>
+      <div class="demo-bar-track">
+        <div class="demo-bar-fill islam" data-width="79%"></div>
+      </div>
+    </div>
+    <div class="demo-bar-row">
+      <div class="demo-bar-label">
+        <span>✡ Judaism</span>
+        <span>~16 million (0.2%)</span>
+      </div>
+      <div class="demo-bar-track">
+        <div class="demo-bar-fill judaism" data-width="1.5%"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="comp-table-wrap reveal">
+    <table class="comp-table">
+      <thead>
+        <tr><th>Metric</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Largest Populations</td>
+          <td>United States, Brazil, Mexico, Philippines, Nigeria, DR Congo, Russia</td>
+          <td>Indonesia, Pakistan, Bangladesh, India, Egypt, Turkey, Iran, Nigeria</td>
+          <td>Israel (~7M), United States (~6M), France, Canada, UK, Argentina</td>
+        </tr>
+        <tr>
+          <td>Growth Trend</td>
+          <td>Growing in Sub-Saharan Africa and Asia; declining in Europe and North America (secularization)</td>
+          <td>The fastest-growing major religion. Projected to be nearly equal to Christianity by 2050, driven by high birth rates and young demographics</td>
+          <td>Slow growth overall. Haredi (ultra-Orthodox) communities growing rapidly; Reform/secular populations declining through assimilation and low birth rates</td>
+        </tr>
+        <tr>
+          <td>Conversion Pattern</td>
+          <td>Active evangelism is a core mission. Christianity gains and loses converts — especially to and from secularism</td>
+          <td>Da'wah (invitation) is practiced. Islam gains many converts globally, particularly in Africa, Europe, and the Americas</td>
+          <td>Judaism does not actively proselytize. Conversion is possible but requires extended study and commitment. Some movements are more welcoming than others</td>
+        </tr>
+        <tr>
+          <td>Holy City</td>
+          <td>Jerusalem (site of Jesus's crucifixion and resurrection), Rome (seat of the Papacy), Constantinople</td>
+          <td>Mecca (birthplace of Muhammad, location of the Kaaba), Medina (site of Muhammad's mosque and tomb), Jerusalem (Al-Aqsa Mosque)</td>
+          <td>Jerusalem — the Temple Mount, the Western Wall, and 3,000+ years of continuous spiritual significance. Safed, Hebron, and Tiberias are also holy</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ═══════════════════ MYTHS vs FACTS ═══════════════════ -->
+<section id="myths">
+  <div class="section-title reveal"><h2>Myths vs <span>Facts</span></h2></div>
+  <p class="section-intro reveal">Popular misconceptions abound about all three faiths. This table separates common myths from documented realities — essential for any serious study.</p>
+
+  <!-- Tab navigation for myths -->
+  <div class="tab-nav reveal" id="mythTabs">
+    <button class="tab-btn active" data-tab="myth-general">General & Interfaith</button>
+    <button class="tab-btn" data-tab="myth-christianity">Christianity</button>
+    <button class="tab-btn" data-tab="myth-islam">Islam</button>
+    <button class="tab-btn" data-tab="myth-judaism">Judaism</button>
+  </div>
+
+  <!-- GENERAL MYTHS -->
+  <div class="tab-panel active" id="myth-general">
+    <div class="myths-table-wrap reveal">
+      <table class="myths-table">
+        <thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Same God?</td>
+            <td><span class="myth-tag">Myth</span><br>"The three religions worship completely different gods."</td>
+            <td><span class="fact-tag">Fact</span><br>All three traditions trace their worship to the God of Abraham. While they differ profoundly on God's nature (Trinity vs. Tawhid vs. YHWH's unity), theologians across traditions generally acknowledge a shared monotheistic root. The Arabic-speaking Christians also call God "Allah."</td>
+          </tr>
+          <tr>
+            <td>Compatibility</td>
+            <td><span class="myth-tag">Myth</span><br>"These religions have always been at war and are fundamentally incompatible."</td>
+            <td><span class="fact-tag">Fact</span><br>History shows extended periods of peaceful coexistence and intellectual exchange (Al-Andalus, Ottoman millets, modern interfaith movements). Conflict is real but driven by politics, resources, and identity as much as by theology. Scholars from all traditions have worked collaboratively for centuries.</td>
+          </tr>
+          <tr>
+            <td>Abraham's Role</td>
+            <td><span class="myth-tag">Myth</span><br>"Abraham is the founder of all three religions."</td>
+            <td><span class="fact-tag">Fact</span><br>Abraham is a shared patriarch, but he is not the "founder" of any of these religions in the way they exist today. Judaism crystallized with Moses and the Torah; Christianity with Jesus and the apostles; Islam with Muhammad and the Quran. Abraham is the ancestral origin point — not the institutional founder.</td>
+          </tr>
+          <tr>
+            <td>Violence & Scripture</td>
+            <td><span class="myth-tag">Myth</span><br>"Some of these scriptures promote violence while others are peaceful."</td>
+            <td><span class="fact-tag">Fact</span><br>All three scriptures contain passages that, taken in isolation, can appear violent — and passages of extraordinary mercy and compassion. Context, interpretation, and scholarly tradition matter enormously. Within each religion, scholars have debated these texts for centuries, and mainstream interpretations in all three traditions emphasize justice, mercy, and the sanctity of human life.</td>
+          </tr>
+          <tr>
+            <td>Monotheism Origin</td>
+            <td><span class="myth-tag">Myth</span><br>"Judaism invented monotheism."</td>
+            <td><span class="fact-tag">Fact</span><br>Judaism is the oldest surviving monotheistic tradition, but scholars debate whether early Israelite religion was strictly monotheistic from the start (some argue it evolved from henotheism — worshipping one God while acknowledging others' existence). Akhenaten's Egyptian solar cult (c. 1350 BCE) also approached monotheism, though it didn't survive. Judaism's contribution was making monotheism permanent and ethically grounded.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- CHRISTIANITY MYTHS -->
+  <div class="tab-panel" id="myth-christianity">
+    <div class="myths-table-wrap reveal">
+      <table class="myths-table">
+        <thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>The Trinity</td>
+            <td><span class="myth-tag">Myth</span><br>"Christians worship three gods."</td>
+            <td><span class="fact-tag">Fact</span><br>The Trinity is a doctrine of ONE God existing in three co-equal, co-eternal persons. It is emphatically not polytheism. This was formalized at the Councils of Nicaea (325) and Constantinople (381), and Christians who taught otherwise were considered heretical. Muslims and Jews disagree with the doctrine, but it is a sophisticated monotheistic theology, not tritheism.</td>
+          </tr>
+          <tr>
+            <td>The Bible</td>
+            <td><span class="myth-tag">Myth</span><br>"The Bible was written by one person or at one time."</td>
+            <td><span class="fact-tag">Fact</span><br>The Bible is a library of 66–73 books (depending on tradition) written by dozens of authors over approximately 1,000+ years. It includes poetry, law, history, prophecy, letters, and apocalyptic literature. The canon was debated and gradually finalized over centuries.</td>
+          </tr>
+          <tr>
+            <td>Christmas</td>
+            <td><span class="myth-tag">Myth</span><br>"December 25th is Jesus's actual birthday."</td>
+            <td><span class="fact-tag">Fact</span><br>The New Testament does not specify Jesus's birth date. December 25th was adopted in the 4th century, likely to coincide with existing Roman winter solstice festivals (Sol Invictus, Saturnalia). Eastern Orthodox churches celebrate on January 7th. The date is liturgical, not historical.</td>
+          </tr>
+          <tr>
+            <td>Catholicism & Protestantism</td>
+            <td><span class="myth-tag">Myth</span><br>"Catholics aren't really Christians" or "Catholics worship Mary."</td>
+            <td><span class="fact-tag">Fact</span><br>Catholicism is the oldest and largest Christian denomination. Catholics venerate (honor) Mary and the saints but worship God alone — a theological distinction they maintain rigorously. The claim that Catholics "aren't Christian" is a sectarian assertion, not a historical or theological fact.</td>
+          </tr>
+          <tr>
+            <td>Science & Faith</td>
+            <td><span class="myth-tag">Myth</span><br>"Christianity has always opposed science."</td>
+            <td><span class="fact-tag">Fact</span><br>While conflicts occurred (Galileo, evolution debates), the Catholic Church was a major patron of science for centuries. Monks preserved classical knowledge; Jesuits pioneered astronomy, seismology, and genetics (Mendel was an Augustinian friar). The Big Bang theory was first proposed by Georges Lemaître, a Catholic priest. Many branches actively embrace scientific inquiry.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ISLAM MYTHS -->
+  <div class="tab-panel" id="myth-islam">
+    <div class="myths-table-wrap reveal">
+      <table class="myths-table">
+        <thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Jihad</td>
+            <td><span class="myth-tag">Myth</span><br>"Jihad means 'holy war' against non-Muslims."</td>
+            <td><span class="fact-tag">Fact</span><br>Jihad literally means "struggle" or "striving." In Islamic theology, the "greater jihad" is the internal struggle against one's own ego and sinful desires. The "lesser jihad" refers to defensive warfare under strict conditions (protecting the community, with rules prohibiting harm to civilians, destruction of crops, or forced conversion). Mainstream Islamic scholarship condemns terrorism as a violation of these principles.</td>
+          </tr>
+          <tr>
+            <td>"Allah"</td>
+            <td><span class="myth-tag">Myth</span><br>"Allah is a different God from the God of Christianity and Judaism."</td>
+            <td><span class="fact-tag">Fact</span><br>"Allah" is simply the Arabic word for "God" — cognate with the Hebrew "Eloah" and Aramaic "Alaha." Arabic-speaking Christians and Jews have used "Allah" for centuries. The Quran explicitly states it is revealing the same God worshipped by Abraham, Moses, and Jesus.</td>
+          </tr>
+          <tr>
+            <td>Women</td>
+            <td><span class="myth-tag">Myth</span><br>"Islam is inherently oppressive to women."</td>
+            <td><span class="fact-tag">Fact</span><br>Early Islamic law (7th century) granted women rights to own property, inherit wealth, seek divorce, and enter contracts — rights Western women often didn't gain until the 19th-20th centuries. Khadijah, Muhammad's first wife, was a successful businesswoman and his employer. Cultural patriarchy exists in many Muslim-majority societies, but scholars debate whether this is required by Islam or imposed by culture. There are active feminist movements within Islamic scholarship.</td>
+          </tr>
+          <tr>
+            <td>Forced Conversion</td>
+            <td><span class="myth-tag">Myth</span><br>"Islam was spread entirely by the sword."</td>
+            <td><span class="fact-tag">Fact</span><br>The Quran states "there is no compulsion in religion" (2:256). While military expansion did create Muslim-ruled empires, conversion was typically gradual — driven by trade, intermarriage, Sufi missionaries, and social incentives. Southeast Asia (the world's largest Muslim population) was converted almost entirely through trade and Sufi teaching, not conquest.</td>
+          </tr>
+          <tr>
+            <td>Monolithic Faith</td>
+            <td><span class="myth-tag">Myth</span><br>"All Muslims think and practice the same way."</td>
+            <td><span class="fact-tag">Fact</span><br>Islam spans 1.9 billion people across every continent, including Sunni, Shia, Sufi, and Ibadi traditions, four major legal schools, and enormous cultural variation from Indonesia to Morocco to Detroit. The lived experience of a Muslim woman in Istanbul differs vastly from one in rural Pakistan or Detroit. Internal diversity is massive.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- JUDAISM MYTHS -->
+  <div class="tab-panel" id="myth-judaism">
+    <div class="myths-table-wrap reveal">
+      <table class="myths-table">
+        <thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>"Chosen People"</td>
+            <td><span class="myth-tag">Myth</span><br>"Jews believe they are superior to other people."</td>
+            <td><span class="fact-tag">Fact</span><br>"Chosen" in Jewish theology means chosen for responsibility — to bear the burden of 613 commandments and to serve as a "light unto the nations." It implies obligation, not superiority. The Talmud teaches that righteous people of all nations have a share in the World to Come. Being "chosen" is a covenant of duty, not privilege.</td>
+          </tr>
+          <tr>
+            <td>Race & Ethnicity</td>
+            <td><span class="myth-tag">Myth</span><br>"Judaism is a race" or "All Jews are white/European."</td>
+            <td><span class="fact-tag">Fact</span><br>Judaism is a religion, a civilization, and a peoplehood — but not a race. Jewish communities span the globe: Ashkenazi (European), Sephardi (Iberian/Mediterranean), Mizrahi (Middle Eastern), Ethiopian (Beta Israel), Indian (Bene Israel, Cochin Jews), Chinese (Kaifeng), and more. Conversion is open to all.</td>
+          </tr>
+          <tr>
+            <td>Wealth & Power</td>
+            <td><span class="myth-tag">Myth</span><br>"Jews control banks/media/governments."</td>
+            <td><span class="fact-tag">Fact</span><br>This is one of the oldest and most dangerous antisemitic conspiracy theories, rooted in medieval restrictions that barred Jews from most professions, channeling some into finance. With 0.2% of the world's population, the idea of Jewish "control" of global institutions is statistically absurd and historically a precursor to violence. The Protocols of the Elders of Zion, the most infamous source for this myth, is a proven fabrication (created by Russian secret police, c. 1903).</td>
+          </tr>
+          <tr>
+            <td>The Old Testament</td>
+            <td><span class="myth-tag">Myth</span><br>"Jews follow the 'Old Testament' and reject grace/love."</td>
+            <td><span class="fact-tag">Fact</span><br>The term "Old Testament" is a Christian designation. Jews call their scripture the Tanakh. The characterization of Judaism as legalistic and loveless (vs. a "graceful" Christianity) is a supersessionist distortion. The Tanakh is filled with divine love, mercy, and compassion: "The Lord is compassionate and gracious, slow to anger, abounding in love" (Psalm 103:8). Rabbinic Judaism deeply emphasizes God's love and mercy.</td>
+          </tr>
+          <tr>
+            <td>Israel & Judaism</td>
+            <td><span class="myth-tag">Myth</span><br>"All Jews support everything the state of Israel does" or "Criticizing Israeli policy is antisemitic."</td>
+            <td><span class="fact-tag">Fact</span><br>Jewish opinion on Israel is enormously diverse — from religious Zionism to anti-Zionist Orthodox communities (Satmar, Neturei Karta) to secular critics. Mainstream Jewish organizations generally distinguish between legitimate criticism of Israeli policies and antisemitism (which targets Jews as a people). Internal Israeli debate is itself vigorous and deeply divided.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+</div><!-- /content -->
+
+<!-- ═══════════════════ FOOTER ═══════════════════ -->
+<div class="footer">
+  <div class="ornament">✝ ☽ ✡</div>
+  <p>A Comparative Study of the Abrahamic Faiths — Created for academic and educational purposes</p>
+  <p style="margin-top:0.3rem; font-size:0.8rem;">This resource aims for balanced, respectful representation. Believers and scholars within each tradition hold diverse views.</p>
+</div>
+
+<script>
+// ── Scroll Reveal ──
+const reveals = document.querySelectorAll('.reveal');
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+}, { threshold: 0.1 });
+reveals.forEach(el => observer.observe(el));
+
+// ── Sticky Nav Active State ──
+const sections = document.querySelectorAll('section[id]');
+const navLinks = document.querySelectorAll('.nav a');
+window.addEventListener('scroll', () => {
+  let current = '';
+  sections.forEach(s => {
+    if (window.scrollY >= s.offsetTop - 120) current = s.getAttribute('id');
+  });
+  navLinks.forEach(a => {
+    a.classList.remove('active');
+    if (a.getAttribute('href') === '#' + current) a.classList.add('active');
+  });
+});
+
+// ── Accordion ──
+document.querySelectorAll('.accordion-header').forEach(header => {
+  header.addEventListener('click', () => {
+    const item = header.parentElement;
+    const body = item.querySelector('.accordion-body');
+    const isOpen = item.classList.contains('open');
+    // Close all
+    document.querySelectorAll('.accordion-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.accordion-body').style.maxHeight = null;
+    });
+    if (!isOpen) {
+      item.classList.add('open');
+      body.style.maxHeight = body.scrollHeight + 'px';
+    }
+  });
+});
+
+// ── Tab System ──
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    const tabId = btn.dataset.tab;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(tabId).classList.add('active');
+  });
+});
+
+// ── Animated Bars ──
+const barObserver = new IntersectionObserver((entries) => {
+  entries.forEach(e => {
+    if (e.isIntersecting) {
+      e.target.querySelectorAll('.demo-bar-fill').forEach(bar => {
+        bar.style.width = bar.dataset.width;
+      });
+    }
+  });
+}, { threshold: 0.3 });
+document.querySelectorAll('.demo-bars').forEach(el => barObserver.observe(el));
+</script>
+</body>
+</html>

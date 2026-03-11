@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beyond Belief — A Critical Examination of Religious Faith</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fafaf7;--bg2:#f0ede6;--ink:#1a1a18;--ink2:#4a4840;--ink3:#7a7770;--accent:#b34233;--accent2:#2e6b4f;--accent3:#2a5a8f;--gold:#9a7b2f;--border:rgba(0,0,0,.08);--card:#fff;--shadow:0 2px 20px rgba(0,0,0,.04);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Newsreader',serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.85;}
+::selection{background:var(--accent);color:#fff;}
+h1,h2,h3,h4{font-family:'Outfit',sans-serif;line-height:1.25;}
+
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem;}
+.wide{max-width:1100px;}
+
+/* HERO */
+.hero{padding:6rem 1.5rem 4rem;text-align:center;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#f5f3ec 0%,var(--bg) 100%);}
+.hero .label{font-family:'Outfit',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;display:inline-block;border:1px solid rgba(179,66,51,.2);padding:.3rem 1rem;border-radius:20px;}
+.hero h1{font-size:clamp(2rem,5vw,3.8rem);font-weight:700;color:var(--ink);margin-bottom:1rem;letter-spacing:-.02em;}
+.hero h1 em{font-style:italic;font-family:'Newsreader',serif;font-weight:500;color:var(--accent);}
+.hero .deck{font-size:1.15rem;color:var(--ink2);max-width:700px;margin:0 auto;line-height:1.8;}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(250,250,247,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.35rem 0;overflow-x:auto;white-space:nowrap;text-align:center;}
+.nav a{font-family:'Outfit',sans-serif;font-size:.78rem;font-weight:500;color:var(--ink3);padding:.4rem .8rem;text-decoration:none;transition:color .2s;}
+.nav a:hover,.nav a.on{color:var(--accent);}
+
+/* SECTIONS */
+.sec{padding:4rem 0;border-bottom:1px solid var(--border);}
+.sec-num{font-family:'JetBrains Mono',monospace;font-size:.7rem;font-weight:500;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem;}
+.sec h2{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;margin-bottom:1.2rem;}
+.sec h2 em{color:var(--accent);font-style:normal;}
+.sec h3{font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:600;margin:2rem 0 .8rem;color:var(--ink);}
+.sec p{margin-bottom:1.2rem;color:var(--ink2);}
+.sec p strong{color:var(--ink);font-weight:600;}
+
+/* PULL QUOTE */
+.pull{border-left:3px solid var(--accent);padding:1rem 0 1rem 1.5rem;margin:2rem 0;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.7;}
+.pull cite{display:block;font-size:.85rem;font-style:normal;color:var(--ink3);margin-top:.5rem;font-family:'Outfit',sans-serif;}
+
+/* EVIDENCE CARDS */
+.evidence-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem;margin:2rem 0;}
+.ev-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;box-shadow:var(--shadow);}
+.ev-card .ev-tag{font-family:'JetBrains Mono',monospace;font-size:.65rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;padding:.2rem .6rem;border-radius:3px;display:inline-block;margin-bottom:.7rem;}
+.ev-card .ev-tag.verified{background:rgba(46,107,79,.1);color:var(--accent2);}
+.ev-card .ev-tag.disputed{background:rgba(154,123,47,.1);color:var(--gold);}
+.ev-card .ev-tag.no-evidence{background:rgba(179,66,51,.1);color:var(--accent);}
+.ev-card h4{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:600;margin-bottom:.5rem;}
+.ev-card p{font-size:.9rem;color:var(--ink2);margin-bottom:0;}
+
+/* DATA TABLE */
+.data-table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.9rem;}
+.data-table thead th{font-family:'Outfit',sans-serif;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:.8rem 1rem;border-bottom:2px solid var(--ink);text-align:left;color:var(--ink);}
+.data-table tbody td{padding:.7rem 1rem;border-bottom:1px solid var(--border);vertical-align:top;color:var(--ink2);}
+.data-table tbody td:first-child{font-weight:500;color:var(--ink);}
+.data-table tbody tr:hover td{background:rgba(0,0,0,.015);}
+
+/* SPECTRUM BAR */
+.spectrum{margin:2rem 0;}
+.spectrum-label{display:flex;justify-content:space-between;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:500;color:var(--ink3);margin-bottom:.3rem;}
+.spectrum-bar{height:20px;border-radius:10px;background:linear-gradient(90deg,var(--accent2) 0%,var(--gold) 50%,var(--accent) 100%);position:relative;}
+.spectrum-marker{position:absolute;top:-6px;width:3px;height:32px;background:var(--ink);border-radius:2px;}
+
+/* COUNTER BOXES */
+.counter-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0;}
+.counter{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;text-align:center;box-shadow:var(--shadow);}
+.counter .num{font-family:'Outfit',sans-serif;font-size:2.2rem;font-weight:700;color:var(--accent);line-height:1;}
+.counter .unit{font-family:'Outfit',sans-serif;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink3);margin-top:.3rem;}
+
+/* TWO-COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:2rem 0;}
+.col-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;box-shadow:var(--shadow);}
+.col-card.green{border-top:3px solid var(--accent2);}
+.col-card.red{border-top:3px solid var(--accent);}
+.col-card h4{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:600;margin-bottom:.7rem;}
+.col-card.green h4{color:var(--accent2);}
+.col-card.red h4{color:var(--accent);}
+.col-card p,.col-card li{font-size:.9rem;color:var(--ink2);margin-bottom:.4rem;}
+.col-card ul{list-style:none;padding:0;}
+.col-card ul li::before{content:'→ ';color:var(--ink3);}
+
+/* FOOTER */
+.footer{padding:3rem 1.5rem;text-align:center;font-family:'Outfit',sans-serif;font-size:.8rem;color:var(--ink3);}
+.footer .line{width:60px;height:1px;background:var(--border);margin:0 auto 1rem;}
+
+/* ACCORDION */
+.acc{margin:1.5rem 0;}
+.acc-item{border:1px solid var(--border);margin-bottom:.4rem;border-radius:6px;overflow:hidden;background:var(--card);}
+.acc-h{padding:.8rem 1.2rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:500;}
+.acc-h:hover{background:rgba(0,0,0,.02);}
+.acc-arr{transition:transform .3s;font-size:.8rem;color:var(--ink3);}
+.acc-item.open .acc-arr{transform:rotate(180deg);}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .4s ease;}
+.acc-inner{padding:0 1.2rem 1rem;font-size:.92rem;color:var(--ink2);}
+
+@media(max-width:768px){
+  .counter-grid{grid-template-columns:1fr;}
+  .two-col{grid-template-columns:1fr;}
+  .evidence-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="label">No Sacred Cows — Evidence Only</div>
+  <h1>Beyond <em>Belief</em></h1>
+  <p class="deck">What the evidence actually says — about the stories religions are built on, the zero evidence for their supernatural claims, why humans invent gods, who benefits from belief, and what it costs humanity.</p>
+</header>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#stories">Stories vs Evidence</a>
+  <a href="#god">The God Question</a>
+  <a href="#control">Religion as Control</a>
+  <a href="#contradictions">Contradictions</a>
+  <a href="#why">Why We Believe</a>
+  <a href="#social">Real-World Damage</a>
+  <a href="#socialmedia">Religion vs Social Media</a>
+  <a href="#gives">Secular Alternatives</a>
+  <a href="#costs">What Belief Costs</a>
+  <a href="#honest">The Hard Truth</a>
+  <a href="#book">The Book</a>
+</nav>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 1: STORIES VS EVIDENCE -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="stories">
+<div class="container">
+  <div class="sec-num">Part One</div>
+  <h2>Stories vs <em>Evidence</em></h2>
+  <p>Every religion is built on a foundation of narratives — stories of creation, revelation, miracles, and divine intervention. The critical question for any serious study is: <strong>how much of this is verifiable history, and how much is mythology, allegory, or tradition?</strong></p>
+  <p>The answer is uncomfortable for believers and skeptics alike: it is neither a simple "all true" nor "all false." The picture is far more nuanced — and far more interesting.</p>
+
+  <h3>What archaeology and history can verify</h3>
+  <div class="evidence-grid">
+    <div class="ev-card"><span class="ev-tag verified">Verified</span><h4>Ancient Israel existed</h4><p>The Merneptah Stele (c. 1207 BCE) — an Egyptian inscription — provides the earliest surviving reference to "Israel" as a people in Canaan. This is real, physical evidence.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Verified</span><h4>Jesus of Nazareth existed</h4><p>Virtually all historians — including secular scholars — accept the historical existence of Jesus. References appear in Josephus (c. 94 CE), Tacitus (c. 116 CE), and Pliny the Younger. His crucifixion under Pontius Pilate is one of the most well-attested facts of antiquity.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Verified</span><h4>Muhammad existed</h4><p>Muhammad's historicity is well-documented through multiple early sources, including the Constitution of Medina, early coins, and near-contemporary accounts. His existence is not seriously disputed by any mainstream historian.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Verified</span><h4>The Temple in Jerusalem existed</h4><p>Both the First Temple (Solomon's, c. 960 BCE) and Second Temple (destroyed 70 CE) are confirmed by extensive archaeological and textual evidence, including the Western Wall and numerous inscriptions.</p></div>
+    <div class="ev-card"><span class="ev-tag disputed">Disputed</span><h4>The Exodus from Egypt</h4><p>No direct archaeological evidence confirms the biblical Exodus as described (600,000+ men departing Egypt). However, most scholars agree the narrative has "a historical core" — likely a much smaller group of Semitic people leaving Egypt. The story may be a collective cultural memory spanning centuries, not a single event.</p></div>
+    <div class="ev-card"><span class="ev-tag disputed">Disputed</span><h4>Abraham as a historical figure</h4><p>Abraham cannot be verified or disproven archaeologically. He may be a historical figure, a legendary ancestor, or a literary construction. The patriarchal narratives reflect customs of the 2nd millennium BCE, suggesting some historical grounding, but no direct evidence exists.</p></div>
+    <div class="ev-card"><span class="ev-tag no-evidence">No Evidence</span><h4>Miracles (all three faiths)</h4><p>No miracle described in any scripture — the parting of the Red Sea, Jesus's resurrection, Muhammad's Night Journey — has been verified by empirical evidence. By definition, miracles are unfalsifiable: they are claims about supernatural events that science cannot test.</p></div>
+    <div class="ev-card"><span class="ev-tag no-evidence">No Evidence</span><h4>Divine revelation itself</h4><p>The claim that God spoke to Moses, dictated the Quran to Muhammad, or that Jesus was resurrected cannot be empirically verified. These are faith claims — powerful, world-shaping, and deeply meaningful to billions — but they are not the kind of claims that archaeology or science can confirm or deny.</p></div>
+  </div>
+
+  <div class="pull">"There is, in fact, remarkably little of proven or provable historical worth in the biblical Exodus narrative, and no reliable independent witnesses attest to the historicity or date of the Exodus events."<cite>— Mainstream archaeological consensus</cite></div>
+
+  <h3>The blunt reality</h3>
+  <p>Some historical figures existed — Jesus, Muhammad, probably David. Some places are real. <strong>But every supernatural claim across all three religions has zero empirical evidence.</strong> None. No parting of seas. No resurrection from death. No angel dictating a book. No burning bush. No ascension to heaven. Zero physical evidence for any of it.</p>
+  <p>In every other domain of knowledge, we call stories without evidence exactly what they are: <strong>unproven.</strong> We don't say "the evidence for unicorns remains in the realm of faith." We say there's no evidence for unicorns. Why should religious claims receive special treatment?</p>
+  <p>The question then becomes: <strong>if these are stories — powerful, ancient, culturally foundational stories, but stories — why did billions of people believe them? Who benefits from that belief? And what does it cost?</strong></p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 2: THE GOD QUESTION -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="god">
+<div class="container">
+  <div class="sec-num">Part Two</div>
+  <h2>The <em>God</em> Question</h2>
+  <p>The most fundamental question of all: <strong>does God exist?</strong> After thousands of years of philosophy, theology, and now science, this remains genuinely unresolved. Here is what the major arguments actually say — and where they stand.</p>
+
+  <h3>Arguments FOR God's existence</h3>
+  <div class="acc">
+    <div class="acc-item"><div class="acc-h"><span>The Cosmological Argument — "Why is there something rather than nothing?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Everything that begins to exist has a cause. The universe began to exist. Therefore the universe has a cause — and that cause must be outside the universe itself (God). Refined by Thomas Aquinas, the Kalam version by William Lane Craig is the most debated modern formulation.<br><br><strong>The challenge:</strong> Quantum physics suggests particles can emerge from quantum fluctuations without a classical "cause." The argument also raises the infinite regress: who created God? Theists respond that God is, by definition, uncaused — but critics see this as special pleading.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Fine-Tuning Argument — "The universe is suspiciously perfect for life"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Physical constants (gravitational force, speed of light, nuclear force ratios) fall within an extraordinarily narrow range that permits life. If any were slightly different, no stars, no chemistry, no life. The odds against this are staggering, suggesting a designer.<br><br><strong>The challenge:</strong> The multiverse hypothesis — if infinite universes exist with random constants, we'd inevitably find ourselves in one that supports life (the anthropic principle). Also, we can only observe one universe, making probability calculations problematic. We may be like a puddle marveling at how perfectly the hole fits it.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Moral Argument — "Objective morality requires a moral lawgiver"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If objective moral truths exist (e.g., torturing children is always wrong, not just culturally disapproved), they require a foundation beyond human opinion. God provides that foundation.<br><br><strong>The challenge:</strong> Euthyphro's dilemma (Plato): Is something good because God commands it, or does God command it because it's good? If the former, morality is arbitrary; if the latter, morality exists independently of God. Evolutionary ethics argues moral instincts evolved because cooperation conferred survival advantages.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>Religious Experience — "Billions of people have experienced the divine"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Across all cultures and eras, people report powerful experiences of the transcendent — feelings of divine presence, answered prayers, mystical states. The sheer universality and emotional power of these experiences suggest something real.<br><br><strong>The challenge:</strong> Neuroscience has identified brain regions (temporal lobes, default mode network, periaqueductal gray) that activate during religious experiences. These can be triggered by meditation, psychedelics, temporal lobe epilepsy, or electrical stimulation. This doesn't disprove God — but it does show the brain is capable of generating these experiences without any external divine input.</div></div></div>
+  </div>
+
+  <h3>Arguments AGAINST God's existence</h3>
+  <div class="acc">
+    <div class="acc-item"><div class="acc-h"><span>The Problem of Evil — "Why does suffering exist?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If God is all-powerful, all-knowing, and all-good, why do children get cancer? Why do earthquakes kill thousands of innocents? Either God can prevent suffering and chooses not to (not all-good), or wants to prevent it and cannot (not all-powerful), or doesn't know about it (not all-knowing).<br><br><strong>Theist responses:</strong> Free will (humans cause moral evil); soul-making (suffering builds character); divine mystery (God's purposes are beyond our comprehension). These responses have been debated for millennia and remain unresolved to most philosophers' satisfaction — the problem of "natural evil" (earthquakes, disease) is especially difficult.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Argument from Divine Hiddenness — "Why doesn't God make himself obvious?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If God exists and wants a relationship with humanity, why do sincere seekers fail to find him? Why does God's existence require faith rather than evidence? A loving parent doesn't hide from their children.<br><br><strong>Theist responses:</strong> Free will requires the possibility of doubt; God's presence would be coercive; faith is itself a virtue. Critics respond that hiddenness causes immense suffering and confusion among billions of honest seekers.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Argument from Inconsistent Revelations — "Which God?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Christianity, Islam, and Judaism each claim to possess the final, correct revelation from the same God — yet they contradict each other on fundamental points (Trinity vs. Tawhid, Jesus's divinity, Muhammad's prophethood). If God wanted to communicate clearly, why are there 4,000+ religions with incompatible truth claims?<br><br><strong>Theist responses:</strong> Human error corrupted earlier messages (Islamic view); God revealed progressively (Christian view); other religions contain partial truths. Critics note that each tradition says exactly this about the others.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Naturalistic Explanation — "We can explain belief without God"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Cognitive science can now explain WHY humans believe in God without needing God to actually exist: agency detection, pattern recognition, theory of mind, existential anxiety management. If we can fully explain the cause of belief in naturalistic terms, the simplest explanation is that God is a product of the human mind, not the other way around.<br><br><strong>Theist response (Justin L. Barrett):</strong> "Suppose science produces a convincing account for why I think my wife loves me — should I then stop believing that she does?" Explaining the mechanism of belief doesn't invalidate the belief's content. A cognitive predisposition toward belief could itself be God-given.</div></div></div>
+  </div>
+
+  <h3>Where this actually leaves us</h3>
+  <p><strong>The burden of proof lies with those making the claim.</strong> If someone claims an invisible, undetectable being created the universe, it is their responsibility to provide evidence — not the skeptic's responsibility to disprove it. This is not controversial in any other domain of knowledge. You cannot patent an invention you can't demonstrate. You cannot convict someone on evidence that "remains in the realm of faith."</p>
+  <p>The philosophical arguments for God are interesting intellectual exercises, but none of them constitute evidence. They are logical constructions that attempt to prove God must exist — but logic alone doesn't establish reality. You can construct a logically valid argument that unicorns must exist; that doesn't make them real. <strong>The question is not "can we construct an argument?" but "can we produce evidence?"</strong> And after thousands of years, the answer remains: no.</p>
+  <p>This doesn't mean God definitely doesn't exist. It means we have no good reason to believe God exists — the same way we have no good reason to believe in Zeus, Thor, Vishnu's incarnations, or any of the thousands of other gods humans have invented and discarded throughout history.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW SECTION: RELIGION AS CONTROL -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="control">
+<div class="container">
+  <div class="sec-num">Part Three</div>
+  <h2>Religion as <em>Control</em></h2>
+  <p>Here is what your study has been missing — the uncomfortable truth that sociologists, historians, and political scientists have documented extensively: <strong>religion is one of the most effective tools of social control ever invented.</strong></p>
+
+  <h3>The mechanics of control</h3>
+  <table class="data-table">
+    <thead><tr><th>Mechanism</th><th>How it works</th><th>Who benefits</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Divine authority</strong></td><td>If a king says "obey me," you can ask "why?" If a king says "God says obey me," the conversation is over. Questioning political authority is dissent. Questioning God's representative is blasphemy — punishable by death in many historical and some modern contexts.</td><td>Rulers, monarchs, emperors. The "divine right of kings" justified European monarchy for centuries. Pharaohs were literal gods. Caliphs ruled as God's representatives.</td></tr>
+      <tr><td><strong>Afterlife promises</strong></td><td>"Suffer now, be rewarded in paradise." This is the most powerful pacification tool in human history. Why revolt against oppression when eternal bliss awaits the obedient? As Marx identified: religion turns the gaze of the oppressed away from exploitation by focusing on eternity.</td><td>Every ruling class in history. As Lenin noted: "Those who toil and live in want all their lives are taught by religion to be submissive and patient while here on earth, and to take comfort in the hope of a heavenly reward."</td></tr>
+      <tr><td><strong>Sin and guilt</strong></td><td>Convincing people they are inherently broken (original sin), born impure, or always failing God creates a permanent state of psychological dependency on the institution that offers "salvation." You create the disease, then sell the cure.</td><td>Religious institutions — churches, mosques, temples. The confessional gives priests access to the most intimate secrets of the powerful and the vulnerable alike.</td></tr>
+      <tr><td><strong>Fear of hell</strong></td><td>The ultimate enforcement mechanism: not earthly punishment, but eternal torture. No police force in history has been as effective as the threat of infinite suffering after death. It costs nothing to enforce and cannot be disproven.</td><td>Any authority that claims to know what God wants. Obey the priest or burn forever. Pay the tithe or face damnation. Accept the social order or face divine punishment.</td></tr>
+      <tr><td><strong>Community exclusion</strong></td><td>Religious communities provide belonging, social support, and identity. The threat of excommunication, shunning, or being declared an apostate means losing your entire social world — your family, friends, livelihood, and sense of self.</td><td>Religious leaders who need compliance. Dissent is punished not by argument but by social death.</td></tr>
+      <tr><td><strong>Control of knowledge</strong></td><td>For most of human history, religious institutions controlled literacy, education, and the interpretation of texts. If only priests can read the holy book, only priests can say what God wants.</td><td>The clergy as a class. The Protestant Reformation was, at its core, a fight over who gets to read the Bible — and the Catholic Church fought that access for centuries.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people."<cite>— Karl Marx, Critique of Hegel's Philosophy of Right (1843)</cite></div>
+
+  <h3>The historical pattern</h3>
+  <p>Every major civilization in history has used religion to legitimize power: Egyptian pharaohs were gods. Roman emperors were deified. European monarchs ruled by "divine right." The Ottoman Sultan was Caliph — God's representative on earth. The Emperor of Japan was divine until 1946. <strong>This is not coincidence. This is a pattern.</strong></p>
+  <p>When you have millions of people to govern without modern police, courts, surveillance, or communication technology, you need something that makes people police themselves. Religion does this. <strong>An invisible, all-seeing god who punishes wrongdoing is the cheapest and most effective surveillance system ever devised.</strong> You don't need guards when people believe God is watching.</p>
+  <p>Anthropologist Ara Norenzayan's research demonstrates that "Big Gods" — moralistic, omniscient deities who care about human behavior — emerged precisely as human societies scaled beyond small kinship groups. Small tribes don't need cosmic surveillance; everyone knows everyone. But cities of 10,000+ people? You need something to make strangers cooperate. Religion provided that. <strong>It wasn't designed by conspirators — it evolved culturally because societies with Big Gods outcompeted those without them.</strong></p>
+
+  <h3>God of the gaps — explaining the unknown</h3>
+  <p>Before science, humans had no explanation for lightning, earthquakes, disease, death, the movement of stars, or the existence of life itself. Every one of these unknowns was filled with a god:</p>
+  <table class="data-table">
+    <thead><tr><th>The unknown</th><th>The religious explanation</th><th>The actual explanation</th></tr></thead>
+    <tbody>
+      <tr><td>Lightning</td><td>Zeus / Thor / God's wrath</td><td>Electrical discharge between clouds and ground</td></tr>
+      <tr><td>Disease</td><td>Punishment for sin / demonic possession</td><td>Bacteria, viruses, genetic conditions</td></tr>
+      <tr><td>Earthquakes</td><td>God's anger / divine punishment</td><td>Tectonic plate movement</td></tr>
+      <tr><td>Seasons</td><td>Persephone in Hades / God's plan</td><td>Axial tilt of the Earth</td></tr>
+      <tr><td>Origin of life</td><td>Created by God in six days</td><td>Evolution by natural selection over 3.8 billion years</td></tr>
+      <tr><td>Origin of universe</td><td>Created by God from nothing</td><td>Big Bang, ~13.8 billion years ago</td></tr>
+      <tr><td>Mental illness</td><td>Demonic possession / spiritual weakness</td><td>Neurochemical imbalances, trauma, genetics</td></tr>
+      <tr><td>Death</td><td>Transition to afterlife / judgment</td><td>Cessation of biological function. Zero evidence of continuation.</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Every time science has answered a question previously attributed to God, the answer has been natural, not supernatural.</strong> Every single time. The track record is 100-0. God has never been the correct answer to any empirical question humanity has ever resolved.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW: SCRIPTURES CONTRADICT THEMSELVES -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="contradictions">
+<div class="container">
+  <div class="sec-num">Part 3B</div>
+  <h2>The Books <em>Contradict Themselves</em></h2>
+  <p>If these texts were dictated by an all-knowing God, they shouldn't contain errors or contradictions. But they do — extensively. Here are just a few that scholars have documented:</p>
+
+  <h3>Genesis can't agree with itself</h3>
+  <p>The very first book of the Bible contains <strong>two different, incompatible creation stories</strong> — written by different authors centuries apart (scholars call them the "P source" and "J source"). Biblical scholar Bart Ehrman: "What is said in Genesis 1 cannot be easily — or at all — reconciled with what is said in Genesis 2."</p>
+  <table class="data-table">
+    <thead><tr><th>Question</th><th>Genesis 1</th><th>Genesis 2</th></tr></thead>
+    <tbody>
+      <tr><td>Order of creation</td><td>Plants → Animals → Humans (male and female together)</td><td>Man → Plants → Animals → Woman (from man's rib)</td></tr>
+      <tr><td>Name for God</td><td>"Elohim" (generic word for God)</td><td>"YHWH" (personal name, the tetragrammaton)</td></tr>
+      <tr><td>God's character</td><td>Distant, creating by speech, master planner</td><td>Hands-on potter, walks in the garden, trial-and-error approach</td></tr>
+      <tr><td>Writing style</td><td>Structured, repetitive, priestly</td><td>Flowing narrative, storytelling</td></tr>
+    </tbody>
+  </table>
+  <p>Apologists say "Genesis 2 is just a zoomed-in retelling." Scholars say the texts use different Hebrew vocabulary, different names for God, different literary styles, and different theology — because <strong>they were written by different people, at different times, and later stitched together by editors.</strong> This is the scholarly consensus (the "Documentary Hypothesis"), supported by over 200 years of textual analysis.</p>
+
+  <h3>The Gospels can't agree on Jesus</h3>
+  <table class="data-table">
+    <thead><tr><th>Event</th><th>What the Gospels say</th></tr></thead>
+    <tbody>
+      <tr><td>Jesus's birth</td><td>Matthew says the family was originally from Bethlehem; Luke says they traveled from Nazareth for a census. These are incompatible origin stories. Also, the census Luke describes (under Quirinius) happened in 6 CE — at least 10 years after Herod's death, during whose reign Matthew says Jesus was born.</td></tr>
+      <tr><td>Jesus's last words</td><td>Mark/Matthew: "My God, my God, why have you forsaken me?" Luke: "Father, into your hands I commit my spirit." John: "It is finished." Three different final statements.</td></tr>
+      <tr><td>Who found the empty tomb?</td><td>Mark: Mary Magdalene, Mary mother of James, Salome. Matthew: Mary Magdalene and "the other Mary." Luke: Mary Magdalene, Joanna, Mary mother of James, and "other women." John: Mary Magdalene alone.</td></tr>
+      <tr><td>What did they find there?</td><td>Mark: a young man in white. Matthew: an angel who had descended and rolled the stone away (with an earthquake). Luke: two men in gleaming clothes. John: two angels. Four different accounts.</td></tr>
+      <tr><td>Genealogy of Jesus</td><td>Matthew and Luke both trace Jesus's lineage through Joseph — but give completely different genealogies. They don't even agree on Joseph's father (Matthew: Jacob. Luke: Heli).</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Quran contradictions and scientific errors</h3>
+  <p>While Muslims claim the Quran is "unchanged and perfect," scholars have identified internal tensions:</p>
+  <table class="data-table">
+    <thead><tr><th>Claim</th><th>Problem</th></tr></thead>
+    <tbody>
+      <tr><td>Creation in 6 days (7:54, 10:3, 11:7) vs. 8 days (41:9-12)</td><td>Adding up the days in 41:9-12 yields 8, not 6. Apologists reinterpret "in addition to" as "simultaneously."</td></tr>
+      <tr><td>No compulsion in religion (2:256)</td><td>Contradicted by verses commanding fighting against non-believers (9:5, 9:29). Scholars explain this via abrogation (nasikh) — later verses overrule earlier ones. But this means the "perfect, eternal" book changed its mind.</td></tr>
+      <tr><td>Mary confused with Miriam</td><td>The Quran calls Mary (mother of Jesus) "sister of Aaron" (19:28) — conflating her with Miriam, sister of Moses and Aaron, who lived ~1,300 years earlier.</td></tr>
+      <tr><td>Sperm from between backbone and ribs (86:5-7)</td><td>This reflects the incorrect Galenic medicine of the 7th century, not divine knowledge of human anatomy.</td></tr>
+    </tbody>
+  </table>
+  <p><strong>If these texts were written by an all-knowing God, they should be flawless. They are not.</strong> They contain the errors, contradictions, and scientific misunderstandings you would expect from human authors writing in specific historical contexts with limited knowledge.</p>
+
+  <h3>The borrowed stories</h3>
+  <p>Religious stories didn't emerge from nothing. They evolved from earlier myths:</p>
+  <table class="data-table">
+    <thead><tr><th>Religious story</th><th>Earlier source</th></tr></thead>
+    <tbody>
+      <tr><td>Noah's flood (Genesis)</td><td>The Epic of Gilgamesh (Sumerian, ~2100 BCE) — a man builds a boat, saves animals from a divine flood, sends out birds to find land. Written ~1,000 years before Genesis.</td></tr>
+      <tr><td>Genesis creation account</td><td>The Enuma Elish (Babylonian, ~1100 BCE) — creation from primordial waters, separation of sky and earth, creation of humans from divine material.</td></tr>
+      <tr><td>Moses in a basket</td><td>Legend of Sargon of Akkad (~2300 BCE) — baby placed in a basket of rushes, sealed with bitumen, set in a river, found and raised by royalty.</td></tr>
+      <tr><td>Dying and rising god</td><td>Osiris, Tammuz, Adonis, Attis, Dionysus — all pre-Christian stories of gods who die and return to life. Early Church Father Justin Martyr (2nd century) admitted: "When we say Jesus Christ was crucified and died and rose again, we propound nothing new or different from what you believe regarding those whom you call Sons of Zeus."</td></tr>
+      <tr><td>Virgin/miraculous birth</td><td>Perseus (son of Zeus and Danae), Alexander the Great (claimed son of Zeus), Buddha (miraculous conception), Egyptian pharaohs (conceived by gods). Miraculous births were a standard way ancient cultures said "this person is special."</td></tr>
+      <tr><td>The Ten Commandments</td><td>The Code of Hammurabi (~1754 BCE) — predates the Torah by centuries and contains similar laws against murder, theft, and false witness.</td></tr>
+    </tbody>
+  </table>
+  <p>Early Christians were aware of these parallels and their explanation was extraordinary: <strong>they said the devil had planted these earlier stories to confuse people when the "real" version (Christianity) came along.</strong> Justin Martyr and Tertullian both made this argument explicitly. Think about what that claim actually is: "Our story looks copied because the devil preemptively created fakes." This is not evidence. This is conspiracy thinking.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 3: WHY WE BELIEVE -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="why">
+<div class="container">
+  <div class="sec-num">Part Four</div>
+  <h2>Why Humans <em>Believe</em></h2>
+  <p>Regardless of whether God exists, the question of WHY humans believe is one that science can investigate — and has, with remarkable results. The cognitive science of religion has identified several mental mechanisms that make belief in gods almost inevitable for our species.</p>
+
+  <h3>The cognitive architecture of belief</h3>
+  <table class="data-table">
+    <thead><tr><th>Mechanism</th><th>What it does</th><th>How it fosters belief</th></tr></thead>
+    <tbody>
+      <tr><td><strong>HADD — Hyperactive Agency Detection Device</strong></td><td>Our brains are wired to detect intentional agents (predators, enemies, allies) even when none exist. It's safer to assume the rustling bush hides a lion than to ignore it.</td><td>We "see" intention and agency everywhere — in storms, in illness, in random events. This generates belief in invisible purposeful beings: spirits, ancestors, gods.</td></tr>
+      <tr><td><strong>Theory of Mind</strong></td><td>The ability to attribute beliefs, desires, and intentions to other beings. Essential for social life.</td><td>Once we detect an "agent" (via HADD), theory of mind lets us imagine what that agent wants, thinks, and plans — leading naturally to ideas about what gods desire from us.</td></tr>
+      <tr><td><strong>Pattern Recognition</strong></td><td>Our brains are pattern-seeking machines. We find faces in clouds and meaning in coincidence.</td><td>We interpret random events (recovery from illness, a narrow escape) as evidence of divine intervention. We see "signs" because our brains are designed to find patterns — even where none exist.</td></tr>
+      <tr><td><strong>Existential Anxiety Management</strong></td><td>Humans are the only species aware of their own mortality. Terror Management Theory suggests this awareness drives much of our behavior.</td><td>Religion provides answers to the most terrifying questions: What happens when I die? Does my suffering have meaning? Is the universe indifferent? As researchers note, "Mickey Mouse is cold comfort on the cancer ward" — but a loving creator God provides profound consolation.</td></tr>
+      <tr><td><strong>Minimally Counterintuitive Concepts</strong></td><td>Our brains preferentially remember and transmit ideas that are slightly unusual but mostly familiar (Pascal Boyer).</td><td>A god who is like a person but all-knowing, or a spirit who is like a human but invisible, is exactly the kind of "minimally counterintuitive" concept that spreads easily through human culture.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Belief in God is natural. It is intuitively satisfying because it depends on mental tools possessed by all human beings. That it is natural does not imply that it is true, for the mental tools were elaborated through natural and cultural selection to help humans survive, not to find truth."<cite>— Justin L. Barrett, Why Would Anyone Believe in God? (2004)</cite></div>
+
+  <h3>The key insight — and its limits</h3>
+  <p>Cognitive science can explain the <strong>mechanism</strong> of belief — the "how." It has identified the brain architecture that makes god-belief almost universal. But <strong>explaining the mechanism does not settle the truth question.</strong> As Barrett argues, explaining why we perceive something does not prove the perception is false. We can explain why we perceive color (photoreceptors, wavelengths) without concluding that color doesn't exist.</p>
+  <p>The critical question remains: <strong>are these cognitive mechanisms detecting something real, or generating a comforting illusion?</strong> Science, by its nature, cannot answer this question. It is the domain of philosophy and, ultimately, of personal judgment.</p>
+
+  <h3>The universality of belief</h3>
+  <div class="counter-grid">
+    <div class="counter"><div class="num">84%</div><div class="unit">of the world's population identifies with a religion (Pew, 2020)</div></div>
+    <div class="counter"><div class="num">~50,000</div><div class="unit">years of religious behavior in the archaeological record</div></div>
+    <div class="counter"><div class="num">4,000+</div><div class="unit">distinct religions have existed throughout human history</div></div>
+  </div>
+  <p>Religion appears in every culture ever studied. No society has been found that lacked some form of supernatural belief. This universality is itself evidence — though evidence of what is debated. Believers see it as confirmation that God is real and humans are designed to know Him. Skeptics see it as confirmation that the human brain is wired to produce religious ideas regardless of their truth.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW: SOCIAL HARM BY RELIGION -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="social">
+<div class="container wide">
+  <div class="sec-num">Part 5B</div>
+  <h2>The <em>Real-World Damage</em> — By Religion</h2>
+  <p>Not abstract philosophy. Real practices, enforced today, that destroy real lives. <strong>Every religion listed here.</strong></p>
+
+  <h3>Islam — enforced practices that harm</h3>
+  <table class="data-table">
+    <thead><tr><th>Practice</th><th>What happens</th><th>Scale</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Honor killings</strong></td><td>Women and girls murdered by their own families for "dishonoring" them — by refusing forced marriage, being raped, seeking divorce, talking to a man, or choosing their own partner. Victims of rape are killed because THEY are seen as the shame.</td><td>UN estimates ~5,000 women killed annually worldwide. Nearly half occur in India and Pakistan. Over 90% of honor killings in Europe/US are within Muslim communities (Middle East Quarterly, 2009). Legal systems in Egypt, Jordan, Syria, Lebanon historically gave reduced sentences — based not on Sharia, but on imported French Napoleonic codes.</td></tr>
+      <tr><td><strong>Forced/child marriage</strong></td><td>Girls as young as 8-9 married to adult men, justified by the tradition that Aisha married Muhammad at age 6 or 9 (debated). No consent. No childhood. No education.</td><td>650 million women alive today were married as children (UNICEF). Highest rates in sub-Saharan Africa and South Asia. Yemen, Saudi Arabia, and Bangladesh have no minimum marriage age or set it extremely low.</td></tr>
+      <tr><td><strong>Mandatory hijab / dress enforcement</strong></td><td>Women forced by law to cover hair/body under threat of arrest, fines, imprisonment, or violence. In Iran, morality police enforce hijab law. Mahsa Amini died in custody (2022) for "improper hijab."</td><td>Mandatory hijab laws in Iran, Afghanistan, parts of Indonesia. Saudi Arabia relaxed in 2019 but social pressure remains extreme. Women beaten or arrested for showing hair.</td></tr>
+      <tr><td><strong>Apostasy laws</strong></td><td>Leaving Islam is punishable by death in 13 countries. In many more, apostates face imprisonment, forced divorce, loss of children, or social death.</td><td>Afghanistan, Iran, Malaysia, Maldives, Mauritania, Nigeria (some states), Qatar, Saudi Arabia, Somalia, Sudan, UAE, Yemen, Pakistan — all criminalize apostasy. In 2014, Meriam Ibrahim (Sudan) was sentenced to death for leaving Islam.</td></tr>
+      <tr><td><strong>Blasphemy laws</strong></td><td>Criticizing Islam, Muhammad, or the Quran can result in imprisonment or death. Used to silence dissent, settle personal grudges, and target minorities.</td><td>Pakistan's blasphemy law has led to mob violence and extrajudicial killings. Asia Bibi spent 8 years on death row for alleged blasphemy. Thousands accused in Pakistan alone.</td></tr>
+      <tr><td><strong>Holy war / Jihad weaponized</strong></td><td>The concept of "lesser jihad" (defensive warfare) has been radicalized into an offensive doctrine by extremist groups to justify terrorism and conquest.</td><td>ISIS, Al-Qaeda, Boko Haram, Al-Shabaab have collectively killed tens of thousands of civilians, including overwhelmingly Muslim victims. They justify atrocities through selective Quranic interpretation.</td></tr>
+      <tr><td><strong>Women as half-witnesses</strong></td><td>In traditional Sharia courts, a woman's testimony counts as half that of a man's (Quran 2:282). Women cannot travel, work, or marry without male guardian approval in some countries.</td><td>Saudi guardianship system reformed only in 2019. Iran, Afghanistan still enforce strict gender separation in legal and social life.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Christianity — enforced practices that harm</h3>
+  <table class="data-table">
+    <thead><tr><th>Practice</th><th>What happens</th><th>Scale</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Anti-LGBTQ+ persecution</strong></td><td>Homosexuality criminalized, "conversion therapy" forced on young people, families broken apart. Uganda's Anti-Homosexuality Act (2023) — pushed by American evangelical missionaries — imposes the death penalty for "aggravated homosexuality."</td><td>70+ countries criminalize same-sex relations. Many in sub-Saharan Africa have laws directly influenced by colonial-era Christian legislation. Conversion therapy still legal in most US states.</td></tr>
+      <tr><td><strong>Pedophilia cover-ups</strong></td><td>Systematic sexual abuse of children by Catholic priests, covered up at every level of the institution — from parish to Vatican — for decades. Abusers transferred to new parishes rather than reported to police.</td><td>The John Jay Report found 4,392 US priests accused (1950-2002). Australia's Royal Commission found 7% of Catholic priests were accused abusers. France's CIASE report (2021): an estimated 330,000 children abused since 1950. Global scale is unknown but enormous.</td></tr>
+      <tr><td><strong>Contraception and abortion bans</strong></td><td>Catholic doctrine bans all artificial contraception and abortion. In countries with Catholic political influence, this becomes law — trapping women in poverty, denying reproductive autonomy, and sometimes killing them.</td><td>Savita Halappanavar died in Ireland (2012) when doctors refused to terminate a miscarriage because of the fetal heartbeat. El Salvador imprisons women for miscarriages. The Philippines' population crisis is directly linked to Catholic contraception bans.</td></tr>
+      <tr><td><strong>Suppression of women's leadership</strong></td><td>Catholic and Orthodox churches prohibit women from priesthood. Complementarian theology in evangelical churches teaches women must submit to husbands.</td><td>~1.5 billion Catholics told women cannot lead their church. Southern Baptist Convention explicitly bars women from pastoral roles. Quiverfull movement promotes unlimited childbearing as divine duty.</td></tr>
+      <tr><td><strong>Indigenous cultural genocide</strong></td><td>Residential/boarding schools forcibly removed indigenous children, banned their languages, cut their hair, and forced Christian conversion. Children beaten, sexually abused, and killed.</td><td>Canada: 150,000 indigenous children forced into residential schools (1883-1996). Over 1,300 unmarked graves discovered since 2021. Similar systems in Australia, US, and across colonized territories worldwide.</td></tr>
+      <tr><td><strong>Prosperity gospel / financial exploitation</strong></td><td>"God wants you to be rich — give us your money and He'll reward you." Televangelists and megachurch pastors extract billions from the poorest and most vulnerable believers.</td><td>Kenneth Copeland: $300M net worth. Joel Osteen: $100M+. Creflo Dollar asked congregation to buy him a $65M private jet. Tax-exempt status means zero financial accountability.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Judaism — enforced practices that harm</h3>
+  <table class="data-table">
+    <thead><tr><th>Practice</th><th>What happens</th><th>Scale</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Get refusal (chained women)</strong></td><td>In Orthodox Judaism, only the husband can grant a religious divorce (get). If he refuses, the wife becomes an "agunah" — chained. She cannot remarry, cannot move on, and any future children are considered illegitimate (mamzerim) for 10 generations.</td><td>Hundreds of women trapped in marriages they cannot exit. Some husbands demand extortionate payments. Rabbinical courts have limited enforcement power. Women remain in legal limbo for years or decades.</td></tr>
+      <tr><td><strong>Ultra-Orthodox gender segregation</strong></td><td>In Haredi communities, women are excluded from religious study, required to shave their heads after marriage, cannot sing in front of men, and are pressured into having as many children as possible.</td><td>Haredi communities in Israel (12% of population) and globally enforce strict gender roles. Women in some sects are erased from photographs (newspapers photoshop women out). Girls receive limited secular education.</td></tr>
+      <tr><td><strong>Metzitzah b'peh</strong></td><td>A circumcision practice where the mohel (circumciser) sucks blood from the infant's wound with his mouth. Has transmitted herpes to infants, causing brain damage and death.</td><td>New York City recorded 24 cases of herpes transmission (2000-2019), including at least 2 infant deaths. The practice is defended as religious tradition. NYC requires parental consent forms but cannot ban the practice due to religious freedom arguments.</td></tr>
+      <tr><td><strong>Community shunning of dissenters</strong></td><td>Those who leave ultra-Orthodox communities face complete social exile — loss of family, children, financial support, and community. Many ex-Haredi individuals report being cut off from their own children.</td><td>Organizations like Footsteps (NYC) help ~1,000 people transitioning out of ultra-Orthodox life. Many report depression, suicidal ideation, and total loss of social identity.</td></tr>
+      <tr><td><strong>Settler violence justified by scripture</strong></td><td>Some religious Zionist settlers cite biblical promises of land to justify violence against Palestinian civilians, property destruction, and illegal settlement expansion.</td><td>UN documented 1,400+ settler attacks on Palestinians in 2023. Some settlers explicitly invoke God's covenant with Abraham to justify displacement of non-Jews from "promised" territory.</td></tr>
+    </tbody>
+  </table>
+
+  <h3>The pattern across all three</h3>
+  <p>Notice what's identical in every case: <strong>control of women's bodies, punishment of dissent, enforcement of in-group loyalty, and the use of divine authority to justify practices that would otherwise be recognized as abuse.</strong> Strip away the specific theology, and the mechanisms are the same. The god is different; the control is identical.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW: RELIGION vs SOCIAL MEDIA -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="socialmedia">
+<div class="container wide">
+  <div class="sec-num">Part 5C</div>
+  <h2>Old Control vs <em>New Control</em> — Religion and Social Media</h2>
+  <p>Here's the uncomfortable parallel you asked about. <strong>The control mechanisms of religion didn't disappear in the modern world — they were upgraded.</strong> Social media uses the exact same psychological tools religion perfected over millennia.</p>
+
+  <table class="data-table">
+    <thead><tr><th>Control mechanism</th><th>How religion does it</th><th>How social media does it</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Invisible surveillance</strong></td><td>"God is always watching." An all-seeing judge who records every thought and action. You can never escape divine surveillance. Self-policing through internalized guilt.</td><td>Algorithms track every click, every search, every pause, every message. Data brokers know you better than you know yourself. You self-censor because you know you're being watched.</td></tr>
+      <tr><td><strong>Reward and punishment</strong></td><td>Heaven for obedience. Hell for disobedience. Eternal consequences for temporary choices. The ultimate carrot and stick.</td><td>Likes, followers, and viral moments (dopamine heaven). Cancel culture, demonetization, and shadow-banning (social media hell). Your "sin" lives online forever.</td></tr>
+      <tr><td><strong>Community belonging / exclusion</strong></td><td>The congregation provides identity, belonging, and purpose. Leaving means losing your entire social world. Excommunication = social death.</td><td>Online communities, fan groups, and ideological bubbles provide identity. Being deplatformed, unfollowed, or ratio'd = modern excommunication. Your follower count IS your social worth.</td></tr>
+      <tr><td><strong>Controlling the narrative</strong></td><td>Only priests could read the Bible for centuries. Interpretation monopolized by clergy. Questioning = blasphemy. Heresy punished.</td><td>Algorithms decide what you see. Platforms control which voices are amplified and which are suppressed. "Community guidelines" are the new catechism. Fact-checkers are the new clergy.</td></tr>
+      <tr><td><strong>Exploiting fear of the unknown</strong></td><td>Religion fills the unknown (death, suffering, cosmic origin) with comforting narratives. Surrender your uncertainty to God. Trust the institution.</td><td>Social media fills information voids with algorithms designed to maximize engagement — usually through fear, outrage, and anxiety. Surrender your attention to the feed. Trust the platform.</td></tr>
+      <tr><td><strong>Creating dependency</strong></td><td>You are broken (original sin). Only we can fix you (salvation). Come back every week (services). Pay regularly (tithes). You need us.</td><td>You are not enough (comparison culture). Only more engagement can fix your loneliness (infinite scroll). Come back every hour (notifications). Pay with your attention and data. You need us.</td></tr>
+      <tr><td><strong>Tribal identity</strong></td><td>Christian vs Muslim vs Jew. Catholic vs Protestant. Sunni vs Shia. Us vs them, justified by cosmic truth. Our group is right; theirs is wrong.</td><td>Left vs Right. iPhone vs Android. BTS ARMY vs Swifties. Your feed becomes an echo chamber that reinforces your tribe's beliefs and demonizes the other side.</td></tr>
+      <tr><td><strong>Suppressing critical thinking</strong></td><td>"Have faith." "Don't question God's plan." "The Lord works in mysterious ways." Doubt = weakness. Questioning = sin.</td><td>"Just trust the algorithm." Engagement metrics reward outrage over nuance. Complex analysis gets 12 likes; rage-bait gets 12 million views. Thinking is punished; reacting is rewarded.</td></tr>
+      <tr><td><strong>Extracting value from believers</strong></td><td>Tithes, indulgences, church taxes, Zakat, temple donations. Billions of dollars flowing to unaccountable institutions.</td><td>Your attention, data, and behavioral patterns sold to advertisers. Social media companies extract $200+ billion annually. You are the product, not the customer — just like worshippers are the revenue source, not the beneficiary.</td></tr>
+      <tr><td><strong>Promising transcendence</strong></td><td>"Follow God and you'll find eternal life, purpose, and meaning."</td><td>"Build your brand and you'll find fame, validation, and meaning." Influencer culture is the prosperity gospel for atheists.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Social media is the new religion. It provides community, identity, moral frameworks, sacred texts (viral posts), prophets (influencers), heretics (the cancelled), rituals (scrolling), and an omniscient watcher (the algorithm). The only difference is that religion promised paradise after death. Social media promises it before — and delivers neither."</div>
+
+  <h3>The deeper truth</h3>
+  <p>The parallel isn't coincidental. <strong>Both systems exploit the same cognitive vulnerabilities</strong> — the same brain architecture that cognitive scientists identified as the source of religious belief: pattern-seeking, agency detection, fear of exclusion, need for belonging, terror of death and meaninglessness.</p>
+  <p>Religion figured out 5,000 years ago how to hack the human mind. Silicon Valley re-engineered the same exploit for the digital age. The god changed — from Yahweh to the Algorithm — but the human underneath remained the same frightened, pattern-seeking, belonging-hungry animal it always was.</p>
+  <p>The critical question for our time is not "is religion dying?" — it's <strong>"what is replacing it, and is it any better?"</strong> Based on the evidence — rising rates of anxiety, depression, loneliness, and political radicalization in the social media age — the answer is a clear no. We traded one system of control for another. The new one just has better UX.</p>
+</div>
+</section>
+<section class="sec" id="gives">
+<div class="container wide">
+  <div class="sec-num">Part Six</div>
+  <h2>Everything Religion Gives You <em>Exists Without It</em></h2>
+  <p>This is religion's last defense: "But it does good things." Community, meaning, comfort, moral framework, mental health support, rituals, belonging. <strong>And that's true — religion does provide these things. But every single one of them exists outside religion, often better, without the supernatural baggage, the control, the guilt, the violence, or the lies.</strong></p>
+
+  <table class="data-table">
+    <thead><tr><th>What religion provides</th><th>How religion delivers it</th><th>Secular alternatives that deliver the same thing</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Community & belonging</strong></td><td>Weekly gatherings, shared identity, social support network, rituals of togetherness. Harvard research: weekly religious attendance → 29% less depression, 33% less likely to die over 16 years.</td><td><strong>Sports clubs, running groups, CrossFit, amateur leagues.</strong> Team sports provide identical belonging, shared ritual (game day), identity (your team), and social support. Also: volunteer organizations, neighborhood groups, co-working spaces, maker spaces, choirs, drama groups. The key ingredient is regular, in-person, communal activity — not God.</td></tr>
+      <tr><td><strong>Stress reduction & inner peace</strong></td><td>Prayer, contemplation, worship. Brain scans show activation of default mode network, emotional regulation centers, and endorphin release during religious practice.</td><td><strong>Meditation (secular mindfulness), yoga, breathwork, nature immersion.</strong> Harvard (2011): meditation physically changes brain structure, improving memory and reducing stress. RCTs show secular mindfulness matches or exceeds religious meditation for anxiety and depression reduction. Apps like Headspace, Calm, and Waking Up deliver this without theology.</td></tr>
+      <tr><td><strong>Meaning & purpose</strong></td><td>"God has a plan for you." "Your suffering has cosmic significance." "You are part of something eternal." Religion provides a pre-packaged narrative that answers the hardest questions.</td><td><strong>Philosophy (Stoicism, Existentialism, Absurdism), activism, creative work, parenthood, science, teaching.</strong> Viktor Frankl survived Auschwitz and concluded that meaning comes from what you choose to give your life to — not from what a deity assigns to you. Camus: "One must imagine Sisyphus happy." Meaning created by the individual is more durable than meaning received from authority.</td></tr>
+      <tr><td><strong>Moral framework</strong></td><td>"God said don't steal, don't kill, don't lie." Religious morality claims divine authority, providing clear rules and consequences.</td><td><strong>Secular ethics, humanism, social contract theory, empathy.</strong> The Golden Rule exists in every culture, religious or not. Scandinavia — the most secular region on Earth — has the lowest crime rates, lowest corruption, highest social trust, and highest happiness scores. Morality doesn't require a god. It requires empathy, which evolution gave us for free.</td></tr>
+      <tr><td><strong>Comfort in the face of death</strong></td><td>"You'll see your loved ones again in paradise." "Death is just a doorway." This is religion's most powerful offering — the thing no secular system has fully replaced.</td><td><strong>Grief counseling, therapy, hospice care, legacy projects, the philosophy of mortality (Epicurus, Seneca, Buddhist thought).</strong> Honest truth: secular alternatives are weaker here. Death terror is the evolutionary root of religion. But comfort based on a lie is still a lie. And learning to face mortality honestly — as Stoics, existentialists, and secular Buddhists teach — produces a different kind of peace: one that doesn't require believing something you can't prove.</td></tr>
+      <tr><td><strong>Ritual & rhythm</strong></td><td>Weekly services, annual holidays, rites of passage (baptism, bar mitzvah, marriage, funeral). Structure that marks time and transitions.</td><td><strong>Secular ceremonies, seasonal celebrations, personal rituals, journaling, annual retreats.</strong> The Sunday Assembly ("church for atheists") meets weekly in 70+ cities. Japan's largely secular society has elaborate rituals for every life stage. Burning Man creates temporary sacred community. You can mark the solstice without believing Zeus pulls the sun.</td></tr>
+      <tr><td><strong>Charity & helping others</strong></td><td>Tithing, church food banks, mission trips, Zakat, Tzedakah. Religious institutions are major providers of social services.</td><td><strong>Secular NGOs, mutual aid networks, direct volunteering, GoFundMe, effective altruism.</strong> Doctors Without Borders, Red Cross, Wikipedia, open-source software, community fridges — none require belief in God. In fact, secular giving targets effectiveness rather than conversion. Religious charity often comes with strings attached (proselytizing).</td></tr>
+      <tr><td><strong>Recovery from addiction</strong></td><td>12-step programs (AA, NA) use "higher power" framework. Religious rehab facilities claim divine healing.</td><td><strong>SMART Recovery, secular cognitive-behavioral therapy, medication-assisted treatment, community-based support.</strong> Studies show CBT and medication are more effective than 12-step alone. SMART Recovery provides the same peer support without the "higher power" requirement that excludes non-believers.</td></tr>
+      <tr><td><strong>Music, art & transcendence</strong></td><td>Hymns, gospel, Sufi poetry, cathedral architecture, Islamic calligraphy. Religion has produced extraordinary art that moves people to tears.</td><td><strong>Concerts, festivals, museums, theater, film, live music, dance.</strong> Beethoven's 9th Symphony, the Northern Lights, standing in a forest at dawn — transcendence doesn't require theology. The chill you feel at a live concert uses the same brain circuits as religious ecstasy. Music festivals create temporary "sacred" community with zero doctrine.</td></tr>
+      <tr><td><strong>Identity & tradition</strong></td><td>"I am a Christian / Muslim / Jew." Religion provides cultural identity, family continuity, and a sense of deep roots in history.</td><td><strong>Cultural identity, ethnic heritage, national identity, family traditions, philosophical identity.</strong> You can celebrate Hanukkah as cultural tradition without believing God parted the sea. You can love Christmas without believing in the virgin birth. Many secular Jews and cultural Muslims maintain rich traditions without supernatural belief. Identity doesn't require theology.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"There is overwhelming empirical support for the value of being at a house of worship on a regular basis on all kinds of metrics — mental health, physical health, having more friends, being less lonely." But the researcher himself admits: the key variable is consistent, communal, in-person participation — not belief in God.<cite>— Ryan Burge, researcher on religious trends; Pew Research Center findings</cite></div>
+
+  <h3>The one thing religion does better — and why</h3>
+  <p>Here's the honest concession: <strong>religion is still better at bundling all these things together into one package.</strong> It gives you community AND meaning AND ritual AND charity AND identity AND moral framework AND death comfort, all in one place, every week, for free. No secular institution has replicated that full bundle with the same consistency and scale.</p>
+  <p>But that's not because the bundle requires God. It's because <strong>religious institutions have had 5,000 years of practice</strong> at packaging human needs. Secular society is only beginning to build alternatives. Harvard researchers found people leaving religion turning to yoga, CrossFit, SoulCycle, supper clubs, meditation, and running groups — but these are fragments, not a complete system yet.</p>
+  <p>The question isn't whether secular alternatives exist — they clearly do. The question is whether we can build institutions that deliver the same psychological benefits as religion <strong>without requiring belief in things that aren't true, without the control mechanisms, without the guilt, without the violence, and without the price of surrendering your critical thinking.</strong></p>
+  <p>That is the project of our generation. And it's worth doing.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 5: WHAT BELIEF COSTS -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="costs">
+<div class="container">
+  <div class="sec-num">Part Six</div>
+  <h2>What Belief <em>Costs</em> Us</h2>
+  <p>The same force that builds community and provides meaning has also, throughout history, been weaponized for control, violence, and the suppression of inquiry. An honest accounting must include the costs.</p>
+
+  <h3>The documented costs</h3>
+  <table class="data-table">
+    <thead><tr><th>Cost</th><th>Evidence</th><th>Nuance</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Religious violence</strong></td><td>The Crusades (1096–1291), the Inquisitions (1231–1834, ~67,000 trials in Spain alone), the European Wars of Religion (1524–1648), sectarian violence in Northern Ireland, the Middle East, South Asia, and more.</td><td>Of the 100 worst atrocities in history (Matthew White's study), only ~13–15% had primarily religious motivations. The bloodiest events (WWII, Mao, Stalin, Mongol conquests) were secular or ideological. Religion is neither the primary cause of violence nor irrelevant to it — it is one factor among many.</td></tr>
+      <tr><td><strong>Persecution of dissenters</strong></td><td>Heretics burned, apostates killed, freethinkers imprisoned. The Inquisition authorized torture in 1252 (Pope Innocent IV). Apostasy remains punishable by death in several countries today.</td><td>PNAS research (2021) on the Spanish Inquisition showed that municipalities with more Inquisitorial persecution still have lower incomes, lower trust, and lower educational attainment today — centuries later.</td></tr>
+      <tr><td><strong>Suppression of science & inquiry</strong></td><td>Galileo's trial (1633), resistance to evolution (ongoing), opposition to stem cell research, contraception, and certain medical treatments.</td><td>The relationship is complex. The same Church that convicted Galileo also produced Georges Lemaître (Big Bang theory), Gregor Mendel (genetics), and funded universities for centuries. Religion has both suppressed and fostered inquiry, depending on the era and institution.</td></tr>
+      <tr><td><strong>In-group/out-group division</strong></td><td>Religion creates powerful in-groups — but this inherently creates out-groups. Religious prosociality consistently favors co-religionists over outsiders. Sectarian identity fuels political conflict.</td><td>This is not unique to religion — nationalism, ethnicity, and ideology create identical dynamics. But religion adds a cosmic dimension ("God is on our side") that can make conflict feel absolute and non-negotiable.</td></tr>
+      <tr><td><strong>Control & manipulation</strong></td><td>Throughout history, religious authority has been used to justify monarchies ("divine right of kings"), slavery, patriarchy, and the suppression of dissent. Religious leaders have wielded enormous unaccountable power.</td><td>Again, not unique to religion — but the claim of divine authority makes religious power uniquely difficult to challenge. Questioning a political leader is dissent; questioning God's representative is blasphemy.</td></tr>
+      <tr><td><strong>Psychological harm</strong></td><td>Religious guilt, fear of hell, shame-based sexual morality, ostracism of doubters, cognitive dissonance, and "spiritual abuse" are documented sources of psychological suffering.</td><td>Research shows that when religion is practiced in a supportive community, it benefits mental health. When it involves judgment, exclusion, or guilt, it harms it. The same religion can heal or wound depending on how it's practiced.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Religion and violence are clearly compatible, but they are not identical. Violence is neither essential to nor exclusive to religion. Virtually every form of religious violence has its nonreligious corollary."<cite>— Anthropologist Jack David Eller</cite></div>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 6: THE HONEST ASSESSMENT -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="honest">
+<div class="container">
+  <div class="sec-num">Part Seven</div>
+  <h2>The <em>Hard</em> Truth</h2>
+  <p>After examining the evidence across archaeology, cognitive science, sociology, history, and psychology — here is what the facts actually tell us, without diplomatic padding:</p>
+
+  <div class="two-col">
+    <div class="col-card green">
+      <h4>What we know</h4>
+      <ul>
+        <li>There is zero empirical evidence for any god, any miracle, any divine revelation, any afterlife, or any supernatural event described in any religion, ever.</li>
+        <li>Humans are cognitively wired to invent gods — our brains produce religious ideas the way our stomachs produce acid. It's biology, not truth.</li>
+        <li>Religion was, and is, one of the most effective tools of social control in human history.</li>
+        <li>Every question previously attributed to God that science has answered turned out to have a natural explanation. The track record is 100%.</li>
+        <li>Religion does provide measurable psychological benefits: community, meaning, comfort in the face of death.</li>
+        <li>Religion has also caused enormous harm: wars, persecution, suppression of knowledge, psychological damage, and the maintenance of oppressive power structures.</li>
+        <li>The historical figures (Jesus, Muhammad) existed, but their supernatural attributes are unverified stories added by followers.</li>
+      </ul>
+    </div>
+    <div class="col-card red">
+      <h4>What believers claim without evidence</h4>
+      <ul>
+        <li>That a supernatural being created the universe and cares about human behavior.</li>
+        <li>That one specific book (out of thousands of holy books) contains the actual words of this being.</li>
+        <li>That miracles occurred — but only in the past, and only where no recording equipment existed.</li>
+        <li>That their religion happens to be the correct one — out of 4,000+ religions humans have invented.</li>
+        <li>That consciousness survives death — despite zero evidence from neuroscience, biology, or physics.</li>
+        <li>That the morality dictated by their tradition is objective and eternal — despite that morality changing dramatically even within their own tradition over time.</li>
+        <li>That the burden of proof somehow falls on non-believers rather than on those making extraordinary claims.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Why we really have beliefs</h3>
+  <p><strong>Fear.</strong> Fear of death. Fear of meaninglessness. Fear of chaos. Fear of the unknown. Humans are the only animals that know they will die — and we have spent 50,000 years inventing stories to make that knowledge bearable.</p>
+  <p><strong>Ignorance.</strong> Before science, we had no explanations for disease, weather, earthquakes, or the origin of life. Gods filled every gap. As knowledge grew, gods retreated to smaller and smaller gaps — from "God makes lightning" to "God started the Big Bang" to "God exists outside space and time" (which is functionally indistinguishable from not existing).</p>
+  <p><strong>Power.</strong> Those who claim to speak for God gain enormous unaccountable power. Pharaohs, popes, caliphs, kings, and modern televangelists all discovered the same truth: if you control access to the divine, you control people. Religion is the only authority structure where the source of authority is, by design, invisible and unverifiable.</p>
+  <p><strong>Community.</strong> This is the one genuinely positive driver. Humans need belonging. We need rituals, shared identity, and collective meaning. Religion provides this powerfully. But so do football clubs, political movements, and philosophical traditions — without requiring belief in the supernatural.</p>
+
+  <h3>The uncomfortable conclusion</h3>
+  <p>The three Abrahamic religions are built on stories. Powerful, ancient, culturally rich stories that have shaped civilizations. But they are stories — written by humans, in specific historical contexts, to address specific human needs: the fear of death, the need for community, the desire for meaning, and the ambition of rulers to control populations.</p>
+  <p><strong>The fact that a story is comforting does not make it true. The fact that billions believe a story does not make it true. The fact that a story has been believed for thousands of years does not make it true.</strong> At one point, billions of humans believed the earth was flat, the sun orbited the earth, and disease was caused by evil spirits. They were wrong about all of it.</p>
+  <p>What makes something true is evidence. And on the central supernatural claims of all three Abrahamic religions — the existence of God, the reality of miracles, the truth of divine revelation — <strong>the evidence, after thousands of years of searching, remains exactly zero.</strong></p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- BOOK OUTLINE -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="book">
+<div class="container">
+  <div class="sec-num">The Book</div>
+  <h2>What We've <em>Built</em></h2>
+  <p>Step back and look at what this study has become. It's the outline of a complete book — one that takes the reader on a journey from understanding belief to questioning it to moving beyond it. Here's the arc:</p>
+
+  <table class="data-table">
+    <thead><tr><th>Part</th><th>Title</th><th>What it does</th></tr></thead>
+    <tbody>
+      <tr><td><strong>ACT I</strong></td><td colspan="2" style="font-weight:700;color:var(--accent);">UNDERSTANDING — Present the beliefs fairly</td></tr>
+      <tr><td>Ch. 1</td><td>The Three Faiths</td><td>Origins, history, timeline — Abraham to present. The reader learns what 4 billion people believe and why. No judgment. Full respect for the traditions.</td></tr>
+      <tr><td>Ch. 2</td><td>What They Believe</td><td>God, scripture, prophets, salvation, afterlife, practices — the complete theological comparison across Christianity, Islam, and Judaism.</td></tr>
+      <tr><td>Ch. 3</td><td>The People</td><td>Denominations, demographics, diversity within each faith. The reader sees these are not monoliths but living, evolving traditions with enormous internal disagreement.</td></tr>
+      <tr><td>Ch. 4</td><td>The Shared Roots</td><td>What the three faiths have in common — shared prophets, shared ethics, shared origin story. The reader feels the depth and beauty of the Abrahamic tradition.</td></tr>
+      <tr><td><strong>ACT II</strong></td><td colspan="2" style="font-weight:700;color:var(--accent);">QUESTIONING — Test the claims against evidence</td></tr>
+      <tr><td>Ch. 5</td><td>Stories vs Evidence</td><td>What archaeology confirms, what's disputed, what has zero evidence. The reader realizes the supernatural claims rest on nothing empirical.</td></tr>
+      <tr><td>Ch. 6</td><td>The Books Contradict Themselves</td><td>Two Genesis creation stories. Four incompatible Gospel accounts. Quran scientific errors. Borrowed myths from older civilizations. The "perfect word of God" is demonstrably imperfect.</td></tr>
+      <tr><td>Ch. 7</td><td>The God Question</td><td>Every major argument for and against God's existence — honestly laid out, then the uncomfortable conclusion: the burden of proof lies with the claimant, and after millennia the evidence is zero.</td></tr>
+      <tr><td>Ch. 8</td><td>Why We Believe</td><td>Cognitive science: HADD, pattern recognition, death anxiety, theory of mind. The human brain manufactures gods as a byproduct of survival mechanisms. We were always going to invent religion.</td></tr>
+      <tr><td><strong>ACT III</strong></td><td colspan="2" style="font-weight:700;color:var(--accent);">EXPOSING — Show what belief really costs</td></tr>
+      <tr><td>Ch. 9</td><td>Religion as Control</td><td>Divine authority, afterlife pacification, sin as dependency, fear of hell, knowledge gatekeeping. The mechanics of how religion controls populations — from pharaohs to televangelists.</td></tr>
+      <tr><td>Ch. 10</td><td>The Real-World Damage</td><td>Honor killings, forced marriage, pedophilia cover-ups, conversion therapy, apostasy death penalties, settler violence, blasphemy laws — every religion's body count, with no one spared.</td></tr>
+      <tr><td>Ch. 11</td><td>Old Control vs New Control</td><td>Religion and social media use the same psychological exploits: surveillance, reward/punishment, tribal identity, dependency creation, narrative control. We traded one master for another.</td></tr>
+      <tr><td><strong>ACT IV</strong></td><td colspan="2" style="font-weight:700;color:var(--accent);">REPLACING — Show that everything good about religion exists without it</td></tr>
+      <tr><td>Ch. 12</td><td>The Secular Alternative</td><td>The knockout punch. Community → sports/clubs. Peace → meditation. Meaning → philosophy/activism. Morality → humanism. Charity → secular NGOs. Ritual → secular ceremonies. Every benefit, available without the lies.</td></tr>
+      <tr><td>Ch. 13</td><td>What Scandinavia Teaches</td><td>The most secular societies on Earth have the highest happiness, lowest crime, best healthcare, strongest social trust, and most gender equality. The experiment has been run. Secularism works.</td></tr>
+      <tr><td>Ch. 14</td><td>Building What Comes Next</td><td>The project of our generation: institutions that deliver religion's psychological benefits — community, meaning, ritual, comfort — without requiring belief in the unproven, without the control, without the harm.</td></tr>
+      <tr><td><strong>EPILOGUE</strong></td><td colspan="2" style="font-weight:700;color:var(--accent);">THE HARD TRUTH</td></tr>
+      <tr><td></td><td>Facing the Unknown Honestly</td><td>We are a small species on a small planet in a vast, indifferent universe. We invented gods because we were afraid. Now we know enough to face the dark without them. The question is whether we're brave enough to try.</td></tr>
+    </tbody>
+  </table>
+
+  <p style="margin-top:2rem;"><strong>Everything above this line already exists in the pages we've built.</strong> The comparative study covers Act I. This critical research covers Acts II–IV. The structure is there. The research is there. The argument builds from respect → evidence → exposure → replacement. That's a book.</p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="line"></div>
+  <p>Beyond Belief — A Critical Research Study</p>
+  <p style="margin-top:.3rem;">Sources include peer-reviewed research from cognitive science, archaeology, history, and psychology. All major claims are cited in the text.</p>
+  <p style="margin-top:.5rem;font-size:.7rem;opacity:.6;">This resource follows the evidence. Where there is evidence, it says so. Where there is none, it says that too.</p>
+</div>
+
+<script>
+document.querySelectorAll('.acc-h').forEach(h=>h.addEventListener('click',()=>{const item=h.parentElement,body=item.querySelector('.acc-body'),open=item.classList.contains('open');document.querySelectorAll('.acc-item').forEach(i=>{i.classList.remove('open');i.querySelector('.acc-body').style.maxHeight=null});if(!open){item.classList.add('open');body.style.maxHeight=body.scrollHeight+'px'}}));
+const secs=document.querySelectorAll('.sec[id]'),navLinks=document.querySelectorAll('.nav a');
+window.addEventListener('scroll',()=>{let c='';secs.forEach(s=>{if(scrollY>=s.offsetTop-130)c=s.id});navLinks.forEach(a=>{a.classList.toggle('on',a.getAttribute('href')==='#'+c)})});
+</script>
+</body>
+</html>

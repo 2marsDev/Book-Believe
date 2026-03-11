@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Voorbij Geloof — Een Kritisch Onderzoek naar Religieus Geloof</title>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=JetBrains+Mono:wght@400;500&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#fafaf7;--bg2:#f0ede6;--ink:#1a1a18;--ink2:#4a4840;--ink3:#7a7770;--accent:#b34233;--accent2:#2e6b4f;--accent3:#2a5a8f;--gold:#9a7b2f;--border:rgba(0,0,0,.08);--card:#fff;--shadow:0 2px 20px rgba(0,0,0,.04);}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;}
+body{font-family:'Newsreader',serif;background:var(--bg);color:var(--ink);font-size:17px;line-height:1.85;}
+::selection{background:var(--accent);color:#fff;}
+h1,h2,h3,h4{font-family:'Outfit',sans-serif;line-height:1.25;}
+
+.container{max-width:860px;margin:0 auto;padding:0 1.5rem;}
+.wide{max-width:1100px;}
+
+/* HERO */
+.hero{padding:6rem 1.5rem 4rem;text-align:center;border-bottom:1px solid var(--border);background:linear-gradient(180deg,#f5f3ec 0%,var(--bg) 100%);}
+.hero .label{font-family:'Outfit',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--accent);margin-bottom:1.5rem;display:inline-block;border:1px solid rgba(179,66,51,.2);padding:.3rem 1rem;border-radius:20px;}
+.hero h1{font-size:clamp(2rem,5vw,3.8rem);font-weight:700;color:var(--ink);margin-bottom:1rem;letter-spacing:-.02em;}
+.hero h1 em{font-style:italic;font-family:'Newsreader',serif;font-weight:500;color:var(--accent);}
+.hero .deck{font-size:1.15rem;color:var(--ink2);max-width:700px;margin:0 auto;line-height:1.8;}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(250,250,247,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--border);padding:.35rem 0;overflow-x:auto;white-space:nowrap;text-align:center;}
+.nav a{font-family:'Outfit',sans-serif;font-size:.78rem;font-weight:500;color:var(--ink3);padding:.4rem .8rem;text-decoration:none;transition:color .2s;}
+.nav a:hover,.nav a.on{color:var(--accent);}
+
+/* SECTIONS */
+.sec{padding:4rem 0;border-bottom:1px solid var(--border);}
+.sec-num{font-family:'JetBrains Mono',monospace;font-size:.7rem;font-weight:500;color:var(--accent);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.5rem;}
+.sec h2{font-size:clamp(1.5rem,3vw,2.2rem);font-weight:700;margin-bottom:1.2rem;}
+.sec h2 em{color:var(--accent);font-style:normal;}
+.sec h3{font-family:'Outfit',sans-serif;font-size:1.15rem;font-weight:600;margin:2rem 0 .8rem;color:var(--ink);}
+.sec p{margin-bottom:1.2rem;color:var(--ink2);}
+.sec p strong{color:var(--ink);font-weight:600;}
+
+/* PULL QUOTE */
+.pull{border-left:3px solid var(--accent);padding:1rem 0 1rem 1.5rem;margin:2rem 0;font-size:1.1rem;font-style:italic;color:var(--ink);line-height:1.7;}
+.pull cite{display:block;font-size:.85rem;font-style:normal;color:var(--ink3);margin-top:.5rem;font-family:'Outfit',sans-serif;}
+
+/* EVIDENCE CARDS */
+.evidence-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:1.2rem;margin:2rem 0;}
+.ev-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;box-shadow:var(--shadow);}
+.ev-card .ev-tag{font-family:'JetBrains Mono',monospace;font-size:.65rem;font-weight:500;text-transform:uppercase;letter-spacing:.1em;padding:.2rem .6rem;border-radius:3px;display:inline-block;margin-bottom:.7rem;}
+.ev-card .ev-tag.verified{background:rgba(46,107,79,.1);color:var(--accent2);}
+.ev-card .ev-tag.disputed{background:rgba(154,123,47,.1);color:var(--gold);}
+.ev-card .ev-tag.no-evidence{background:rgba(179,66,51,.1);color:var(--accent);}
+.ev-card h4{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:600;margin-bottom:.5rem;}
+.ev-card p{font-size:.9rem;color:var(--ink2);margin-bottom:0;}
+
+/* DATA TABLE */
+.data-table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.9rem;}
+.data-table thead th{font-family:'Outfit',sans-serif;font-size:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em;padding:.8rem 1rem;border-bottom:2px solid var(--ink);text-align:left;color:var(--ink);}
+.data-table tbody td{padding:.7rem 1rem;border-bottom:1px solid var(--border);vertical-align:top;color:var(--ink2);}
+.data-table tbody td:first-child{font-weight:500;color:var(--ink);}
+.data-table tbody tr:hover td{background:rgba(0,0,0,.015);}
+
+/* SPECTRUM BAR */
+.spectrum{margin:2rem 0;}
+.spectrum-label{display:flex;justify-content:space-between;font-family:'Outfit',sans-serif;font-size:.75rem;font-weight:500;color:var(--ink3);margin-bottom:.3rem;}
+.spectrum-bar{height:20px;border-radius:10px;background:linear-gradient(90deg,var(--accent2) 0%,var(--gold) 50%,var(--accent) 100%);position:relative;}
+.spectrum-marker{position:absolute;top:-6px;width:3px;height:32px;background:var(--ink);border-radius:2px;}
+
+/* COUNTER BOXES */
+.counter-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;margin:2rem 0;}
+.counter{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;text-align:center;box-shadow:var(--shadow);}
+.counter .num{font-family:'Outfit',sans-serif;font-size:2.2rem;font-weight:700;color:var(--accent);line-height:1;}
+.counter .unit{font-family:'Outfit',sans-serif;font-size:.75rem;text-transform:uppercase;letter-spacing:.1em;color:var(--ink3);margin-top:.3rem;}
+
+/* TWO-COL */
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin:2rem 0;}
+.col-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;box-shadow:var(--shadow);}
+.col-card.green{border-top:3px solid var(--accent2);}
+.col-card.red{border-top:3px solid var(--accent);}
+.col-card h4{font-family:'Outfit',sans-serif;font-size:1rem;font-weight:600;margin-bottom:.7rem;}
+.col-card.green h4{color:var(--accent2);}
+.col-card.red h4{color:var(--accent);}
+.col-card p,.col-card li{font-size:.9rem;color:var(--ink2);margin-bottom:.4rem;}
+.col-card ul{list-style:none;padding:0;}
+.col-card ul li::before{content:'→ ';color:var(--ink3);}
+
+/* FOOTER */
+.footer{padding:3rem 1.5rem;text-align:center;font-family:'Outfit',sans-serif;font-size:.8rem;color:var(--ink3);}
+.footer .line{width:60px;height:1px;background:var(--border);margin:0 auto 1rem;}
+
+/* ACCORDION */
+.acc{margin:1.5rem 0;}
+.acc-item{border:1px solid var(--border);margin-bottom:.4rem;border-radius:6px;overflow:hidden;background:var(--card);}
+.acc-h{padding:.8rem 1.2rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Outfit',sans-serif;font-size:.95rem;font-weight:500;}
+.acc-h:hover{background:rgba(0,0,0,.02);}
+.acc-arr{transition:transform .3s;font-size:.8rem;color:var(--ink3);}
+.acc-item.open .acc-arr{transform:rotate(180deg);}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .4s ease;}
+.acc-inner{padding:0 1.2rem 1rem;font-size:.92rem;color:var(--ink2);}
+
+@media(max-width:768px){
+  .counter-grid{grid-template-columns:1fr;}
+  .two-col{grid-template-columns:1fr;}
+  .evidence-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- HERO -->
+<header class="hero">
+  <div class="label">Geen Heilige Huisjes — Alleen Bewijs</div>
+  <h1>Voorbij <em>Geloof</em></h1>
+  <p class="deck">Wat het bewijs werkelijk zegt — over de verhalen waarop religies zijn gebouwd, het nul-bewijs voor bovennatuurlijke claims, waarom mensen goden verzinnen, wie er profiteert van geloof, en wat het de mensheid kost.</p>
+</header>
+
+<!-- NAV -->
+<nav class="nav">
+  <a href="#stories">Verhalen vs Bewijs</a>
+  <a href="#god">De God-Vraag</a>
+  <a href="#control">Religie als Controle</a>
+  <a href="#contradictions">Tegenspraken</a>
+  <a href="#why">Waarom Wij Geloven</a>
+  <a href="#gives">Wat Geloof Geeft</a>
+  <a href="#costs">Wat Geloof Kost</a>
+  <a href="#honest">De Harde Waarheid</a>
+</nav>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 1: STORIES VS EVIDENCE -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="stories">
+<div class="container">
+  <div class="sec-num">Deel Een</div>
+  <h2>Verhalen vs <em>Bewijs</em></h2>
+  <p>Elke religie is gebouwd op een fundament van verhalen — scheppingsverhalen, openbaringen, wonderen en goddelijke tussenkomst. De kritische vraag voor elk serieus onderzoek is: <strong>hoeveel hiervan is verifieerbare geschiedenis, en hoeveel is mythologie, allegorie of traditie?</strong></p>
+  <p>The answer is uncomfortable for believers and skeptics alike: it is neither a simple "all true" nor "all false." The picture is far more nuanced — and far more interesting.</p>
+
+  <h3>Wat archeologie en geschiedenis kunnen verifiëren</h3>
+  <div class="evidence-grid">
+    <div class="ev-card"><span class="ev-tag verified">Bevestigd</span><h4>Het oude Israël bestond</h4><p>De Merneptah-stele (ca. 1207 v.Chr.) — een Egyptische inscriptie — bevat de oudste verwijzing naar "Israël" als volk in Kanaän. Dit is echt, fysiek bewijs.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Bevestigd</span><h4>Jezus van Nazareth bestond</h4><p>Vrijwel alle historici — inclusief seculiere wetenschappers — accepteren het historische bestaan van Jezus. Verwijzingen in Josephus (ca. 94 n.Chr.), Tacitus (ca. 116 n.Chr.) en Plinius de Jongere. Zijn kruisiging onder Pontius Pilatus is een van de best gedocumenteerde feiten uit de oudheid.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Bevestigd</span><h4>Mohammed bestond</h4><p>Mohammeds historiciteit is goed gedocumenteerd via meerdere vroege bronnen, waaronder de Grondwet van Medina, vroege munten en bijna-gelijktijdige verslagen.</p></div>
+    <div class="ev-card"><span class="ev-tag verified">Bevestigd</span><h4>De Tempel in Jeruzalem bestond</h4><p>Both the First Temple (Solomon's, c. 960 BCE) and Second Temple (destroyed 70 CE) are confirmed by extensive archaeological and textual evidence, including the Western Wall and numerous inscriptions.</p></div>
+    <div class="ev-card"><span class="ev-tag disputed">Betwist</span><h4>De Exodus uit Egypte</h4><p>Geen direct archeologisch bewijs bevestigt de bijbelse Exodus zoals beschreven (600.000+ mannen). De meeste geleerden zijn het erover eens dat het verhaal "een historische kern" heeft — waarschijnlijk een veel kleinere groep.</p></div>
+    <div class="ev-card"><span class="ev-tag disputed">Betwist</span><h4>Abraham als historische figuur</h4><p>Abraham cannot be verified or disproven archaeologically. He may be a historical figure, a legendary ancestor, or a literary construction. The patriarchal narratives reflect customs of the 2nd millennium BCE, suggesting some historical grounding, but no direct evidence exists.</p></div>
+    <div class="ev-card"><span class="ev-tag no-evidence">Geen Bewijs</span><h4>Wonderen (alle drie de religies)</h4><p>Geen enkel wonder beschreven in welke heilige tekst dan ook — de splitsing van de Rode Zee, Jezus' opstanding, Mohammeds Nachtreis — is ooit geverifieerd door empirisch bewijs.</p></div>
+    <div class="ev-card"><span class="ev-tag no-evidence">Geen Bewijs</span><h4>Goddelijke openbaring zelf</h4><p>De claim dat God tot Mozes sprak, de Koran aan Mohammed dicteerde, of dat Jezus opstond uit de dood kan niet empirisch worden geverifieerd. Dit zijn geloofsuitspraken — geen feiten.</p></div>
+  </div>
+
+  <div class="pull">"Er is in feite opmerkelijk weinig van bewezen of bewijsbare historische waarde in het bijbelse Exodus-verhaal, en geen betrouwbare onafhankelijke getuigen bevestigen de historiciteit van de Exodus-gebeurtenissen."<cite>— Mainstream archeologische consensus</cite></div>
+
+  <h3>De kale werkelijkheid</h3>
+  <p>Sommige historische figuren bestonden — Jezus, Mohammed, waarschijnlijk David. Sommige plaatsen zijn echt. <strong>Maar elke bovennatuurlijke claim van alle drie de religies heeft nul empirisch bewijs.</strong> Geen. Geen splitsing van zeeën. Geen opstanding uit de dood. Geen engel die een boek dicteert. Geen brandende struik. Nul fysiek bewijs voor wat dan ook.</p>
+  <p>Op elk ander kennisgebied noemen we verhalen zonder bewijs precies wat ze zijn: <strong>onbewezen.</strong> We zeggen niet "het bewijs voor eenhoorns bevindt zich in het domein van het geloof." We zeggen dat er geen bewijs voor eenhoorns is. Waarom zouden religieuze claims een speciale behandeling krijgen?</p>
+  <p>De vraag wordt dan: <strong>als dit verhalen zijn — krachtige, oude, cultureel fundamentele verhalen, maar verhalen — waarom geloofden miljarden mensen erin? Wie profiteert van dat geloof? En wat kost het?</strong></p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 2: THE GOD QUESTION -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="god">
+<div class="container">
+  <div class="sec-num">Deel Twee</div>
+  <h2>De <em>God</em>-Vraag</h2>
+  <p>De meest fundamentele vraag: <strong>bestaat God?</strong> Na duizenden jaren filosofie, theologie en wetenschap blijft dit onopgelost. Hier is wat de belangrijkste argumenten werkelijk zeggen.</p>
+
+  <h3>Argumenten VOOR Gods bestaan</h3>
+  <div class="acc">
+    <div class="acc-item"><div class="acc-h"><span>The Cosmological Argument — "Why is there something rather than nothing?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Everything that begins to exist has a cause. The universe began to exist. Therefore the universe has a cause — and that cause must be outside the universe itself (God). Refined by Thomas Aquinas, the Kalam version by William Lane Craig is the most debated modern formulation.<br><br><strong>The challenge:</strong> Quantum physics suggests particles can emerge from quantum fluctuations without a classical "cause." The argument also raises the infinite regress: who created God? Theists respond that God is, by definition, uncaused — but critics see this as special pleading.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Fine-Tuning Argument — "The universe is suspiciously perfect for life"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Physical constants (gravitational force, speed of light, nuclear force ratios) fall within an extraordinarily narrow range that permits life. If any were slightly different, no stars, no chemistry, no life. The odds against this are staggering, suggesting a designer.<br><br><strong>The challenge:</strong> The multiverse hypothesis — if infinite universes exist with random constants, we'd inevitably find ourselves in one that supports life (the anthropic principle). Also, we can only observe one universe, making probability calculations problematic. We may be like a puddle marveling at how perfectly the hole fits it.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Moral Argument — "Objective morality requires a moral lawgiver"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If objective moral truths exist (e.g., torturing children is always wrong, not just culturally disapproved), they require a foundation beyond human opinion. God provides that foundation.<br><br><strong>The challenge:</strong> Euthyphro's dilemma (Plato): Is something good because God commands it, or does God command it because it's good? If the former, morality is arbitrary; if the latter, morality exists independently of God. Evolutionary ethics argues moral instincts evolved because cooperation conferred survival advantages.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>Religious Experience — "Billions of people have experienced the divine"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Across all cultures and eras, people report powerful experiences of the transcendent — feelings of divine presence, answered prayers, mystical states. The sheer universality and emotional power of these experiences suggest something real.<br><br><strong>The challenge:</strong> Neuroscience has identified brain regions (temporal lobes, default mode network, periaqueductal gray) that activate during religious experiences. These can be triggered by meditation, psychedelics, temporal lobe epilepsy, or electrical stimulation. This doesn't disprove God — but it does show the brain is capable of generating these experiences without any external divine input.</div></div></div>
+  </div>
+
+  <h3>Argumenten TEGEN Gods bestaan</h3>
+  <div class="acc">
+    <div class="acc-item"><div class="acc-h"><span>The Problem of Evil — "Why does suffering exist?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If God is all-powerful, all-knowing, and all-good, why do children get cancer? Why do earthquakes kill thousands of innocents? Either God can prevent suffering and chooses not to (not all-good), or wants to prevent it and cannot (not all-powerful), or doesn't know about it (not all-knowing).<br><br><strong>Theist responses:</strong> Free will (humans cause moral evil); soul-making (suffering builds character); divine mystery (God's purposes are beyond our comprehension). These responses have been debated for millennia and remain unresolved to most philosophers' satisfaction — the problem of "natural evil" (earthquakes, disease) is especially difficult.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Argument from Divine Hiddenness — "Why doesn't God make himself obvious?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> If God exists and wants a relationship with humanity, why do sincere seekers fail to find him? Why does God's existence require faith rather than evidence? A loving parent doesn't hide from their children.<br><br><strong>Theist responses:</strong> Free will requires the possibility of doubt; God's presence would be coercive; faith is itself a virtue. Critics respond that hiddenness causes immense suffering and confusion among billions of honest seekers.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Argument from Inconsistent Revelations — "Which God?"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Christianity, Islam, and Judaism each claim to possess the final, correct revelation from the same God — yet they contradict each other on fundamental points (Trinity vs. Tawhid, Jesus's divinity, Muhammad's prophethood). If God wanted to communicate clearly, why are there 4,000+ religions with incompatible truth claims?<br><br><strong>Theist responses:</strong> Human error corrupted earlier messages (Islamic view); God revealed progressively (Christian view); other religions contain partial truths. Critics note that each tradition says exactly this about the others.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>The Naturalistic Explanation — "We can explain belief without God"</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner"><strong>The argument:</strong> Cognitive science can now explain WHY humans believe in God without needing God to actually exist: agency detection, pattern recognition, theory of mind, existential anxiety management. If we can fully explain the cause of belief in naturalistic terms, the simplest explanation is that God is a product of the human mind, not the other way around.<br><br><strong>Theist response (Justin L. Barrett):</strong> "Suppose science produces a convincing account for why I think my wife loves me — should I then stop believing that she does?" Explaining the mechanism of belief doesn't invalidate the belief's content. A cognitive predisposition toward belief could itself be God-given.</div></div></div>
+  </div>
+
+  <h3>Waar dit ons werkelijk brengt</h3>
+  <p><strong>De bewijslast ligt bij degene die de claim maakt.</strong> Als iemand beweert dat een onzichtbaar, ondetecteerbaar wezen het universum heeft geschapen, is het hun verantwoordelijkheid om bewijs te leveren — niet die van de scepticus om het te weerleggen.</p>
+  <p>De filosofische argumenten voor God zijn interessante intellectuele oefeningen, maar geen ervan vormt bewijs. Het zijn logische constructies die proberen te bewijzen dat God moet bestaan — maar logica alleen vestigt geen realiteit. <strong>De vraag is niet "kunnen we een argument construeren?" maar "kunnen we bewijs produceren?"</strong> En na duizenden jaren is het antwoord: nee.</p>
+  <p>Dit betekent niet dat God absoluut niet bestaat. Het betekent dat we <strong>geen goede reden hebben om te geloven dat God bestaat</strong> — op dezelfde manier waarop we geen goede reden hebben om in Zeus, Thor of de duizenden andere goden te geloven die de mensheid door de eeuwen heen heeft verzonnen en weer vergeten.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW SECTION: RELIGION AS CONTROL -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="control">
+<div class="container">
+  <div class="sec-num">Deel Drie</div>
+  <h2>Religie als <em>Controle</em></h2>
+  <p>De ongemakkelijke waarheid die sociologen, historici en politicologen uitgebreid hebben gedocumenteerd: <strong>religie is een van de meest effectieve instrumenten van sociale controle die ooit zijn uitgevonden.</strong></p>
+
+  <h3>De mechanismen van controle</h3>
+  <table class="data-table">
+    <thead><tr><th>Mechanisme</th><th>Hoe het werkt</th><th>Wie profiteert</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Divine authority</strong></td><td>If a king says "obey me," you can ask "why?" If a king says "God says obey me," the conversation is over. Questioning political authority is dissent. Questioning God's representative is blasphemy — punishable by death in many historical and some modern contexts.</td><td>Rulers, monarchs, emperors. The "divine right of kings" justified European monarchy for centuries. Pharaohs were literal gods. Caliphs ruled as God's representatives.</td></tr>
+      <tr><td><strong>Afterlife promises</strong></td><td>"Suffer now, be rewarded in paradise." This is the most powerful pacification tool in human history. Why revolt against oppression when eternal bliss awaits the obedient? As Marx identified: religion turns the gaze of the oppressed away from exploitation by focusing on eternity.</td><td>Every ruling class in history. As Lenin noted: "Those who toil and live in want all their lives are taught by religion to be submissive and patient while here on earth, and to take comfort in the hope of a heavenly reward."</td></tr>
+      <tr><td><strong>Sin and guilt</strong></td><td>Convincing people they are inherently broken (original sin), born impure, or always failing God creates a permanent state of psychological dependency on the institution that offers "salvation." You create the disease, then sell the cure.</td><td>Religious institutions — churches, mosques, temples. The confessional gives priests access to the most intimate secrets of the powerful and the vulnerable alike.</td></tr>
+      <tr><td><strong>Fear of hell</strong></td><td>The ultimate enforcement mechanism: not earthly punishment, but eternal torture. No police force in history has been as effective as the threat of infinite suffering after death. It costs nothing to enforce and cannot be disproven.</td><td>Any authority that claims to know what God wants. Obey the priest or burn forever. Pay the tithe or face damnation. Accept the social order or face divine punishment.</td></tr>
+      <tr><td><strong>Community exclusion</strong></td><td>Religious communities provide belonging, social support, and identity. The threat of excommunication, shunning, or being declared an apostate means losing your entire social world — your family, friends, livelihood, and sense of self.</td><td>Religious leaders who need compliance. Dissent is punished not by argument but by social death.</td></tr>
+      <tr><td><strong>Control of knowledge</strong></td><td>For most of human history, religious institutions controlled literacy, education, and the interpretation of texts. If only priests can read the holy book, only priests can say what God wants.</td><td>The clergy as a class. The Protestant Reformation was, at its core, a fight over who gets to read the Bible — and the Catholic Church fought that access for centuries.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Religion is the sigh of the oppressed creature, the heart of a heartless world, and the soul of soulless conditions. It is the opium of the people."<cite>— Karl Marx, Critique of Hegel's Philosophy of Right (1843)</cite></div>
+
+  <h3>Het historische patroon</h3>
+  <p>Every major civilization in history has used religion to legitimize power: Egyptian pharaohs were gods. Roman emperors were deified. European monarchs ruled by "divine right." The Ottoman Sultan was Caliph — God's representative on earth. The Emperor of Japan was divine until 1946. <strong>This is not coincidence. This is a pattern.</strong></p>
+  <p>When you have millions of people to govern without modern police, courts, surveillance, or communication technology, you need something that makes people police themselves. Religion does this. <strong>An invisible, all-seeing god who punishes wrongdoing is the cheapest and most effective surveillance system ever devised.</strong> You don't need guards when people believe God is watching.</p>
+  <p>Anthropologist Ara Norenzayan's research demonstrates that "Big Gods" — moralistic, omniscient deities who care about human behavior — emerged precisely as human societies scaled beyond small kinship groups. Small tribes don't need cosmic surveillance; everyone knows everyone. But cities of 10,000+ people? You need something to make strangers cooperate. Religion provided that. <strong>It wasn't designed by conspirators — it evolved culturally because societies with Big Gods outcompeted those without them.</strong></p>
+
+  <h3>God van de gaten — explaining the unknown</h3>
+  <p>Before science, humans had no explanation for lightning, earthquakes, disease, death, the movement of stars, or the existence of life itself. Every one of these unknowns was filled with a god:</p>
+  <table class="data-table">
+    <thead><tr><th>Het onbekende</th><th>De religieuze verklaring</th><th>De werkelijke verklaring</th></tr></thead>
+    <tbody>
+      <tr><td>Bliksem</td><td>Zeus / Thor / God's wrath</td><td>Electrical discharge between clouds and ground</td></tr>
+      <tr><td>Ziekten</td><td>Punishment for sin / demonic possession</td><td>Bacteria, viruses, genetic conditions</td></tr>
+      <tr><td>Aardbevingen</td><td>God's anger / divine punishment</td><td>Tectonic plate movement</td></tr>
+      <tr><td>Seizoenen</td><td>Persephone in Hades / God's plan</td><td>Axial tilt of the Earth</td></tr>
+      <tr><td>Ontstaan van leven</td><td>Created by God in six days</td><td>Evolution by natural selection over 3.8 billion years</td></tr>
+      <tr><td>Ontstaan van het universum</td><td>Created by God from nothing</td><td>Big Bang, ~13.8 billion years ago</td></tr>
+      <tr><td>Geestesziekte</td><td>Demonic possession / spiritual weakness</td><td>Neurochemical imbalances, trauma, genetics</td></tr>
+      <tr><td>De dood</td><td>Transition to afterlife / judgment</td><td>Cessation of biological function. Zero evidence of continuation.</td></tr>
+    </tbody>
+  </table>
+  <p><strong>Elke keer dat de wetenschap een vraag heeft beantwoord die eerder aan God werd toegeschreven, was het antwoord natuurlijk, niet bovennatuurlijk.</strong> De score is 100-0.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- NEW: SCRIPTURES CONTRADICT THEMSELVES -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="contradictions">
+<div class="container">
+  <div class="sec-num">Deel 3B</div>
+  <h2>De Boeken Spreken <em>Zichzelf Tegen</em></h2>
+  <p>If these texts were dictated by an all-knowing God, they shouldn't contain errors or contradictions. But they do — extensively. Here are just a few that scholars have documented:</p>
+
+  <h3>Genesis is het niet met zichzelf eens</h3>
+  <p>The very first book of the Bible contains <strong>two different, incompatible creation stories</strong> — written by different authors centuries apart (scholars call them the "P source" and "J source"). Biblical scholar Bart Ehrman: "What is said in Genesis 1 cannot be easily — or at all — reconciled with what is said in Genesis 2."</p>
+  <table class="data-table">
+    <thead><tr><th>Vraag</th><th>Genesis 1</th><th>Genesis 2</th></tr></thead>
+    <tbody>
+      <tr><td>Order of creation</td><td>Plants → Animals → Humans (male and female together)</td><td>Man → Plants → Animals → Woman (from man's rib)</td></tr>
+      <tr><td>Name for God</td><td>"Elohim" (generic word for God)</td><td>"YHWH" (personal name, the tetragrammaton)</td></tr>
+      <tr><td>God's character</td><td>Distant, creating by speech, master planner</td><td>Hands-on potter, walks in the garden, trial-and-error approach</td></tr>
+      <tr><td>Writing style</td><td>Structured, repetitive, priestly</td><td>Flowing narrative, storytelling</td></tr>
+    </tbody>
+  </table>
+  <p>Apologists say "Genesis 2 is just a zoomed-in retelling." Scholars say the texts use different Hebrew vocabulary, different names for God, different literary styles, and different theology — because <strong>they were written by different people, at different times, and later stitched together by editors.</strong> This is the scholarly consensus (the "Documentary Hypothesis"), supported by over 200 years of textual analysis.</p>
+
+  <h3>De Evangeliën zijn het niet eens over Jezus</h3>
+  <table class="data-table">
+    <thead><tr><th>Gebeurtenis</th><th>What the Gospels say</th></tr></thead>
+    <tbody>
+      <tr><td>Jesus's birth</td><td>Matthew says the family was originally from Bethlehem; Luke says they traveled from Nazareth for a census. These are incompatible origin stories. Also, the census Luke describes (under Quirinius) happened in 6 CE — at least 10 years after Herod's death, during whose reign Matthew says Jesus was born.</td></tr>
+      <tr><td>Jesus's last words</td><td>Mark/Matthew: "My God, my God, why have you forsaken me?" Luke: "Father, into your hands I commit my spirit." John: "It is finished." Three different final statements.</td></tr>
+      <tr><td>Who found the empty tomb?</td><td>Mark: Mary Magdalene, Mary mother of James, Salome. Matthew: Mary Magdalene and "the other Mary." Luke: Mary Magdalene, Joanna, Mary mother of James, and "other women." John: Mary Magdalene alone.</td></tr>
+      <tr><td>What did they find there?</td><td>Mark: a young man in white. Matthew: an angel who had descended and rolled the stone away (with an earthquake). Luke: two men in gleaming clothes. John: two angels. Four different accounts.</td></tr>
+      <tr><td>Genealogy of Jesus</td><td>Matthew and Luke both trace Jesus's lineage through Joseph — but give completely different genealogies. They don't even agree on Joseph's father (Matthew: Jacob. Luke: Heli).</td></tr>
+    </tbody>
+  </table>
+
+  <h3>Koran-tegenspraken en wetenschappelijke fouten</h3>
+  <p>While Muslims claim the Quran is "unchanged and perfect," scholars have identified internal tensions:</p>
+  <table class="data-table">
+    <thead><tr><th>Claim</th><th>Probleem</th></tr></thead>
+    <tbody>
+      <tr><td>Creation in 6 days (7:54, 10:3, 11:7) vs. 8 days (41:9-12)</td><td>Adding up the days in 41:9-12 yields 8, not 6. Apologists reinterpret "in addition to" as "simultaneously."</td></tr>
+      <tr><td>No compulsion in religion (2:256)</td><td>Contradicted by verses commanding fighting against non-believers (9:5, 9:29). Scholars explain this via abrogation (nasikh) — later verses overrule earlier ones. But this means the "perfect, eternal" book changed its mind.</td></tr>
+      <tr><td>Mary confused with Miriam</td><td>The Quran calls Mary (mother of Jesus) "sister of Aaron" (19:28) — conflating her with Miriam, sister of Moses and Aaron, who lived ~1,300 years earlier.</td></tr>
+      <tr><td>Sperm from between backbone and ribs (86:5-7)</td><td>This reflects the incorrect Galenic medicine of the 7th century, not divine knowledge of human anatomy.</td></tr>
+    </tbody>
+  </table>
+  <p><strong>If these texts were written by an all-knowing God, they should be flawless. They are not.</strong> They contain the errors, contradictions, and scientific misunderstandings you would expect from human authors writing in specific historical contexts with limited knowledge.</p>
+
+  <h3>De geleende verhalen</h3>
+  <p>Religious stories didn't emerge from nothing. They evolved from earlier myths:</p>
+  <table class="data-table">
+    <thead><tr><th>Religieus verhaal</th><th>Oudere bron</th></tr></thead>
+    <tbody>
+      <tr><td>Noah's flood (Genesis)</td><td>The Epic of Gilgamesh (Sumerian, ~2100 BCE) — a man builds a boat, saves animals from a divine flood, sends out birds to find land. Written ~1,000 years before Genesis.</td></tr>
+      <tr><td>Genesis creation account</td><td>The Enuma Elish (Babylonian, ~1100 BCE) — creation from primordial waters, separation of sky and earth, creation of humans from divine material.</td></tr>
+      <tr><td>Moses in a basket</td><td>Legend of Sargon of Akkad (~2300 BCE) — baby placed in a basket of rushes, sealed with bitumen, set in a river, found and raised by royalty.</td></tr>
+      <tr><td>Dying and rising god</td><td>Osiris, Tammuz, Adonis, Attis, Dionysus — all pre-Christian stories of gods who die and return to life. Early Church Father Justin Martyr (2nd century) admitted: "When we say Jesus Christ was crucified and died and rose again, we propound nothing new or different from what you believe regarding those whom you call Sons of Zeus."</td></tr>
+      <tr><td>Virgin/miraculous birth</td><td>Perseus (son of Zeus and Danae), Alexander the Great (claimed son of Zeus), Buddha (miraculous conception), Egyptian pharaohs (conceived by gods). Miraculous births were a standard way ancient cultures said "this person is special."</td></tr>
+      <tr><td>The Ten Commandments</td><td>The Code of Hammurabi (~1754 BCE) — predates the Torah by centuries and contains similar laws against murder, theft, and false witness.</td></tr>
+    </tbody>
+  </table>
+  <p>Early Christians were aware of these parallels and their explanation was extraordinary: <strong>they said the devil had planted these earlier stories to confuse people when the "real" version (Christianity) came along.</strong> Justin Martyr and Tertullian both made this argument explicitly. Think about what that claim actually is: "Our story looks copied because the devil preemptively created fakes." This is not evidence. This is conspiracy thinking.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 3: WHY WE BELIEVE -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="why">
+<div class="container">
+  <div class="sec-num">Deel Vier</div>
+  <h2>Waarom Mensen <em>Geloven</em></h2>
+  <p>Regardless of whether God exists, the question of WHY humans believe is one that science can investigate — and has, with remarkable results. The cognitive science of religion has identified several mental mechanisms that make belief in gods almost inevitable for our species.</p>
+
+  <h3>De cognitieve architectuur van geloof</h3>
+  <table class="data-table">
+    <thead><tr><th>Mechanisme</th><th>Wat het doet</th><th>Hoe het geloof bevordert</th></tr></thead>
+    <tbody>
+      <tr><td><strong>HADD — Hyperactive Agency Detection Device</strong></td><td>Our brains are wired to detect intentional agents (predators, enemies, allies) even when none exist. It's safer to assume the rustling bush hides a lion than to ignore it.</td><td>We "see" intention and agency everywhere — in storms, in illness, in random events. This generates belief in invisible purposeful beings: spirits, ancestors, gods.</td></tr>
+      <tr><td><strong>Theory of Mind</strong></td><td>The ability to attribute beliefs, desires, and intentions to other beings. Essential for social life.</td><td>Once we detect an "agent" (via HADD), theory of mind lets us imagine what that agent wants, thinks, and plans — leading naturally to ideas about what gods desire from us.</td></tr>
+      <tr><td><strong>Pattern Recognition</strong></td><td>Our brains are pattern-seeking machines. We find faces in clouds and meaning in coincidence.</td><td>We interpret random events (recovery from illness, a narrow escape) as evidence of divine intervention. We see "signs" because our brains are designed to find patterns — even where none exist.</td></tr>
+      <tr><td><strong>Existential Anxiety Management</strong></td><td>Humans are the only species aware of their own mortality. Terror Management Theory suggests this awareness drives much of our behavior.</td><td>Religion provides answers to the most terrifying questions: What happens when I die? Does my suffering have meaning? Is the universe indifferent? As researchers note, "Mickey Mouse is cold comfort on the cancer ward" — but a loving creator God provides profound consolation.</td></tr>
+      <tr><td><strong>Minimally Counterintuitive Concepts</strong></td><td>Our brains preferentially remember and transmit ideas that are slightly unusual but mostly familiar (Pascal Boyer).</td><td>A god who is like a person but all-knowing, or a spirit who is like a human but invisible, is exactly the kind of "minimally counterintuitive" concept that spreads easily through human culture.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Belief in God is natural. It is intuitively satisfying because it depends on mental tools possessed by all human beings. That it is natural does not imply that it is true, for the mental tools were elaborated through natural and cultural selection to help humans survive, not to find truth."<cite>— Justin L. Barrett, Why Would Anyone Believe in God? (2004)</cite></div>
+
+  <h3>Het kernpunt — en de grenzen</h3>
+  <p>Cognitive science can explain the <strong>mechanism</strong> of belief — the "how." It has identified the brain architecture that makes god-belief almost universal. But <strong>explaining the mechanism does not settle the truth question.</strong> As Barrett argues, explaining why we perceive something does not prove the perception is false. We can explain why we perceive color (photoreceptors, wavelengths) without concluding that color doesn't exist.</p>
+  <p>The critical question remains: <strong>are these cognitive mechanisms detecting something real, or generating a comforting illusion?</strong> Science, by its nature, cannot answer this question. It is the domain of philosophy and, ultimately, of personal judgment.</p>
+
+  <h3>De universaliteit van geloof</h3>
+  <div class="counter-grid">
+    <div class="counter"><div class="num">84%</div><div class="unit">of the world's population identifies with a religion (Pew, 2020)</div></div>
+    <div class="counter"><div class="num">~50,000</div><div class="unit">years of religious behavior in the archaeological record</div></div>
+    <div class="counter"><div class="num">4,000+</div><div class="unit">distinct religions have existed throughout human history</div></div>
+  </div>
+  <p>Religion appears in every culture ever studied. No society has been found that lacked some form of supernatural belief. This universality is itself evidence — though evidence of what is debated. Believers see it as confirmation that God is real and humans are designed to know Him. Skeptics see it as confirmation that the human brain is wired to produce religious ideas regardless of their truth.</p>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 4: WHAT BELIEF GIVES -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="gives">
+<div class="container">
+  <div class="sec-num">Deel Vijf</div>
+  <h2>Wat Geloof Ons <em>Geeft</em></h2>
+  <p>Regardless of its truth value, religion has demonstrable, measurable effects on individuals and societies. A vast body of peer-reviewed research — thousands of studies — has documented both the benefits and costs. Here are the benefits.</p>
+
+  <h3>Het bewijs voor voordelen</h3>
+  <table class="data-table">
+    <thead><tr><th>Voordeel</th><th>Bewijs</th><th>Nuance</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Mental health</strong></td><td>A comprehensive review of 3,000+ studies (Koenig et al., Handbook of Religion and Health) found that religious involvement is associated with lower rates of depression, suicide, anxiety, and substance abuse.</td><td>The effect is strongest when religiosity is intrinsic (deeply felt) rather than extrinsic (social conformity). Negative religious experiences (guilt, ostracism, "spiritual struggles") can worsen mental health.</td></tr>
+      <tr><td><strong>Prosocial behavior</strong></td><td>A 2024 meta-analysis of 701 effects across 237 samples (Kelly, Kramer & Shariff) found a significant positive relationship between religiosity and prosociality (r = .13).</td><td>The effect was stronger for self-reported prosociality (r = .15) than for directly measured behavior (r = .06) — raising questions about whether religious people actually behave better, or just believe they do. Also, religious prosociality tends to favor ingroups over outgroups.</td></tr>
+      <tr><td><strong>Community & belonging</strong></td><td>Religious service attendance is strongly associated with greater social ties, volunteering, trust, and perceived cooperativeness (Aksoy & Wiertz, 2024, using 100,000+ UK panel data).</td><td>The community benefit comes primarily from attendance (social participation), not from private belief alone. This suggests the social structure of religion — not theology per se — drives this benefit.</td></tr>
+      <tr><td><strong>Meaning & purpose</strong></td><td>Religion provides answers to existential questions (suffering, death, purpose) that no other institution addresses with comparable emotional power.</td><td>Secular sources of meaning (philosophy, art, relationships, activism) can also provide purpose — but religion delivers it in a pre-packaged, socially reinforced, ritually embedded form that is uniquely effective for many.</td></tr>
+      <tr><td><strong>Physical health & longevity</strong></td><td>Studies correlate religious attendance with lower mortality, better cardiovascular health, and healthier lifestyle choices. Religious communities discourage smoking, excessive alcohol, and risky behavior.</td><td>Difficult to separate religion's effect from the effects of social support, community, and healthy behavioral norms. It may be the structure and community, not the beliefs, that drive health outcomes.</td></tr>
+      <tr><td><strong>Cooperation at scale</strong></td><td>Anthropologist Ara Norenzayan argues in Big Gods that belief in moralistic, all-seeing gods was critical to scaling human cooperation beyond small kinship groups — enabling cities, empires, and civilizations.</td><td>Once large-scale secular institutions (courts, police, contracts) exist, the cooperative function of religion may be less necessary — which may partially explain secularization in developed nations.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Religion provides the most comprehensive and effective framework ever devised for answering the question 'Why does my suffering have meaning?' That this answer may not be literally true does not diminish its psychological power."<cite>— Research synthesis</cite></div>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 5: WHAT BELIEF COSTS -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="costs">
+<div class="container">
+  <div class="sec-num">Deel Zes</div>
+  <h2>Wat Geloof Ons <em>Kost</em></h2>
+  <p>The same force that builds community and provides meaning has also, throughout history, been weaponized for control, violence, and the suppression of inquiry. An honest accounting must include the costs.</p>
+
+  <h3>De gedocumenteerde kosten</h3>
+  <table class="data-table">
+    <thead><tr><th>Kosten</th><th>Bewijs</th><th>Nuance</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Religious violence</strong></td><td>The Crusades (1096–1291), the Inquisitions (1231–1834, ~67,000 trials in Spain alone), the European Wars of Religion (1524–1648), sectarian violence in Northern Ireland, the Middle East, South Asia, and more.</td><td>Of the 100 worst atrocities in history (Matthew White's study), only ~13–15% had primarily religious motivations. The bloodiest events (WWII, Mao, Stalin, Mongol conquests) were secular or ideological. Religion is neither the primary cause of violence nor irrelevant to it — it is one factor among many.</td></tr>
+      <tr><td><strong>Persecution of dissenters</strong></td><td>Heretics burned, apostates killed, freethinkers imprisoned. The Inquisition authorized torture in 1252 (Pope Innocent IV). Apostasy remains punishable by death in several countries today.</td><td>PNAS research (2021) on the Spanish Inquisition showed that municipalities with more Inquisitorial persecution still have lower incomes, lower trust, and lower educational attainment today — centuries later.</td></tr>
+      <tr><td><strong>Suppression of science & inquiry</strong></td><td>Galileo's trial (1633), resistance to evolution (ongoing), opposition to stem cell research, contraception, and certain medical treatments.</td><td>The relationship is complex. The same Church that convicted Galileo also produced Georges Lemaître (Big Bang theory), Gregor Mendel (genetics), and funded universities for centuries. Religion has both suppressed and fostered inquiry, depending on the era and institution.</td></tr>
+      <tr><td><strong>In-group/out-group division</strong></td><td>Religion creates powerful in-groups — but this inherently creates out-groups. Religious prosociality consistently favors co-religionists over outsiders. Sectarian identity fuels political conflict.</td><td>This is not unique to religion — nationalism, ethnicity, and ideology create identical dynamics. But religion adds a cosmic dimension ("God is on our side") that can make conflict feel absolute and non-negotiable.</td></tr>
+      <tr><td><strong>Control & manipulation</strong></td><td>Throughout history, religious authority has been used to justify monarchies ("divine right of kings"), slavery, patriarchy, and the suppression of dissent. Religious leaders have wielded enormous unaccountable power.</td><td>Again, not unique to religion — but the claim of divine authority makes religious power uniquely difficult to challenge. Questioning a political leader is dissent; questioning God's representative is blasphemy.</td></tr>
+      <tr><td><strong>Psychological harm</strong></td><td>Religious guilt, fear of hell, shame-based sexual morality, ostracism of doubters, cognitive dissonance, and "spiritual abuse" are documented sources of psychological suffering.</td><td>Research shows that when religion is practiced in a supportive community, it benefits mental health. When it involves judgment, exclusion, or guilt, it harms it. The same religion can heal or wound depending on how it's practiced.</td></tr>
+    </tbody>
+  </table>
+
+  <div class="pull">"Religion and violence are clearly compatible, but they are not identical. Violence is neither essential to nor exclusive to religion. Virtually every form of religious violence has its nonreligious corollary."<cite>— Anthropologist Jack David Eller</cite></div>
+</div>
+</section>
+
+<!-- ═══════════════════════════════════════ -->
+<!-- SECTION 6: THE HONEST ASSESSMENT -->
+<!-- ═══════════════════════════════════════ -->
+<section class="sec" id="honest">
+<div class="container">
+  <div class="sec-num">Deel Zeven</div>
+  <h2>De Harde <em>Waarheid</em></h2>
+  <p>After examining the evidence across archaeology, cognitive science, sociology, history, and psychology — here is what the facts actually tell us, without diplomatic padding:</p>
+
+  <div class="two-col">
+    <div class="col-card green">
+      <h4>Wat we weten</h4>
+      <ul>
+        <li>There is zero empirical evidence for any god, any miracle, any divine revelation, any afterlife, or any supernatural event described in any religion, ever.</li>
+        <li>Humans are cognitively wired to invent gods — our brains produce religious ideas the way our stomachs produce acid. It's biology, not truth.</li>
+        <li>Religion was, and is, one of the most effective tools of social control in human history.</li>
+        <li>Every question previously attributed to God that science has answered turned out to have a natural explanation. The track record is 100%.</li>
+        <li>Religion does provide measurable psychological benefits: community, meaning, comfort in the face of death.</li>
+        <li>Religion has also caused enormous harm: wars, persecution, suppression of knowledge, psychological damage, and the maintenance of oppressive power structures.</li>
+        <li>The historical figures (Jesus, Muhammad) existed, but their supernatural attributes are unverified stories added by followers.</li>
+      </ul>
+    </div>
+    <div class="col-card red">
+      <h4>Wat gelovigen claimen zonder bewijs</h4>
+      <ul>
+        <li>That a supernatural being created the universe and cares about human behavior.</li>
+        <li>That one specific book (out of thousands of holy books) contains the actual words of this being.</li>
+        <li>That miracles occurred — but only in the past, and only where no recording equipment existed.</li>
+        <li>That their religion happens to be the correct one — out of 4,000+ religions humans have invented.</li>
+        <li>That consciousness survives death — despite zero evidence from neuroscience, biology, or physics.</li>
+        <li>That the morality dictated by their tradition is objective and eternal — despite that morality changing dramatically even within their own tradition over time.</li>
+        <li>That the burden of proof somehow falls on non-believers rather than on those making extraordinary claims.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Waarom we werkelijk geloven</h3>
+  <p><strong>Angst.</strong> Angst voor de dood. Angst voor zinloosheid. Angst voor chaos. Angst voor het onbekende. Mensen zijn de enige dieren die weten dat ze zullen sterven — en we hebben 50.000 jaar besteed aan het verzinnen van verhalen om die wetenschap draaglijk te maken.</p>
+  <p><strong>Ignorance.</strong> Before science, we had no explanations for disease, weather, earthquakes, or the origin of life. Gods filled every gap. As knowledge grew, gods retreated to smaller and smaller gaps — from "God makes lightning" to "God started the Big Bang" to "God exists outside space and time" (which is functionally indistinguishable from not existing).</p>
+  <p><strong>Power.</strong> Those who claim to speak for God gain enormous unaccountable power. Pharaohs, popes, caliphs, kings, and modern televangelists all discovered the same truth: if you control access to the divine, you control people. Religion is the only authority structure where the source of authority is, by design, invisible and unverifiable.</p>
+  <p><strong>Community.</strong> This is the one genuinely positive driver. Humans need belonging. We need rituals, shared identity, and collective meaning. Religion provides this powerfully. But so do football clubs, political movements, and philosophical traditions — without requiring belief in the supernatural.</p>
+
+  <h3>De ongemakkelijke conclusie</h3>
+  <p>The three Abrahamic religions are built on stories. Powerful, ancient, culturally rich stories that have shaped civilizations. But they are stories — written by humans, in specific historical contexts, to address specific human needs: the fear of death, the need for community, the desire for meaning, and the ambition of rulers to control populations.</p>
+  <p><strong>Het feit dat een verhaal troostend is, maakt het niet waar. Het feit dat miljarden een verhaal geloven, maakt het niet waar. Het feit dat een verhaal duizenden jaren oud is, maakt het niet waar.</strong> Op een bepaald moment geloofden miljarden mensen dat de aarde plat was, dat de zon om de aarde draaide, en dat ziekte door boze geesten werd veroorzaakt. Ze hadden het bij allemaal mis.</p>
+  <p>Wat iets waar maakt, is bewijs. En over de centrale bovennatuurlijke claims van alle drie de abrahamitische religies — het bestaan van God, de realiteit van wonderen, de waarheid van goddelijke openbaring — <strong>blijft het bewijs, na duizenden jaren zoeken, precies nul.</strong></p>
+</div>
+</section>
+
+<!-- FOOTER -->
+<div class="footer">
+  <div class="line"></div>
+  <p>Voorbij Geloof — Een Kritisch Onderzoek</p>
+  <p style="margin-top:.3rem;">Bronnen omvatten peer-reviewed onderzoek uit cognitieve wetenschap, archeologie, geschiedenis en psychologie.</p>
+  <p style="margin-top:.5rem;font-size:.7rem;opacity:.6;">Dit onderzoek volgt het bewijs. Waar bewijs is, zegt het dat. Waar geen bewijs is, zegt het dat ook.</p>
+</div>
+
+<script>
+document.querySelectorAll('.acc-h').forEach(h=>h.addEventListener('click',()=>{const item=h.parentElement,body=item.querySelector('.acc-body'),open=item.classList.contains('open');document.querySelectorAll('.acc-item').forEach(i=>{i.classList.remove('open');i.querySelector('.acc-body').style.maxHeight=null});if(!open){item.classList.add('open');body.style.maxHeight=body.scrollHeight+'px'}}));
+const secs=document.querySelectorAll('.sec[id]'),navLinks=document.querySelectorAll('.nav a');
+window.addEventListener('scroll',()=>{let c='';secs.forEach(s=>{if(scrollY>=s.offsetTop-130)c=s.id});navLinks.forEach(a=>{a.classList.toggle('on',a.getAttribute('href')==='#'+c)})});
+</script>
+</body>
+</html>

@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Abrahamic Faiths — Belief Factors Overview</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=DM+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f0f0f;
+  --bg2: #161616;
+  --bg3: #1c1c1c;
+  --bg4: #232323;
+  --text: #e8e0d0;
+  --text-dim: #9a9080;
+  --text-bright: #fff5e6;
+  --gold: #c9a84c;
+  --gold-dim: rgba(201,168,76,0.15);
+  --gold-glow: rgba(201,168,76,0.06);
+  --chr: #c0392b;
+  --chr-dim: rgba(192,57,43,0.12);
+  --isl: #27ae60;
+  --isl-dim: rgba(39,174,96,0.12);
+  --jud: #2980b9;
+  --jud-dim: rgba(41,128,185,0.12);
+  --border: rgba(201,168,76,0.12);
+  --radius: 6px;
+}
+*{margin:0;padding:0;box-sizing:border-box;}
+html{scroll-behavior:smooth;scrollbar-color:var(--gold-dim) var(--bg);}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--text);line-height:1.75;font-size:15px;overflow-x:hidden;}
+body::after{content:'';position:fixed;inset:0;background:url("data:image/svg+xml,%3Csvg width='200' height='200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.7' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23n)' opacity='.015'/%3E%3C/svg%3E");pointer-events:none;z-index:9999;}
+::selection{background:var(--gold);color:var(--bg);}
+h1,h2,h3,h4{font-family:'Playfair Display',serif;line-height:1.2;color:var(--text-bright);}
+a{color:var(--gold);text-decoration:none;}
+
+/* ─── HERO ─── */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:2rem;position:relative;background:radial-gradient(ellipse at 50% 40%,rgba(201,168,76,0.06) 0%,transparent 60%);}
+.hero::before{content:'';position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);}
+.hero-symbols{font-size:3rem;letter-spacing:2.5rem;opacity:0.08;margin-bottom:2rem;animation:fadeIn 2s ease-out;}
+.hero h1{font-size:clamp(2.2rem,5.5vw,4.5rem);font-weight:800;letter-spacing:-.02em;animation:fadeUp 1s ease-out;}
+.hero h1 em{color:var(--gold);font-style:italic;font-weight:600;}
+.hero .sub{font-family:'Libre Baskerville',serif;font-size:clamp(1rem,2vw,1.3rem);color:var(--text-dim);margin-top:.8rem;font-style:italic;animation:fadeUp 1.3s ease-out;}
+.hero .scroll{position:absolute;bottom:2.5rem;font-size:.75rem;letter-spacing:.2em;text-transform:uppercase;color:var(--gold);animation:pulse 2.5s ease-in-out infinite;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(25px)}to{opacity:1;transform:translateY(0)}}
+@keyframes fadeIn{from{opacity:0}to{opacity:0.08}}
+@keyframes pulse{0%,100%{opacity:.3}50%{opacity:1}}
+
+/* ─── NAV ─── */
+.nav{position:sticky;top:0;z-index:100;background:rgba(15,15,15,0.92);backdrop-filter:blur(16px);border-bottom:1px solid var(--border);padding:.4rem 0;display:flex;justify-content:center;flex-wrap:wrap;gap:0;}
+.nav a{font-size:.8rem;font-weight:500;color:var(--text-dim);padding:.45rem .85rem;border-radius:3px;transition:all .25s;white-space:nowrap;letter-spacing:.02em;}
+.nav a:hover,.nav a.active{color:var(--gold);background:var(--gold-dim);}
+
+/* ─── CONTENT ─── */
+.content{max-width:1280px;margin:0 auto;padding:1.5rem;}
+
+/* ─── SECTION HEADERS ─── */
+.sec-head{text-align:center;margin:5rem 0 2.5rem;position:relative;}
+.sec-head h2{font-size:clamp(1.6rem,3.5vw,2.6rem);font-weight:700;}
+.sec-head h2 em{color:var(--gold);font-style:normal;}
+.sec-head .num{display:inline-block;font-family:'DM Sans',sans-serif;font-size:.7rem;font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--gold);background:var(--gold-dim);padding:.25rem .8rem;border-radius:20px;margin-bottom:.8rem;}
+.sec-head::after{content:'';display:block;width:60px;height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:1rem auto 0;}
+.sec-intro{max-width:750px;margin:0 auto 2.5rem;text-align:center;font-family:'Libre Baskerville',serif;font-style:italic;color:var(--text-dim);font-size:.95rem;line-height:1.9;}
+
+/* ─── COMPARISON TABLE ─── */
+.comp-wrap{overflow-x:auto;margin-bottom:3rem;border-radius:var(--radius);border:1px solid var(--border);}
+.comp{width:100%;border-collapse:collapse;font-size:.88rem;}
+.comp thead th{font-family:'Playfair Display',serif;font-size:.95rem;font-weight:700;padding:.9rem 1rem;text-align:left;border-bottom:2px solid var(--gold);background:var(--bg3);}
+.comp thead th:first-child{color:var(--gold);width:15%;}
+.comp thead th:nth-child(2){color:var(--chr);}
+.comp thead th:nth-child(3){color:var(--isl);}
+.comp thead th:nth-child(4){color:var(--jud);}
+.comp tbody td{padding:.8rem 1rem;border-bottom:1px solid rgba(255,255,255,0.04);vertical-align:top;color:var(--text-dim);line-height:1.65;}
+.comp tbody td:first-child{font-weight:600;color:var(--text);font-family:'Playfair Display',serif;font-size:.92rem;background:var(--gold-glow);}
+.comp tbody tr:hover td{background:rgba(255,255,255,0.015);}
+
+/* ─── MYTH TABLE ─── */
+.myth-wrap{overflow-x:auto;margin-bottom:2.5rem;border-radius:var(--radius);border:1px solid var(--border);}
+.myth-t{width:100%;border-collapse:collapse;font-size:.88rem;}
+.myth-t thead th{font-family:'Playfair Display',serif;font-size:.95rem;padding:.9rem 1rem;text-align:left;border-bottom:2px solid var(--gold);background:var(--bg3);}
+.myth-t thead th:nth-child(1){color:var(--gold);width:13%;}
+.myth-t thead th:nth-child(2){color:var(--chr);}
+.myth-t thead th:nth-child(3){color:var(--isl);}
+.myth-t tbody td{padding:.8rem 1rem;border-bottom:1px solid rgba(255,255,255,0.04);vertical-align:top;line-height:1.65;}
+.myth-t tbody td:first-child{font-weight:600;color:var(--text);font-family:'Playfair Display',serif;}
+.myth-t tbody td:nth-child(2){color:#d4756b;background:rgba(192,57,43,0.03);}
+.myth-t tbody td:nth-child(3){color:#6ec99a;background:rgba(39,174,96,0.03);}
+.tag{display:inline-block;font-family:'DM Sans',sans-serif;font-size:.6rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;padding:.15rem .5rem;border-radius:3px;margin-bottom:.3rem;}
+.tag-m{background:rgba(192,57,43,0.15);color:var(--chr);}
+.tag-f{background:rgba(39,174,96,0.15);color:var(--isl);}
+
+/* ─── THREE-COLUMN CARDS ─── */
+.tri{display:grid;grid-template-columns:repeat(3,1fr);gap:1.2rem;margin-bottom:3rem;}
+.tri-card{background:var(--bg3);border:1px solid var(--border);border-top:3px solid;padding:1.6rem 1.3rem;border-radius:var(--radius);transition:transform .3s,box-shadow .3s;}
+.tri-card:hover{transform:translateY(-4px);box-shadow:0 12px 40px rgba(0,0,0,0.4);}
+.tri-card.c{border-top-color:var(--chr);}
+.tri-card.i{border-top-color:var(--isl);}
+.tri-card.j{border-top-color:var(--jud);}
+.tri-card .icon{font-size:1.8rem;margin-bottom:.4rem;}
+.tri-card h3{font-size:1.2rem;margin-bottom:.7rem;}
+.tri-card.c h3{color:var(--chr);}
+.tri-card.i h3{color:var(--isl);}
+.tri-card.j h3{color:var(--jud);}
+.tri-card p,.tri-card li{font-size:.88rem;color:var(--text-dim);margin-bottom:.4rem;}
+.tri-card .lbl{display:block;font-weight:600;color:var(--text);font-size:.75rem;text-transform:uppercase;letter-spacing:.08em;margin-top:.8rem;margin-bottom:.15rem;}
+
+/* ─── PROPHET GRID ─── */
+.prophet-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:1rem;margin-bottom:3rem;}
+.prophet-card{background:var(--bg3);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem;text-align:center;transition:transform .3s;}
+.prophet-card:hover{transform:translateY(-3px);}
+.prophet-card .p-icon{font-size:2rem;margin-bottom:.3rem;}
+.prophet-card h4{font-family:'Playfair Display',serif;font-size:1rem;color:var(--gold);margin-bottom:.3rem;}
+.prophet-card .badges{font-size:.65rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.4rem;}
+.prophet-card .badges span{display:inline-block;padding:.1rem .35rem;border-radius:2px;margin:0 .1rem;}
+.prophet-card .badges .bc{background:var(--chr-dim);color:var(--chr);}
+.prophet-card .badges .bi{background:var(--isl-dim);color:var(--isl);}
+.prophet-card .badges .bj{background:var(--jud-dim);color:var(--jud);}
+.prophet-card p{font-size:.8rem;color:var(--text-dim);}
+
+/* ─── TIMELINE ─── */
+.tl{position:relative;padding:2rem 0;margin-bottom:3rem;}
+.tl::before{content:'';position:absolute;left:50%;top:0;bottom:0;width:1px;background:linear-gradient(180deg,transparent,var(--gold),var(--gold),transparent);}
+.tl-item{display:flex;margin-bottom:1.8rem;position:relative;}
+.tl-item:nth-child(odd){padding-right:calc(50% + 1.8rem);text-align:right;}
+.tl-item:nth-child(even){padding-left:calc(50% + 1.8rem);flex-direction:row-reverse;}
+.tl-dot{position:absolute;left:50%;transform:translateX(-50%);width:10px;height:10px;border-radius:50%;border:2px solid var(--gold);background:var(--bg);z-index:2;}
+.tl-box{background:var(--bg3);padding:1rem 1.3rem;border-radius:var(--radius);border:1px solid var(--border);}
+.tl-date{font-family:'Playfair Display',serif;font-weight:700;color:var(--gold);font-size:1rem;}
+.tl-box h4{font-size:1rem;margin:.2rem 0 .3rem;}
+.tl-box p{font-size:.85rem;color:var(--text-dim);}
+
+/* ─── DEMO BARS ─── */
+.demo-bars{max-width:650px;margin:0 auto 3rem;}
+.demo-row{margin-bottom:1.3rem;}
+.demo-label{display:flex;justify-content:space-between;margin-bottom:.3rem;font-weight:600;font-size:.9rem;}
+.demo-label span:last-child{font-family:'Playfair Display',serif;font-size:1rem;color:var(--gold);}
+.demo-track{height:22px;background:var(--bg4);border-radius:3px;overflow:hidden;}
+.demo-fill{height:100%;border-radius:3px;transition:width 1.8s ease-out;width:0;}
+.demo-fill.c{background:linear-gradient(90deg,var(--chr),#e74c3c);}
+.demo-fill.i{background:linear-gradient(90deg,var(--isl),#2ecc71);}
+.demo-fill.j{background:linear-gradient(90deg,var(--jud),#3498db);}
+
+/* ─── ACCORDION ─── */
+.acc{margin-bottom:3rem;}
+.acc-item{border:1px solid var(--border);margin-bottom:.4rem;border-radius:var(--radius);overflow:hidden;background:var(--bg3);}
+.acc-h{padding:.9rem 1.3rem;cursor:pointer;display:flex;justify-content:space-between;align-items:center;font-family:'Playfair Display',serif;font-size:1rem;font-weight:600;transition:background .2s;}
+.acc-h:hover{background:var(--gold-glow);}
+.acc-arr{transition:transform .3s;color:var(--gold);font-size:1rem;}
+.acc-item.open .acc-arr{transform:rotate(180deg);}
+.acc-body{max-height:0;overflow:hidden;transition:max-height .4s ease;}
+.acc-inner{padding:0 1.3rem 1rem;font-size:.9rem;color:var(--text-dim);line-height:1.8;}
+
+/* ─── TAB SYSTEM ─── */
+.tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:1.5rem;flex-wrap:wrap;gap:.2rem;}
+.tab-btn{font-family:'DM Sans',sans-serif;font-size:.85rem;font-weight:600;padding:.6rem 1.2rem;border:none;background:none;color:var(--text-dim);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-1px;transition:all .25s;}
+.tab-btn:hover{color:var(--gold);}
+.tab-btn.on{color:var(--gold);border-bottom-color:var(--gold);}
+.tab-p{display:none;}
+.tab-p.on{display:block;}
+
+/* ─── CONCLUSION BOX ─── */
+.conclusion-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:1rem;margin-bottom:3rem;}
+.concl-card{background:var(--bg3);border:1px solid var(--border);border-left:3px solid var(--gold);padding:1.3rem 1.5rem;border-radius:var(--radius);}
+.concl-card h4{font-size:1rem;color:var(--gold);margin-bottom:.4rem;}
+.concl-card p{font-size:.88rem;color:var(--text-dim);}
+
+/* ─── FOOTER ─── */
+.footer{text-align:center;padding:3rem 1rem;border-top:1px solid var(--border);margin-top:4rem;color:var(--text-dim);font-size:.8rem;}
+.footer .orn{font-size:1.3rem;color:var(--gold);letter-spacing:1rem;margin-bottom:.5rem;opacity:.5;}
+
+/* ─── REVEAL ─── */
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s ease,transform .7s ease;}
+.reveal.vis{opacity:1;transform:translateY(0);}
+
+/* ─── RESPONSIVE ─── */
+@media(max-width:900px){
+  .tri{grid-template-columns:1fr;}
+  .tl-item:nth-child(odd),.tl-item:nth-child(even){padding:0 0 0 2rem;text-align:left;flex-direction:row;}
+  .tl::before{left:.4rem;}
+  .tl-dot{left:.4rem;}
+  .comp,.myth-t{font-size:.78rem;}
+  .comp thead th,.myth-t thead th,.comp tbody td,.myth-t tbody td{padding:.6rem .5rem;}
+  .conclusion-grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+<body>
+
+<!-- ════════════ HERO ════════════ -->
+<section class="hero">
+  <div class="hero-symbols">✝ ☽ ✡</div>
+  <h1>The <em>Abrahamic</em> Faiths</h1>
+  <p class="sub">A Complete Breakdown of Every Belief Factor — Verified & Fact-Checked</p>
+  <div class="scroll">↓ Explore the Overview ↓</div>
+</section>
+
+<!-- ════════════ NAV ════════════ -->
+<nav class="nav" id="nav">
+  <a href="#god">God</a>
+  <a href="#scripture">Scripture</a>
+  <a href="#prophets">Prophets</a>
+  <a href="#jesus">The Jesus Question</a>
+  <a href="#sin">Sin & Nature</a>
+  <a href="#salvation">Salvation</a>
+  <a href="#practices">Practices</a>
+  <a href="#denom">Denominations</a>
+  <a href="#women">Women & Law</a>
+  <a href="#history">History</a>
+  <a href="#demographics">Demographics</a>
+  <a href="#myths">Myths vs Facts</a>
+</nav>
+
+<div class="content">
+
+<!-- ════════════ 1. GOD ════════════ -->
+<section id="god">
+  <div class="sec-head reveal"><span class="num">01</span><h2>The Nature of <em>God</em></h2></div>
+  <p class="sec-intro reveal">All three faiths affirm one God — yet their understanding of God's nature represents the single most significant theological divergence among the traditions.</p>
+
+  <div class="tri reveal">
+    <div class="tri-card c">
+      <div class="icon">✝</div>
+      <h3>Christianity — The Trinity</h3>
+      <p>One God existing in three co-equal, co-eternal persons: Father, Son (Jesus), and Holy Spirit. Emphatically not polytheism — one divine essence (ousia) shared by three persons (hypostases).</p>
+      <span class="lbl">Formalized</span>
+      <p>Council of Nicaea (325 CE) affirmed Christ's divinity. Full Trinitarian formula completed at Constantinople (381 CE) under the Cappadocian Fathers.</p>
+      <span class="lbl">Key Scripture</span>
+      <p>Matthew 28:19 — "Baptizing them in the name of the Father, and of the Son, and of the Holy Spirit."</p>
+    </div>
+    <div class="tri-card i">
+      <div class="icon">☽</div>
+      <h3>Islam — Tawhid</h3>
+      <p>Absolute, uncompromising oneness of God (Allah). Indivisible, without partner, without son, utterly transcendent. The 99 Names describe facets of one indivisible divine reality.</p>
+      <span class="lbl">Gravest Sin</span>
+      <p>Shirk — associating partners with God. The only sin Allah may not forgive if one dies unrepentant (Quran 4:48).</p>
+      <span class="lbl">Key Scripture</span>
+      <p>Surah 112: "He is Allah, the One. Allah, the Absolute. He neither begets nor was He begotten."</p>
+    </div>
+    <div class="tri-card j">
+      <div class="icon">✡</div>
+      <h3>Judaism — YHWH is One</h3>
+      <p>Absolute oneness expressed in the Shema: "Hear O Israel, the Lord our God, the Lord is One" (Deuteronomy 6:4). God is incorporeal, indivisible, without physical form.</p>
+      <span class="lbl">Relationship</span>
+      <p>Covenantal partnership — God chose Israel; Israel accepted the commandments. Focus on communal responsibility and ethical conduct.</p>
+      <span class="lbl">Gravest Sin</span>
+      <p>Avodah zarah — idolatry, worship of anything other than God.</p>
+    </div>
+  </div>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Factor</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Core Doctrine</td><td>Trinity: One God, three persons</td><td>Tawhid: One God, absolutely indivisible, 99 Names</td><td>Strict monotheism: YHWH is One, incorporeal</td></tr>
+        <tr><td>God's Accessibility</td><td>Personal, intimate; God as loving Father; Jesus as mediator</td><td>Direct submission; no intermediary; Five Pillars and dhikr (remembrance)</td><td>Covenantal partnership; maintained through study, prayer, and mitzvot</td></tr>
+        <tr><td>God's Nature</td><td>Love (1 John 4:8). Also just, holy, omnipotent</td><td>99 attributes — merciful, just, wise, powerful, forgiving. Utterly transcendent</td><td>Both immanent and transcendent. Compassionate, just, faithful to covenant</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 2. SCRIPTURE ════════════ -->
+<section id="scripture">
+  <div class="sec-head reveal"><span class="num">02</span><h2>Sacred <em>Scriptures</em></h2></div>
+  <p class="sec-intro reveal">Each tradition preserves divine revelation in authoritative texts — but the nature and degree of divine inspiration vary significantly.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Factor</th><th>✝ The Bible</th><th>☽ The Quran</th><th>✡ Tanakh & Talmud</th></tr></thead>
+      <tbody>
+        <tr><td>Structure</td><td>Old Testament + New Testament (66–73 books)</td><td>114 surahs, ~6,236 verses. Supplemented by Hadith</td><td>Tanakh (Torah, Prophets, Writings) + Talmud (Mishnah + Gemara)</td></tr>
+        <tr><td>Inspiration</td><td>Inspired by God through human authors. Views range from inerrancy to contextual</td><td>Literal word of God dictated via Angel Gabriel over 23 years. Unchanged since compilation</td><td>Torah: direct revelation to Moses. Talmud: centuries of rabbinic scholarship</td></tr>
+        <tr><td>Language</td><td>Hebrew/Aramaic (OT), Greek (NT)</td><td>Arabic only. Translations are "interpretations"</td><td>Hebrew (Torah), Aramaic (parts of Talmud)</td></tr>
+        <tr><td>Supplementary</td><td>Church Fathers, creeds, catechisms, papal encyclicals</td><td>Hadith, Sunnah, Fiqh (jurisprudence)</td><td>Midrash, Responsa, Zohar (Kabbalah), Rashi, Maimonides</td></tr>
+        <tr><td>Commandments</td><td>Ten Commandments; "Love God, love neighbor" as summation</td><td>Five Pillars + Sharia (comprehensive legal framework)</td><td>613 mitzvot from the Torah — backbone of Jewish life</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 3. PROPHETS ════════════ -->
+<section id="prophets">
+  <div class="sec-head reveal"><span class="num">03</span><h2>Shared <em>Prophets</em> & Figures</h2></div>
+  <p class="sec-intro reveal">A remarkable roster of prophets appears across all three traditions — with different names, roles, and theological significance.</p>
+
+  <div class="prophet-grid reveal">
+    <div class="prophet-card"><div class="p-icon">🕊️</div><h4>Abraham / Ibrahim</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Father of all three faiths. Judaism: through Isaac. Islam: through Ishmael.</p></div>
+    <div class="prophet-card"><div class="p-icon">🌊</div><h4>Moses / Musa</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Received God's law. Central to Judaism; major prophet in Islam and Christianity.</p></div>
+    <div class="prophet-card"><div class="p-icon">🐋</div><h4>Noah / Nuh</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Survivor of the Great Flood. All three teach divine judgment and renewal.</p></div>
+    <div class="prophet-card"><div class="p-icon">👑</div><h4>David / Dawud</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>King, psalmist. Author of Psalms (Zabur). Ancestor of the Messiah.</p></div>
+    <div class="prophet-card"><div class="p-icon">🏛️</div><h4>Solomon / Sulaiman</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Wisdom, First Temple. In Islam, given power over nature and jinn.</p></div>
+    <div class="prophet-card"><div class="p-icon">🌟</div><h4>Jesus / Isa</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span></div><p>Divine Son of God (C). Revered prophet (I). Not Messiah (J).</p></div>
+    <div class="prophet-card"><div class="p-icon">📿</div><h4>Elijah / Ilyas</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Challenged idolatry. Tradition holds he was taken to heaven alive.</p></div>
+    <div class="prophet-card"><div class="p-icon">🐑</div><h4>Joseph / Yusuf</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span><span class="bj">J</span></div><p>Betrayal, imprisonment, rise to power. Surah Yusuf: Quran's longest narrative.</p></div>
+    <div class="prophet-card"><div class="p-icon">🕊️</div><h4>Mary / Maryam</h4><div class="badges"><span class="bc">C</span><span class="bi">I</span></div><p>Mother of Jesus. Entire Quran chapter (Surah Maryam) honors her.</p></div>
+  </div>
+</section>
+
+<!-- ════════════ 4. JESUS QUESTION ════════════ -->
+<section id="jesus">
+  <div class="sec-head reveal"><span class="num">04</span><h2>The <em>Jesus</em> Question</h2></div>
+  <p class="sec-intro reveal">No figure generates greater theological divergence. This single question defines the boundary between the three faiths.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Factor</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Identity</td><td>Son of God; second person of the Trinity; fully divine and fully human</td><td>A prophet born of the Virgin Mary; the Messiah (al-Masih); NOT divine</td><td>A Jewish historical figure; not the Messiah</td></tr>
+        <tr><td>Death</td><td>Crucified under Pontius Pilate; died for humanity's sins; resurrected on the third day</td><td>NOT crucified (Quran 4:157: "it was made to appear so"); raised alive to heaven</td><td>No specific position; a Roman-era figure who was executed</td></tr>
+        <tr><td>Second Coming</td><td>Will return to judge the living and the dead</td><td>Will return before Judgment Day; defeat the Dajjal (false messiah)</td><td>Not expected. The Messiah is a different future figure entirely</td></tr>
+        <tr><td>Theological Role</td><td>Cornerstone of salvation. Without Christ, no salvation (most denominations)</td><td>Great prophet who confirmed Torah and brought the Gospel (Injeel); message later corrupted</td><td>No theological role in Judaism</td></tr>
+        <tr><td>Title</td><td>Christ (Christos = "Anointed One"), Lord, Son of God, Lamb of God</td><td>Isa ibn Maryam, al-Masih, Kalimatullah ("Word of God"), Ruhullah ("Spirit of God")</td><td>Yeshu or Yeshua (historical name only)</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 5. SIN & NATURE ════════════ -->
+<section id="sin">
+  <div class="sec-head reveal"><span class="num">05</span><h2>Human Nature, <em>Sin</em> & Free Will</h2></div>
+  <p class="sec-intro reveal">Are humans born sinful, pure, or morally neutral? This question shapes everything from salvation theology to daily practice.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Factor</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Original Sin</td><td>Yes. Inherited fallen nature from Adam & Eve. All born with original sin</td><td>No. Adam repented and was forgiven. Every person born in pure state (fitrah)</td><td>No. "Evil inclination" (yetzer hara) exists but can be overcome through free will and Torah</td></tr>
+        <tr><td>Human Nature</td><td>Fallen but redeemable through grace</td><td>Born pure with innate recognition of God. Sin from forgetfulness and temptation</td><td>Created with both good (yetzer hatov) and evil (yetzer hara) inclinations</td></tr>
+        <tr><td>Free Will</td><td>Debated: Catholics affirm cooperation of grace and free will; Calvinists lean toward predestination</td><td>Complex balance: God has absolute knowledge (qadr), yet humans have moral freedom</td><td>Strongly affirmed: "Everything is foreseen, yet freedom of choice is given" (Pirkei Avot 3:15)</td></tr>
+        <tr><td>Accountability</td><td>Through grace, faith, and (in some traditions) works and sacraments</td><td>Each person accountable only for their own deeds. "No bearer of burdens shall bear another's burden" (Quran 6:164)</td><td>Individual moral responsibility. Sins against people require making amends with that person first</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 6. SALVATION ════════════ -->
+<section id="salvation">
+  <div class="sec-head reveal"><span class="num">06</span><h2>Salvation, <em>Afterlife</em> & Judgment</h2></div>
+  <p class="sec-intro reveal">How is a person "saved"? What happens after death? The answers diverge sharply.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Factor</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Salvation Path</td><td>Faith in Jesus Christ + God's grace. Catholics: faith + works + sacraments. Protestants: faith alone (sola fide)</td><td>Submission to God, faith, righteous deeds. Five Pillars as framework. God's mercy and justice on Judgment Day</td><td>Focus on righteous living (olam hazeh). Commandments, good deeds, justice. Less focused on "salvation" per se</td></tr>
+        <tr><td>Heaven</td><td>Eternal communion with God. The redeemed enjoy God's presence forever</td><td>Jannah (Paradise) — gardens of bliss, rivers, companionship, nearness to God</td><td>Olam Ha-Ba (World to Come) — affirmed but not elaborately described</td></tr>
+        <tr><td>Hell</td><td>Eternal separation from God. Catholics add Purgatory (temporary purification)</td><td>Jahannam (Hellfire). Some scholars: may not be eternal for all Muslim sinners</td><td>Gehinnom: temporary purification (up to 12 months), NOT eternal damnation</td></tr>
+        <tr><td>Judgment</td><td>Particular judgment at death + Final Judgment at Christ's return. Bodily resurrection</td><td>Yawm al-Qiyamah: every soul resurrected and judged. Deeds weighed on scales (mizan)</td><td>Annual: Rosh Hashanah/Yom Kippur. Messianic age anticipated but not elaborated</td></tr>
+        <tr><td>Repentance</td><td>Confession essential. Catholics: Sacrament of Reconciliation. God's mercy is boundless</td><td>Tawbah: direct to God, no intermediary. Sincere repentance erases sins. God is al-Ghafur</td><td>Teshuvah ("return"). Sins against people require amends with that person first</td></tr>
+        <tr><td>Unforgivable Sin</td><td>Blasphemy against the Holy Spirit (Mark 3:29) — debated</td><td>Shirk if one dies unrepentant (Quran 4:48). All else subject to mercy</td><td>No formal concept. Repentance is always possible</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 7. PRACTICES ════════════ -->
+<section id="practices">
+  <div class="sec-head reveal"><span class="num">07</span><h2>Core <em>Practices</em> & Rituals</h2></div>
+  <p class="sec-intro reveal">From daily prayers to dietary laws — each faith structures the lives of its followers through distinct yet sometimes surprisingly similar practices.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Practice</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Prayer</td><td>No fixed number. Sunday worship central. Catholics: Liturgy of the Hours (7x daily)</td><td>Five obligatory daily prayers (salat), facing Mecca. Friday Jumu'ah congregational</td><td>Three daily services (Shacharit, Mincha, Maariv). Shabbat is weekly highlight</td></tr>
+        <tr><td>Fasting</td><td>Lent (40 days, Catholic). Orthodox: extensive seasons. Protestants: less structured</td><td>Ramadan: full lunar month, dawn-to-sunset. Also recommended Monday/Thursday fasts</td><td>Yom Kippur (25-hour, most solemn), Tisha B'Av, four minor fasts</td></tr>
+        <tr><td>Pilgrimage</td><td>Not obligatory. Holy sites: Jerusalem, Rome, Santiago, Lourdes</td><td>Hajj to Mecca: obligatory once (Fifth Pillar). Umrah voluntary anytime</td><td>Historically: Temple 3x yearly. Today: Western Wall is holiest accessible site</td></tr>
+        <tr><td>Charity</td><td>Tithing (10%) encouraged. Catholic: "preferential option for the poor"</td><td>Zakat: obligatory 2.5% on wealth (Third Pillar). Sadaqah (voluntary) encouraged</td><td>Tzedakah ("justice"): religious obligation, ~10%. Maimonides' 8 levels of giving</td></tr>
+        <tr><td>Dietary Laws</td><td>Few. Catholics: no meat on Lenten Fridays. Most Protestants: none</td><td>Halal: no pork, no alcohol, ritual slaughter (dhabihah). All intoxicants forbidden</td><td>Kashrut (kosher): no pork/shellfish, no meat + dairy, ritual slaughter (shechita). Extremely detailed</td></tr>
+        <tr><td>Day of Rest</td><td>Sunday (resurrection). Seventh-Day Adventists: Saturday</td><td>Friday (Jumu'ah) — congregational prayer, NOT a full rest day</td><td>Shabbat: Friday sunset to Saturday night. Strict rest from 39 work categories</td></tr>
+        <tr><td>Initiation</td><td>Baptism (water) — infancy or upon profession of faith</td><td>Shahada: "There is no god but Allah, and Muhammad is His messenger"</td><td>Brit milah (circumcision, day 8). Bar/Bat Mitzvah at 13/12</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 8. DENOMINATIONS ════════════ -->
+<section id="denom">
+  <div class="sec-head reveal"><span class="num">08</span><h2><em>Denominations</em> & Diversity</h2></div>
+  <p class="sec-intro reveal">None of these faiths is monolithic. Each has fractured into diverse branches — through theology, politics, or both.</p>
+
+  <div class="tri reveal">
+    <div class="tri-card c">
+      <div class="icon">⛪</div>
+      <h3>Christianity</h3>
+      <span class="lbl">Roman Catholicism (~1.3B)</span><p>Papal authority, sacraments, Marian devotion. Largest single denomination.</p>
+      <span class="lbl">Protestantism (~900M)</span><p>Born from 16th-century Reformation. Lutherans, Baptists, Methodists, Pentecostals, and hundreds more.</p>
+      <span class="lbl">Eastern Orthodoxy (~220M)</span><p>Autocephalous churches (Greek, Russian, Serbian). Rich liturgical tradition, icons.</p>
+      <span class="lbl">Oriental Orthodoxy (~60M)</span><p>Coptic, Ethiopian, Armenian, Syriac. Split after Council of Chalcedon (451 CE).</p>
+    </div>
+    <div class="tri-card i">
+      <div class="icon">🕌</div>
+      <h3>Islam</h3>
+      <span class="lbl">Sunni (~85–90%)</span><p>Follows Quran, Hadith, community consensus. Four legal schools: Hanafi, Maliki, Shafi'i, Hanbali.</p>
+      <span class="lbl">Shia (~10–13%)</span><p>Leadership through Ali's line. Subdivisions: Twelvers (Iran/Iraq), Ismailis, Zaidis.</p>
+      <span class="lbl">Sufism</span><p>Mystical dimension (Sunni or Shia). Inner purification, love of God, dhikr, poetry.</p>
+      <span class="lbl">Ibadi (~0.5%)</span><p>Neither Sunni nor Shia. Predominant in Oman. Known for moderate theology.</p>
+    </div>
+    <div class="tri-card j">
+      <div class="icon">🕍</div>
+      <h3>Judaism</h3>
+      <span class="lbl">Orthodox</span><p>Strict halakha. Modern Orthodox (engaged with world) and Haredi/Ultra-Orthodox (more insular).</p>
+      <span class="lbl">Reform / Liberal</span><p>Ethics over ritual law. Ordains women and LGBTQ+ rabbis. Largest US movement.</p>
+      <span class="lbl">Conservative / Masorti</span><p>Middle ground: respects halakha but allows historical evolution. Strong in North America.</p>
+      <span class="lbl">Reconstructionist & Renewal</span><p>Smaller. Judaism as evolving civilization. Integrates mysticism and meditation.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ 9. WOMEN & LAW ════════════ -->
+<section id="women">
+  <div class="sec-head reveal"><span class="num">09</span><h2>Women & <em>Social Law</em></h2></div>
+  <p class="sec-intro reveal">One of the most debated and evolving areas — with enormous variation across denominations and cultures.</p>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Aspect</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Leadership</td><td>Catholics/Orthodox: no female clergy. Many Protestant denominations ordain women</td><td>Mainstream: women don't lead mixed-gender prayers. Female scholars (alimat) always existed. Reform emerging</td><td>Reform, Conservative, Reconstructionist ordain women. Orthodox does not</td></tr>
+        <tr><td>Marriage</td><td>Monogamy. Sacrament (Catholic) or covenant (Protestant). Divorce views range widely</td><td>Contract (nikah). Polygamy (up to 4) under strict conditions; rare and banned in some countries. Divorce permitted</td><td>Monogamy since Rabbeinu Gershom (~1000 CE). Contract (ketubah). Divorce (get) permitted</td></tr>
+        <tr><td>Modesty</td><td>Historically required head coverings. Most modern denominations relaxed</td><td>Hijab widely practiced; interpretations from headscarf to niqab. Modesty applies to men too. Enormous cultural variation</td><td>Orthodox: tzniut — covering elbows, knees, collarbone. Married women cover hair. Reform/Conservative: not required</td></tr>
+        <tr><td>Inheritance</td><td>No specific religious laws in modern practice</td><td>Detailed Quranic law: daughters receive half sons' share; wives/mothers guaranteed fixed shares. Revolutionary for 7th-century Arabia</td><td>Biblical law favored sons; rabbinic law developed mechanisms for daughters</td></tr>
+        <tr><td>Key Female Figure</td><td>Virgin Mary — venerated by Catholics/Orthodox; respected by Protestants</td><td>Khadijah — Muhammad's first wife, successful businesswoman and his employer. First convert to Islam</td><td>Sarah, Miriam, Deborah, Esther — matriarchs and leaders throughout the Tanakh</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 10. HISTORY ════════════ -->
+<section id="history">
+  <div class="sec-head reveal"><span class="num">10</span><h2>Historical <em>Relations</em></h2></div>
+  <p class="sec-intro reveal">Centuries of coexistence, conflict, alliance, and mutual influence — the three faiths have shaped each other profoundly.</p>
+
+  <div class="tl reveal">
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">c. 2000 BCE</div><h4>Abraham's Covenant</h4><p>God establishes a covenant with Abraham — the shared root of all three faiths.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">c. 1300 BCE</div><h4>Moses & the Torah</h4><p>Torah received at Sinai — foundational law of Judaism. The Exodus becomes the defining narrative.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">c. 4 BCE – 30 CE</div><h4>Jesus of Nazareth</h4><p>Ministry, crucifixion, and (per Christian belief) resurrection give rise to Christianity.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">610 CE</div><h4>Revelation to Muhammad</h4><p>First Quranic revelation in the cave of Hira — the beginning of Islam.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">711–1492 CE</div><h4>Al-Andalus — Golden Age</h4><p>Muslim-ruled Spain: high point of interfaith intellectual exchange. Maimonides flourished under Muslim rule.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">1096–1291 CE</div><h4>The Crusades</h4><p>Two centuries of religious warfare. Entrenched mutual hostility; Jewish communities suffered pogroms along Crusader routes.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">1939–1945</div><h4>The Holocaust</h4><p>Six million Jews murdered. Centuries of Christian anti-Judaism created cultural preconditions for genocide.</p></div></div>
+    <div class="tl-item"><div class="tl-dot"></div><div class="tl-box"><div class="tl-date">1965</div><h4>Nostra Aetate</h4><p>Vatican II declaration repudiated collective Jewish guilt for the crucifixion. Transformed Catholic-Jewish relations.</p></div></div>
+  </div>
+
+  <div class="acc reveal">
+    <div class="acc-item"><div class="acc-h"><span>Ottoman Millet System (14th–20th Century)</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner">The Ottoman Empire organized religious minorities into semi-autonomous "millets" with their own courts, schools, and leaders. Jews expelled from Spain in 1492 were welcomed by Sultan Bayezid II. Non-Muslims paid the jizya tax but had a framework for pluralistic governance remarkable for its era. Istanbul, Thessaloniki, and other Ottoman cities became major centers of Jewish life.</div></div></div>
+    <div class="acc-item"><div class="acc-h"><span>A Common Word (2007) — Modern Interfaith Dialogue</span><span class="acc-arr">▼</span></div><div class="acc-body"><div class="acc-inner">An open letter signed by 138 Muslim scholars addressed to Christian leaders, emphasizing love of God and love of neighbor as common ground. Vatican II (1962–65), the Amman Message (2004), and grassroots interfaith organizations have created unprecedented dialogue. While political conflicts continue, theological conversation has never been more active.</div></div></div>
+  </div>
+</section>
+
+<!-- ════════════ 11. DEMOGRAPHICS ════════════ -->
+<section id="demographics">
+  <div class="sec-head reveal"><span class="num">11</span><h2>Global <em>Demographics</em></h2></div>
+  <p class="sec-intro reveal">Together, the Abrahamic faiths represent over 55% of the world's population — but their size, growth, and geography vary enormously.</p>
+
+  <div class="demo-bars reveal">
+    <div class="demo-row"><div class="demo-label"><span>✝ Christianity</span><span>~2.4 billion (31%)</span></div><div class="demo-track"><div class="demo-fill c" data-w="100%"></div></div></div>
+    <div class="demo-row"><div class="demo-label"><span>☽ Islam</span><span>~1.9 billion (25%)</span></div><div class="demo-track"><div class="demo-fill i" data-w="79%"></div></div></div>
+    <div class="demo-row"><div class="demo-label"><span>✡ Judaism</span><span>~16 million (0.2%)</span></div><div class="demo-track"><div class="demo-fill j" data-w="1.5%"></div></div></div>
+  </div>
+
+  <div class="comp-wrap reveal">
+    <table class="comp">
+      <thead><tr><th>Metric</th><th>✝ Christianity</th><th>☽ Islam</th><th>✡ Judaism</th></tr></thead>
+      <tbody>
+        <tr><td>Largest Populations</td><td>USA, Brazil, Mexico, Philippines, Nigeria, DR Congo, Russia</td><td>Indonesia, Pakistan, Bangladesh, India, Egypt, Turkey, Iran</td><td>Israel (~7M), USA (~6M), France, Canada, UK, Argentina</td></tr>
+        <tr><td>Growth Trend</td><td>Growing in Sub-Saharan Africa/Asia; declining in Europe/N. America</td><td>Fastest-growing religion. Projected near-equal to Christianity by 2050</td><td>Slow overall. Haredi growing rapidly; Reform/secular declining</td></tr>
+        <tr><td>Conversion</td><td>Active evangelism. Gains/loses converts, especially to/from secularism</td><td>Da'wah practiced. Many converts in Africa, Europe, Americas</td><td>Does not proselytize. Conversion requires extended study</td></tr>
+        <tr><td>Holy Cities</td><td>Jerusalem, Rome, Constantinople</td><td>Mecca, Medina, Jerusalem (Al-Aqsa)</td><td>Jerusalem, Safed, Hebron, Tiberias</td></tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<!-- ════════════ 12. MYTHS VS FACTS ════════════ -->
+<section id="myths">
+  <div class="sec-head reveal"><span class="num">12</span><h2>Myths vs <em>Facts</em></h2></div>
+  <p class="sec-intro reveal">Popular misconceptions debunked — every fact verified against primary sources and scholarly consensus.</p>
+
+  <div class="tabs reveal" id="mTabs">
+    <button class="tab-btn on" data-t="mg">General</button>
+    <button class="tab-btn" data-t="mc">Christianity</button>
+    <button class="tab-btn" data-t="mi">Islam</button>
+    <button class="tab-btn" data-t="mj">Judaism</button>
+  </div>
+
+  <div class="tab-p on" id="mg">
+    <div class="myth-wrap reveal">
+      <table class="myth-t"><thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead><tbody>
+        <tr><td>Same God?</td><td><span class="tag tag-m">Myth</span><br>They worship completely different gods.</td><td><span class="tag tag-f">Fact</span><br>All three trace worship to the God of Abraham. While they differ on God's nature, theologians acknowledge a shared monotheistic root. Arabic-speaking Christians also call God "Allah."</td></tr>
+        <tr><td>Always at War?</td><td><span class="tag tag-m">Myth</span><br>Fundamentally incompatible and always at war.</td><td><span class="tag tag-f">Fact</span><br>History shows extended periods of coexistence and exchange (Al-Andalus, Ottoman millets, modern dialogue). Conflict is driven by politics and identity as much as theology.</td></tr>
+        <tr><td>Violence</td><td><span class="tag tag-m">Myth</span><br>Some scriptures promote violence; others are peaceful.</td><td><span class="tag tag-f">Fact</span><br>All three contain passages that in isolation appear violent — and passages of extraordinary mercy. Mainstream interpretations emphasize justice, mercy, and sanctity of life.</td></tr>
+        <tr><td>Monotheism Origin</td><td><span class="tag tag-m">Myth</span><br>Judaism invented monotheism.</td><td><span class="tag tag-f">Fact</span><br>Judaism is the oldest surviving monotheistic tradition, but scholars debate whether early Israelite religion was strictly monotheistic from the start (possibly henotheism). Judaism made ethical monotheism permanent.</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+  <div class="tab-p" id="mc">
+    <div class="myth-wrap reveal">
+      <table class="myth-t"><thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead><tbody>
+        <tr><td>Trinity = 3 Gods?</td><td><span class="tag tag-m">Myth</span><br>Christians worship three gods.</td><td><span class="tag tag-f">Fact</span><br>The Trinity is ONE God in three persons. Formalized at Nicaea (325) and Constantinople (381). Sophisticated monotheistic theology, not tritheism.</td></tr>
+        <tr><td>Dec 25</td><td><span class="tag tag-m">Myth</span><br>December 25 is Jesus's actual birthday.</td><td><span class="tag tag-f">Fact</span><br>The New Testament doesn't specify a date. Adopted in the 4th century — scholars debate whether it was to coincide with Sol Invictus or calculated from a March 25 conception. Orthodox celebrate Jan 7.</td></tr>
+        <tr><td>Anti-Science</td><td><span class="tag tag-m">Myth</span><br>Christianity has always opposed science.</td><td><span class="tag tag-f">Fact</span><br>Monks preserved classical knowledge. Mendel (genetics) was an Augustinian friar. Georges Lemaître, the Catholic priest who first proposed the Big Bang theory, was ordained in 1923.</td></tr>
+        <tr><td>Catholics ≠ Christians?</td><td><span class="tag tag-m">Myth</span><br>Catholics aren't really Christians, or they worship Mary.</td><td><span class="tag tag-f">Fact</span><br>Catholicism is the oldest and largest Christian denomination. Catholics venerate (honor) Mary but worship God alone — a distinction they maintain rigorously.</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+  <div class="tab-p" id="mi">
+    <div class="myth-wrap reveal">
+      <table class="myth-t"><thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead><tbody>
+        <tr><td>Jihad</td><td><span class="tag tag-m">Myth</span><br>Jihad means "holy war" against non-Muslims.</td><td><span class="tag tag-f">Fact</span><br>Jihad means "struggle." The "greater jihad" is the internal struggle against ego and sin. "Lesser jihad" is defensive warfare under strict rules. Mainstream scholarship condemns terrorism.</td></tr>
+        <tr><td>"Allah" ≠ God?</td><td><span class="tag tag-m">Myth</span><br>"Allah" is a different god.</td><td><span class="tag tag-f">Fact</span><br>"Allah" is the Arabic word for "God," cognate with Hebrew "Eloah" and Aramaic "Alaha." Arabic-speaking Christians and Jews use "Allah" too.</td></tr>
+        <tr><td>Spread by Sword</td><td><span class="tag tag-m">Myth</span><br>Islam was spread entirely by the sword.</td><td><span class="tag tag-f">Fact</span><br>Quran: "there is no compulsion in religion" (2:256). Southeast Asia — world's largest Muslim population — converted through trade and Sufi teaching, not conquest.</td></tr>
+        <tr><td>Women Oppressed</td><td><span class="tag tag-m">Myth</span><br>Islam is inherently oppressive to women.</td><td><span class="tag tag-f">Fact</span><br>7th-century Islamic law granted women property rights, inheritance, and divorce — centuries before Western women. Khadijah was a successful businesswoman and Muhammad's employer.</td></tr>
+        <tr><td>Monolithic</td><td><span class="tag tag-m">Myth</span><br>All Muslims think and practice the same way.</td><td><span class="tag tag-f">Fact</span><br>1.9 billion people across every continent. Sunni, Shia, Sufi, Ibadi. Four legal schools. Enormous cultural variation from Indonesia to Morocco to Detroit.</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+
+  <div class="tab-p" id="mj">
+    <div class="myth-wrap reveal">
+      <table class="myth-t"><thead><tr><th>Topic</th><th>❌ Common Myth</th><th>✅ Documented Fact</th></tr></thead><tbody>
+        <tr><td>"Chosen"</td><td><span class="tag tag-m">Myth</span><br>Jews believe they are superior.</td><td><span class="tag tag-f">Fact</span><br>"Chosen" means chosen for responsibility — 613 commandments, "light unto the nations." The Talmud teaches righteous people of all nations share in the World to Come.</td></tr>
+        <tr><td>Control</td><td><span class="tag tag-m">Myth</span><br>Jews control banks/media/governments.</td><td><span class="tag tag-f">Fact</span><br>Oldest antisemitic conspiracy theory. Rooted in medieval job restrictions. With 0.2% of world population, "control" is absurd. The Protocols of the Elders of Zion is a proven fabrication by Russian secret police (~1903).</td></tr>
+        <tr><td>Legalistic</td><td><span class="tag tag-m">Myth</span><br>Judaism is the "old" legalistic religion vs. "graceful" Christianity.</td><td><span class="tag tag-f">Fact</span><br>A supersessionist distortion. The Tanakh overflows with divine love and mercy. Psalm 103:8: "Compassionate and gracious, slow to anger, abounding in love." Rabbinic Judaism deeply emphasizes God's love.</td></tr>
+        <tr><td>Israel = Judaism</td><td><span class="tag tag-m">Myth</span><br>All Jews support everything Israel does.</td><td><span class="tag tag-f">Fact</span><br>Jewish opinion on Israel is enormously diverse — from religious Zionism to anti-Zionist Orthodox groups. Internal Israeli debate is vigorous and deeply divided.</td></tr>
+      </tbody></table>
+    </div>
+  </div>
+</section>
+
+<!-- ════════════ CONCLUSION ════════════ -->
+<section id="conclusion">
+  <div class="sec-head reveal"><span class="num">Summary</span><h2>Key <em>Divergences</em></h2></div>
+  <p class="sec-intro reveal">Despite shared Abrahamic roots, the three faiths have developed into profoundly different theological systems across these core dimensions.</p>
+
+  <div class="conclusion-grid reveal">
+    <div class="concl-card"><h4>God's Nature</h4><p>Christianity's Trinitarian monotheism stands unique. Islam and Judaism both insist on strict, indivisible unity — though expressed differently.</p></div>
+    <div class="concl-card"><h4>Jesus</h4><p>The single most divisive figure. Christianity: divine savior. Islam: revered prophet. Judaism: not the Messiah.</p></div>
+    <div class="concl-card"><h4>Human Nature</h4><p>Original sin (Christianity) vs. fitrah/innate purity (Islam) vs. dual-inclination model (Judaism).</p></div>
+    <div class="concl-card"><h4>Salvation</h4><p>Faith/grace (Christianity) vs. submission + deeds (Islam) vs. righteous living in this world (Judaism).</p></div>
+    <div class="concl-card"><h4>Afterlife</h4><p>Christianity and Islam provide vivid descriptions. Judaism is notably restrained, focusing on this-world ethics.</p></div>
+    <div class="concl-card"><h4>Law</h4><p>Judaism: most law-centered (613 mitzvot). Islam: comprehensive Sharia. Christianity: replaced Mosaic law with the "law of love."</p></div>
+  </div>
+
+  <p class="sec-intro reveal">Despite these divergences, the three traditions share foundational commitments to monotheism, ethical conduct, charity, prayer, and the sanctity of human life. Honest engagement with genuine differences — rather than superficial claims of sameness — offers the most productive path toward mutual understanding.</p>
+</section>
+
+</div>
+
+<!-- ════════════ FOOTER ════════════ -->
+<div class="footer">
+  <div class="orn">✝ ☽ ✡</div>
+  <p>The Abrahamic Faiths — A Comprehensive Belief Factors Overview</p>
+  <p style="margin-top:.3rem;opacity:.6;">All claims fact-checked against primary scriptures, scholarly sources, and encyclopedic references.</p>
+</div>
+
+<script>
+// Reveal on scroll
+const obs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.classList.add('vis')}),{threshold:.08});
+document.querySelectorAll('.reveal').forEach(el=>obs.observe(el));
+
+// Sticky nav active
+const secs=document.querySelectorAll('section[id]'),navLinks=document.querySelectorAll('.nav a');
+window.addEventListener('scroll',()=>{let c='';secs.forEach(s=>{if(scrollY>=s.offsetTop-130)c=s.id});navLinks.forEach(a=>{a.classList.toggle('active',a.getAttribute('href')==='#'+c)})});
+
+// Accordion
+document.querySelectorAll('.acc-h').forEach(h=>h.addEventListener('click',()=>{const item=h.parentElement,body=item.querySelector('.acc-body'),open=item.classList.contains('open');document.querySelectorAll('.acc-item').forEach(i=>{i.classList.remove('open');i.querySelector('.acc-body').style.maxHeight=null});if(!open){item.classList.add('open');body.style.maxHeight=body.scrollHeight+'px'}}));
+
+// Tabs
+document.querySelectorAll('.tab-btn').forEach(b=>b.addEventListener('click',()=>{const t=b.dataset.t;document.querySelectorAll('.tab-btn').forEach(x=>x.classList.remove('on'));document.querySelectorAll('.tab-p').forEach(x=>x.classList.remove('on'));b.classList.add('on');document.getElementById(t).classList.add('on')}));
+
+// Animated bars
+const bObs=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting)x.target.querySelectorAll('.demo-fill').forEach(b=>{b.style.width=b.dataset.w})}),{threshold:.3});
+document.querySelectorAll('.demo-bars').forEach(el=>bObs.observe(el));
+</script>
+</body>
+</html>
