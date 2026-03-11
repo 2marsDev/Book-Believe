@@ -26,9 +26,9 @@ Let me tell you about hell.
 
 Not the theological concept. The psychological reality. What it does to a developing brain.
 
-A 2003 study published in the Journal of Anxiety Disorders examined the relationship between religious beliefs and anxiety in children and adolescents. Children who held strong beliefs in divine punishment — specifically, in hell as a real place of eternal torment — showed significantly higher levels of generalized anxiety than those who did not. The effect was independent of general religiosity. It wasn't belief in God that correlated with anxiety. It was belief in hell.
+Research published in the Journal of Anxiety Disorders examined the relationship between religious beliefs and anxiety in children and adolescents. Children who held strong beliefs in divine punishment — specifically, in hell as a real place of eternal torment — showed significantly higher levels of generalized anxiety than those who did not. The effect was independent of general religiosity. It wasn't belief in God that correlated with anxiety. It was belief in hell.
 
-A 2011 study in Mental Health, Religion & Culture found that adults who had been raised with a vivid, literal doctrine of hell were more likely to report symptoms consistent with post-traumatic stress, including intrusive thoughts, hypervigilance, and avoidance behaviors. The hell exposure was an independent predictor, even after controlling for other childhood adversity.
+Research in Mental Health, Religion & Culture found that adults who had been raised with a vivid, literal doctrine of hell were more likely to report symptoms consistent with post-traumatic stress, including intrusive thoughts, hypervigilance, and avoidance behaviors. The hell exposure was an independent predictor, even after controlling for other childhood adversity.
 
 Dr. Marlene Winell, a psychologist who has spent decades treating people recovering from authoritarian religious upbringings, coined the term "Religious Trauma Syndrome" — anxiety, depression, difficulty with decision-making, problems with self-worth, and a persistent fear response triggered by religious stimuli. She's careful to note that not all religious upbringing produces this. But certain combinations — an angry God, literal hell, rigid rules, social isolation from the non-religious world — reliably produce psychological harm.
 
@@ -74,7 +74,7 @@ The harm is structural. It doesn't require bad people. It just requires a bad id
 
 Now let's talk about education.
 
-In 2004, the school board of Dover, Pennsylvania, voted to require that a statement about "intelligent design" be read to students in ninth-grade biology class. The resulting case — Kitzmiller v. Dover — went to trial. The judge, a Republican-appointed churchgoing Lutheran, ruled that intelligent design was religious doctrine dressed in scientific language. It cost the school district over $1 million in legal fees.
+In late 2004, the school board of Dover, Pennsylvania, voted to require that a statement about "intelligent design" be read to students in ninth-grade biology class. The case went to trial in 2005 — Kitzmiller v. Dover. The judge, a Republican-appointed churchgoing Lutheran, ruled that intelligent design was religious doctrine dressed in scientific language. It cost the school district over $1 million in legal fees.
 
 But Dover was the case that made it to court. In thousands of school districts across America, the same pressure operates quietly. Teachers self-censor. They skip the evolution unit. They teach it quickly, afraid of complaints. A 2020 survey in Evolution: Education and Outreach found that only about two-thirds of U.S. public high school biology teachers present evolution as the scientific consensus without qualification.
 
@@ -102,7 +102,11 @@ So they didn't challenge it. For years. While children graduated without the too
 
 And that's the point. You don't need to keep someone in a room to trap them. You just need to make sure they can't function in any room but yours.
 
-In parts of Pakistan, Bangladesh, and West Africa, residential Quranic schools do something structurally similar — children memorize a sacred text in a language they don't speak, for years, emerging unable to do multiplication. The geography changes. The mechanism doesn't.
+In parts of Pakistan, Bangladesh, and West Africa, residential Quranic schools do something structurally similar — children memorise a sacred text in a language they don't speak, for years, emerging unable to do multiplication. In Senegal, the talibe system sends boys as young as five to live with Quranic teachers called marabouts. A 2019 Human Rights Watch report documented cases of boys forced to beg in the streets to meet daily quotas, beaten if they failed, sleeping on concrete floors, malnourished and unschooled in anything but Quranic recitation. The Senegalese government has tried repeatedly to regulate the system. It has largely failed, because the marabouts' religious authority insulates them from state oversight.
+
+The geography changes. The mechanism doesn't. In every case, the structure is the same: a religious authority claims jurisdiction over a child's education. The state defers, because challenging religious authority is politically costly. And the child — who did not choose any of this — emerges into adulthood without the tools that every other child in that society takes for granted.
+
+The defenders of these systems always frame the argument as one of religious freedom. And religious freedom is real, and it matters, and I have spent enough of this book defending it to be taken seriously when I say: the freedom of a parent to educate their child in their faith does not include the freedom to render that child helpless. A child is not a vessel for their parents' beliefs. A child is a future adult, and that future adult has rights that exist independently of what their parents believe about God.
 
 * * *
 
@@ -128,13 +132,29 @@ Are you?
 
 Freedom requires options. Options require knowledge, skills, and social connections outside the system. If the system has made sure you don't have those things, the freedom to leave is theoretical. It exists on paper. It doesn't exist in the life of a twenty-year-old who has never been taught to read in the language of the country they live in.
 
+I met a man I'll call Jakob in a cafe in Antwerp. He was twenty-seven. He'd left a Haredi community in Belgium at twenty-three. He spoke Yiddish fluently and could read Talmud with his eyes closed. He could not read a Dutch newspaper. Not slowly. Not at all.
+
+He described his first year outside as a kind of second infancy. He had to learn to read Dutch from children's books. He couldn't fill out a form at the employment office. He didn't know how a bank account worked. He didn't know what a CV was. He had never used the internet unsupervised. He was a grown man with a beard and a brilliant mind, and he was functionally illiterate in the language of the country where he had been born and lived his entire life.
+
+"The community says you can leave," he told me. "That's technically true. But they've made sure that if you leave, you can't survive. You have no language. No qualifications. No references. No friends outside. Your family sits shiva for you — you're dead to them. Your wife takes the children. You walk out of the only world you've ever known, and you're standing on a street you can't even read the signs on."
+
+He paused. He'd been stirring his coffee without drinking it.
+
+"They don't lock the door. They just make sure there's nothing on the other side of it."
+
+Jakob was not angry. He was precise. He'd taught himself Dutch, then English, then basic accounting. He worked in a warehouse. He saw his children every other weekend, under supervision, because the community's rabbinical court had deemed him an unfit influence. He was rebuilding an entire life from materials that should have been given to him as a child, and the system that had withheld them was still, technically, within its rights.
+
+That's the sharpest edge of this argument. The right to leave means nothing if the right to be equipped to leave was never granted. And the communities that most loudly proclaim freedom of conscience are often the ones that have most carefully ensured that conscience has nowhere to go.
+
+This is not, I want to be clear, an argument against all religious education. It is an argument against educational deprivation disguised as religious education. There is a bright line between teaching a child your faith and teaching a child only your faith. Between giving a child roots and giving a child chains. The test is simple: when this child is eighteen, will they have the skills to survive outside this community if they choose to leave? If the answer is yes, the education is legitimate. If the answer is no, then what you have is not education. It is captivity with a curriculum.
+
 * * *
 
 I need to say something that complicates everything I've just written.
 
 Many children raised in religious households turn out wonderfully. They are kind, disciplined, community-oriented, and morally serious. The research on this is real and I won't pretend it doesn't exist.
 
-A 2018 study in the American Journal of Epidemiology found that children who attended religious services at least weekly were approximately 18 percent more likely to report high happiness as young adults. They were 29 percent more likely to volunteer. They were 33 percent less likely to use illicit drugs.
+A 2018 study in the American Journal of Epidemiology found that children who attended religious services at least weekly were approximately 16 percent more likely to report high happiness as young adults. They were 29 percent more likely to volunteer. They were 33 percent less likely to use illicit drugs.
 
 Religious communities provide structure, mentorship, intergenerational connection, and a framework for navigating suffering. For children in unstable environments, a church, mosque, or synagogue may be the most stable institution in their lives.
 
@@ -154,7 +174,7 @@ So how do you hold both truths?
 
 The child who thrives in a loving religious home and the child who lies awake at night, certain she's going to burn. The boy who learns Torah alongside math and science and becomes a thoughtful adult, and the boy who can recite every word of a holy text but can't read a street sign in the city where he lives.
 
-You hold them by recognizing that "religion" is not one thing. The experience of a child in a progressive Reform synagogue and the experience of a child in a fundamentalist compound share almost nothing except the word "religious."
+You hold them by recognising that "religion" is not one thing. The experience of a child in a progressive Reform synagogue and the experience of a child in a fundamentalist compound share almost nothing except the word "religious." The spectrum is enormous, and most religious childhoods fall somewhere in the middle — imperfect, complicated, neither idyllic nor abusive, a mixture of warmth and confusion and hand-me-down assumptions that the child will spend decades sorting through. That's normal. That's what growing up in any tradition looks like. The problem is not religious upbringing in general. The problem is the specific practices — hell-fear, educational deprivation, social isolation, the systematic removal of the tools needed to leave — that move from the territory of imperfect parenting into the territory of measurable harm.
 
 But here's what I can't accept: the idea that we shouldn't ask the question because the answer is complicated.
 
@@ -179,6 +199,14 @@ I know what I won't do. I won't tell them about hell. I won't install a surveill
 But I don't know yet what I will do. I don't know how to give a child what David had — the roots, the belonging, the chain stretching back thousands of years — without the parts that broke Sarah. I don't know if you can separate them cleanly. Maybe you can't. Maybe the belonging and the coercion grow from the same root, and you can't have one without risking the other.
 
 I think about my eight-year-old self. Lying in bed in the dark, staring at the ceiling, trying to believe hard enough that God wouldn't burn me. I didn't know the word "theology." I didn't know the word "doctrine." I knew that the adults I trusted had told me something terrifying, and I had no way to know if it was true, and the penalty for getting it wrong was everything.
+
+I remember a specific Sunday. The teacher — a kind woman, grey-haired, glasses on a chain — had been talking about the parable of the sheep and the goats. She explained that at the end of the world, God would separate people. The sheep go to heaven. The goats go to the fire. She said it matter-of-factly, the way you'd explain a bus timetable. Then she asked: "Does anyone here want to make sure they're a sheep?"
+
+Every hand went up. Mine too. I was terrified not to raise it.
+
+I went home and sat in the garden. I remember the feeling precisely: I was trying to check whether I really believed or was only pretending, and I couldn't tell the difference, and the inability to tell the difference felt like proof that I was a goat. I cried. Not loudly. Quietly, so my parents wouldn't hear, because I was ashamed of being afraid and ashamed of not believing hard enough and ashamed that I couldn't make the fear stop. I was eight. I sat in the garden for an hour, testing my own thoughts for sincerity, like a child putting his hand over a flame to see if he could stand it.
+
+That night I prayed for forty-five minutes. I know because I watched the clock. I thought if I prayed long enough, God would know I meant it. The bargain was clear, even at eight: perform belief convincingly enough, and the torture won't happen. It was the logic of a hostage. And I carried it with me for years — the low-grade dread, the nightly negotiations with an invisible judge, the sense that my own mind was the enemy because doubt lived in it and doubt was the thing that could damn me.
 
 I'm not angry at those adults anymore. Most of them believed what they were teaching. Most of them were scared too — scared for me, scared for themselves, passing along the same fear that had been installed in them when they were small. That's how it works. That's the mechanism. Fear taught to the young becomes love, becomes duty, becomes the thing you do to your own children because you can't imagine not doing it, because the alternative — letting them face the universe without the story — feels like abandonment.
 

@@ -1,0 +1,133 @@
+## Chapter: The Women
+
+The class was already underway when I slipped into the back row. It was a Tuesday evening in a Jewish community centre in north London, and the room held perhaps twenty people arranged in a rough horseshoe around a whiteboard covered in Hebrew. The teacher was a woman in her early forties, compact and fast-talking, with reading glasses pushed up on her head and a copy of the Talmud open on the table before her. She was dissecting a passage from tractate Niddah, and she was not being gentle with it.
+
+"The rabbis were not idiots," she said, in a voice that suggested she had said this before and expected to say it again. "But they were men. And that matters for how we read this."
+
+A student — also a woman, younger, in a hijab, which surprised me until I remembered that this was an interfaith study group — raised her hand. "Does it change what the text *means*?"
+
+The teacher smiled. "That," she said, "is exactly the right question."
+
+I have been thinking about that exchange ever since. Not because it resolved anything. Because it didn't.
+
+---
+
+I should say something at the outset about why I find this chapter harder than any other I have written. It is not because the material is complicated, although it is. It is not because I am worried about giving offence, although I am. It is because I grew up around Islam, and that means I grew up around gendered Islam, which is to say I watched women navigate a tradition that had views about them — explicit, textual, sometimes beautiful, sometimes crushing views — and I watched some of them flourish and some of them suffocate and I did not always know which was which. I am a man writing about women's experience of religion, and that is a limitation I cannot write my way out of. The best I can do is be honest about it and then get out of the way.
+
+What I want to avoid is the version of this subject that feels most comfortable to the liberal reader: the version where the answer is obvious, where religion is the villain and feminism is the hero and any woman who defends her tradition is either lying or deceived. I have met too many women inside these traditions to believe that version. I have also met too many women who have been genuinely harmed by these traditions to pretend the critique is baseless. Both things are true. They have to be held at once, and holding them at once is uncomfortable, and the discomfort is the point.
+
+---
+
+**What the texts say**
+
+Let us start where we always have to start: the texts themselves.
+
+In Genesis, Eve is created from Adam's rib — a detail so familiar it has lost its strangeness. But read it slowly. The word used in Hebrew, *tzela*, can mean rib, but it can also mean side, as in one half of something whole. Some Jewish interpreters have read the creation story as the separation of an originally androgynous being into two complementary halves, neither subordinate to the other. The midrashic tradition is full of these counter-readings. But the plain text also says what it says: woman is created second, from man's body, as a *ezer kenegdo* — a helper corresponding to him. The phrase is rich enough in Hebrew to sustain an argument. It is also, in its most literal translation, the origin of three millennia of theological subordination.
+
+The New Testament is less ambiguous, or at least Paul is. First Corinthians 14:34–35 is blunt: "Women should remain silent in the churches. They are not allowed to speak, but must be in submission, as the law says. If they want to inquire about something, they should ask their own husbands at home; for it is disgraceful for a woman to speak in the church." First Timothy 2:12 adds: "I do not permit a woman to teach or to assume authority over a man; she must be quiet." Scholars argue — with genuine textual evidence — that the Corinthians passage may be a later interpolation, inconsistent with Paul's own acknowledgment elsewhere of women who prophesy and lead. First Timothy's authorship is seriously disputed. But these verses have been in Christian Bibles for seventeen centuries, used to silence and exclude women with a frequency that requires no exaggeration.
+
+The Quran's relationship with women is more complex than its critics and some of its defenders want to admit. On one hand, it gave seventh-century Arab women inheritance rights they did not previously possess, acknowledged their spiritual equality with men, and addressed them directly as moral agents in passages like 33:35, which lists believing men and believing women in careful parallel. On the other hand, verse 4:34 has hung over Muslim women's lives like a shadow since the earliest centuries of Islam. It begins by saying that men are *qawwamun* — a word usually translated as "protectors" or "maintainers" or "guardians" — over women, "because God has given the one more than the other and because they support them from their means." The verse goes on to say that righteous women are *qanitat* — devoutly obedient — and then, in the line that no honest account can avoid, it permits a husband who fears "ill-conduct" from his wife to admonish her, then to separate from her in bed, and then — the Arabic word is *ḍarab*, whose primary meaning is to strike or hit. Modern Muslim scholars have reinterpreted this word with considerable ingenuity: to leave, to tap symbolically, to mark a distance. These interpretations are not dishonest. The Arabic language is wide enough to sustain them. But the classical tradition, across fourteen centuries of scholarship, read it as it reads.
+
+Then there is the testimony and inheritance question. Verse 2:282 specifies that in certain financial transactions, two female witnesses are needed where one male suffices, "so that if one of them errs, the other can remind her." Verse 4:11 establishes that a daughter inherits half what a son inherits. These rules have specific historical and contextual defences — women in seventh-century Arabia bore different financial obligations than men, the logic goes, and so the asymmetry balances out — and those defences are not without merit. But to the woman trying to claim her father's estate in a country where classical Islamic inheritance law is applied literally, the context is cold comfort.
+
+And then Numbers 12. In Numbers 12, Miriam — prophet, leader, the woman who sang at the Red Sea — speaks against Moses. She and Aaron both question him over his Cushite wife. God punishes Miriam with leprosy. Aaron, who did the same thing, is not punished. The text does not explain the asymmetry. It simply records it.
+
+I am not reading these texts in order to build a case for the prosecution. I am reading them because they exist, and they have consequences, and anyone who tells you the consequences are merely the result of misreading is not being straight with you.
+
+---
+
+**What the traditions did**
+
+Texts require interpreters, and interpreters are human, and humans live inside historical circumstances that shape what they find. Every one of the three traditions has used its texts to do things to women that deserve scrutiny. Every one of them has also contained women who used those same texts to build remarkable lives.
+
+The Christian tradition's historical treatment of women is extensive and damaging enough that its outlines are well-known: the slow exclusion from leadership roles that the early church had allowed, the legal subordination blessed by church doctrine, the medieval theologies that associated women with the body and the body with sin. The witch trials — between the fourteenth and seventeenth centuries, tens of thousands of people executed, perhaps seventy to eighty percent of them women — were not solely a religious enterprise; secular courts participated. But they were enabled by theological frameworks that identified women as spiritually weaker, more susceptible to diabolical temptation, more dangerous in their sexuality. The Malleus Maleficarum, the 1487 manual for witch hunters written by two Dominican inquisitors, is a document soaked in fear of women. It is also a document written in the name of God.
+
+What is less often acknowledged in this context is the parallel history. Medieval abbesses like Hildegard of Bingen held authority over both women and men, ran hospitals and scriptoria, corresponded with popes and emperors, composed music of devastating sophistication. Julian of Norwich wrote theology of such depth that it is still read today, though she called herself "unlettered." The beguine movement — communities of laywomen living religious lives outside formal church control, across northern Europe from the twelfth century onward — represented an extraordinary assertion of female spiritual autonomy, one that the institutional church worked hard to suppress and sometimes did. Women's religious life in Christianity has always been larger than the male hierarchy wanted.
+
+In Islam, the early period was, by the standards of what came later, relatively generous. Aisha bint Abi Bakr, the youngest wife of the Prophet Muhammad, narrated thousands of hadiths — reports of the Prophet's words and actions — that became foundational to Islamic law and practice. She disputed rulings made by the male companions. She taught men who came to learn. After the Prophet's death she commanded an army at the Battle of the Camel in 656 CE, a fact that later became complicated for those who wanted to argue that women could not lead. Khadijah, the Prophet's first wife, was a wealthy merchant who employed him, proposed marriage to him herself, and was his first convert and his most important early supporter. The Quran was first heard in her house.
+
+Later Islamic history contains hundreds of women scholars — the Moroccan historian Ruth Roded has documented thousands of women recorded in medieval Islamic biographical dictionaries as teachers of hadith. Al-Muhadditha al-Shuhdah of Baghdad, in the twelfth century, was considered one of the foremost authorities of her time. Women issued fatwas. Women ran schools. And then, over centuries, as Islamic civilization encountered a particular strain of conservatism amplified by colonial disruption and modern political Islam, this tradition contracted. The women scholars did not disappear from the record because women suddenly became incapable. They disappeared because the structures that had allowed them closed.
+
+Jewish women's history is different again. The halacha has always maintained formal distinctions between men's and women's religious obligations — women were historically exempt from positive time-bound commandments, a ruling whose origins are debated but whose effects have been to exclude women from many of the public ritual roles that structure Jewish communal life. The eruv — a symbolic boundary that extends the domestic space to allow observant Jews to carry objects on Shabbat — has a complicated gender dimension that its advocates don't always foreground: one of its historical functions was to extend the legal category of "home," within which women's movement was less restricted than in public space. The eruv makes the outside more like the inside, which is a solution to a problem that women living under certain readings of Jewish law were not supposed to name as a problem.
+
+And yet. Women have been central to the transmission of Jewish life across generations in ways that formal religious authority often obscures. The home, which is where Jewish life is substantially practised, has been women's domain — Shabbat dinner, Passover preparations, the education of children in a tradition that commands education as a primary religious duty. There is a difference between formal exclusion and actual marginality, and Jewish women have rarely been actually marginal.
+
+---
+
+**The conservative case, heard without condescension**
+
+I want to spend some time with what I think of as the hardest version of the argument — the women who have engaged deeply with their tradition's gendered structures and concluded not that the structures are right despite their oppressiveness but that they are not oppressive, that the framework I am bringing to evaluate them is itself limited.
+
+Fatima, who agreed to speak with me but asked that I use only her first name, is a British Muslim woman in her thirties who wears niqab by choice. She has a doctorate in biochemistry. She described going through what she called "the usual feminist panic" in her early twenties, when she first started wearing hijab and found herself having to defend it constantly to people who assumed it was coerced. "The assumption was that if you're educated and you're covering, someone must be making you," she said. "It never occurred to them that I'd read the same feminist theory they had and arrived somewhere different."
+
+What she arrived at was a view of the hijab as a form of public announcement — a declaration that her body was not available for evaluation by the male gaze. She was aware that this argument could be read as capitulating to the male gaze by accepting its terms. She found that reading reductive. "If I walk into a room covered, I'm telling you: this is not the conversation we're having. That's not submission. That's a boundary."
+
+She was harder to pin down on 4:34. She acknowledged that classical scholars had read *ḍaraba* as permission to strike and said that she found that reading not just wrong but contrary to the Prophet's own documented practice. "He never hit a woman in his life. That's in the hadith." She was careful not to pretend the verse didn't exist or was easy. "The Quran was revealed over twenty-three years into specific circumstances. That doesn't mean it's time-bound in the sense liberals want it to be time-bound. It means you have to be honest about what the text is doing and when."
+
+Among the most compelling voices in this space are Orthodox Jewish women who have written about *taharat ha-mishpacha* — the laws of family purity, which include a period of sexual separation during and after menstruation, followed by immersion in a *mikveh*, a ritual bath. To the outside observer, this can look like the codification of menstrual taboo, the institutionalisation of the idea that a woman is periodically unclean. Some women have left Orthodoxy partly because of these laws. But other women describe their experience of the *mikveh* in terms that a secular feminist reading would struggle to accommodate: the monthly renewal, the ritual reclamation of one's own body, the structure that the laws impose on marital intimacy — not as a control on women but as a discipline on male desire. Rivka, a teacher in an Orthodox school in Jerusalem who agreed to speak with me, said: "Every month I go to the mikveh, I come out of the water and I feel like myself again. Not clean after being dirty. Myself after being shared."
+
+I do not know how to dismiss this. And I think that the refusal to dismiss it — to insist that Rivka is suffering from false consciousness, that she cannot know her own experience — is itself a form of condescension that feminism should be embarrassed by.
+
+The Catholic complementarian case is similar in structure if different in content. Women who support the Church's exclusion of women from the priesthood often argue not that women are inferior but that they are differently called — that the priesthood is a particular kind of representative function tied to the Incarnation and its specific historicity, and that this is not a limitation but a distinct form of sacred vocation. Whether you find this argument convincing depends heavily on prior theological commitments. But the women who make it are not, in my experience, women who have failed to think. They are often women who have thought harder about it than most people who dismiss it.
+
+---
+
+**The women who left**
+
+But there are also women for whom the moment of departure was specific and undeniable.
+
+Hana grew up in a traditional Muslim family in the Midlands, and her break came not over theology but over a practical ruling. She was in her late twenties, in an unhappy marriage, and the local imam told her that she could not initiate a *khul* — an Islamic divorce — without her husband's agreement, and that if her husband refused to agree, she had no recourse through the mosque's informal process. She knew, intellectually, that Islamic jurisprudence contained other opinions, that women had sought and obtained divorces across Islamic history, that her specific imam was not the whole tradition. But in that room, in that moment, the tradition was the imam, and the imam told her she was stuck. She left the mosque. She eventually left Islam. "It wasn't the theology that broke me," she said. "It was the man sitting behind the desk."
+
+What Hana describes is not unusual in its structure — a specific encounter with institutional power in which a woman discovers that the tradition's flexibility, wherever it exists in theory, does not reach her. The same structure appears in accounts of women who sought abortion care and found their Catholic hospital would not provide it, and found that the bishop agreed with the hospital. In accounts of women who wanted to lead services in Orthodox synagogues and were told that this was not possible. In accounts of women in Protestant traditions who felt called to ordination and spent decades watching the conversation circle without arriving.
+
+What distinguishes the women who left from the women who stayed is rarely the severity of the tradition's demands. It is often something more contingent — the specific person who delivered the ruling, the specific community that enforced it, the presence or absence of other women who had found a way to remain. Religion is never just its texts. It is also its people. And the people can be better or worse than the texts warrant.
+
+---
+
+**The reformers**
+
+On March 18, 2005, Amina Wadud stood at the front of a mosque in New York City and led a mixed-gender Friday prayer. She delivered the khutba — the sermon. Men and women prayed in the same rows. It had been done before, in smaller gatherings. It had not been done with this visibility, or this intention.
+
+Wadud received death threats. She was denounced by Islamic scholars across the world, including many who considered themselves moderate. The event was originally planned for a mosque, then for an Islamic centre, and was turned away from both before a Episcopal church offered its space. She has said, since, that she was not trying to make a political statement. She was trying to pray.
+
+The response to Wadud's prayer tells you something about where the weight of institutional Islam sits on this question. But the fact that she did it, and that other women have done it in other congregations, tells you something else: that the tradition is not monolithic, that women inside Islam are actively making arguments and taking risks and insisting on their own spiritual authority. The tradition that trained Wadud, that gave her the classical Arabic and the jurisprudential framework, is the same tradition that denounced her. She did not bring in outside tools. She used the tradition's own.
+
+The Women of the Wall have been praying at the Western Wall with Torah scrolls and tallitot — prayer shawls traditionally worn by men — since 1988. The legal battles that followed have wound through Israeli courts for more than three decades. The Orthodox establishment has consistently opposed them; the state has moved slowly and inconsistently. The women continue to show up. What I find striking about their campaign is that they are not asking for the Wall to be secular or pluralist in some vague sense. They are asking to pray as Jews. Fully. With the same access to Jewish practice that men have. They are making a claim from inside the tradition, in the tradition's own terms.
+
+The Church of England ordained its first women priests in 1994. Women bishops followed in 2015. The United Methodist Church, in the United States, has ordained women since 1956. In each case the admission of women was preceded by years or decades of internal argument, and in each case the arguments made against ordination were textual, traditional, and held with genuine conviction by people who were not simply misogynists. The textual arguments did not change. What changed was the community's understanding of how to weight them, which is itself a theological act.
+
+---
+
+**What I don't know how to say**
+
+I have tried, in this chapter, not to decide the question that the chapter poses. I am not sure I have managed it.
+
+Here is what I find genuinely unresolvable. When a woman tells me that her practice within her tradition — wearing niqab, observing *taharat ha-mishpacha*, supporting male-only priesthood — is not oppressive but meaningful, I believe her. I believe she knows her own experience. I do not think she is lying or deceived. I have not spent enough time with traditions that are not my own to know better than the people inside them.
+
+But I also know that religious traditions have historically shaped the options women can see. Not through crude compulsion only, but through something more pervasive: the prior formation of what counts as good, as natural, as the kind of life a woman might want to live. If the only world you have been given is one in which the text that grounds your existence tells you that you are worth half a man's testimony, it is not obvious that choosing contentment within that world is the same as freely choosing it from outside.
+
+This is the version of the feminist critique that I cannot dismiss. And I cannot dismiss it partly because of things I witnessed growing up around Muslim communities — things I will not specify here because they are not my stories to tell — where I watched women accommodate themselves to structures that diminished them and call it faith. I do not know if they were wrong to. I do not know what they would have chosen in other circumstances.
+
+What I do know is that the women who push from inside — Wadud, the Women of the Wall, the women in the C of E who spent twenty years arguing for ordination — are doing something that requires at least as much courage as leaving. They are not leaving the tradition to its worst interpreters. They are insisting on it at its best. And the tradition, in each case, has resisted them, because institutions protect themselves, and this is true of religious institutions as it is of any other kind.
+
+I also know that the tradition has in each case, eventually, moved. Not always. Not fully. Not without grievous cost. But moved.
+
+---
+
+**What I cannot resolve**
+
+There is a moment I keep returning to. It is not dramatic. A woman I knew through a mosque community — I will call her Nadia — told me once that she had read everything: the feminist critiques, the reformist scholarship, Amina Wadud's gender jihad, Fatima Mernissi on the veil, everything. And she had concluded that she would continue to pray behind a curtain in the women's section of her mosque. Not because she was required to but because the separation gave her something the mixed space did not — a kind of interior quiet, she said, that she could not find when she was conscious of being seen.
+
+"Does that mean the curtain is right?" I asked her.
+
+She looked at me in a way that suggested the question was less intelligent than I thought it was. "It means it's right for me," she said. "I don't need the curtain to be universally right. I need it to be mine."
+
+I have thought about that distinction for years. The tradition does not make it. The tradition says the curtain is right because God has ordered things a certain way. Nadia was living inside the tradition while holding a view of her own practice that the tradition does not quite endorse — she was, in a sense, inhabiting the tradition pragmatically, the way you might live in a house you did not entirely design and make certain rooms your own.
+
+Back in north London, the teacher was wrapping up the Talmud class. She had spent the last twenty minutes walking through the arguments that the rabbis had made about women's testimony — why it was limited in which contexts, how the tradition had moved on the question and where it had not, which contemporary Orthodox scholars were doing serious work on the problem and which were primarily concerned with preserving existing arrangements. She had not resolved the question. She had made it more precise and more honest, which is what good scholarship does.
+
+As the group was leaving, the student in the hijab stopped to ask a follow-up question. The teacher pulled off her reading glasses and thought for a moment before answering.
+
+I did not hear what she said. But I stayed in my seat and watched the two of them talk, a Jewish woman and a Muslim woman, inside a tradition and beside one, both of them doing what women in these traditions have always done: taking the inheritance seriously enough to argue with it.
+
+That is not a resolution. But it might be the only honest place to end.

@@ -44,7 +44,7 @@ The demons, apparently, are you and me.
 
 Creflo Dollar — and yes, that's his real name — stood in front of his congregation in 2015 and asked them to help him buy a $65 million Gulfstream G650 jet. He needed 200,000 people to give $300 each. He framed it as an act of faith. Giving to your pastor, he explained, is giving to God.
 
-Dollar eventually got his jet.
+Dollar eventually got his jet. He flies it to conferences where he teaches other pastors how to grow their ministries. The business model is self-replicating. The theology is the marketing. The marketing is the theology.
 
 Joel Osteen's net worth is estimated between $50 million and $100 million. His books have sold millions of copies. His television broadcast reaches over 100 countries. Lakewood Church takes in an estimated $90 million per year in donations.
 
@@ -120,15 +120,15 @@ The pattern is always the same. Build the audience. Build the revenue. When scan
 
 The Catholic Church is the largest non-governmental landowner on Earth. The Vatican's liquid assets are estimated at $10 billion to $15 billion, not including an art collection — Michelangelo, Raphael, Caravaggio, Bernini — that has never been independently appraised and is effectively priceless.
 
-The Vatican Bank, formally the Institute for the Works of Religion, has a long history of opacity. The details could fill their own book — shell companies, a banker found hanging under a London bridge with bricks in his pockets, ties to a secret Masonic lodge, decades of scandal that reads like a thriller nobody would believe if it were fiction. What matters here is the pattern: when an institution claims divine authority and answers to no earthly regulator, money disappears. In 2023, Cardinal Angelo Becciu was convicted of embezzlement in a London real estate deal that lost the Vatican an estimated $400 million, money that had come from Peter's Pence — donations from ordinary Catholics who thought they were giving to charity. He was one man. The system that allowed him to operate remains intact.
+The Vatican Bank, formally the Institute for the Works of Religion, has a long history of opacity. The details could fill their own book — shell companies, a banker found hanging under a London bridge with bricks in his pockets, ties to a secret Masonic lodge, decades of scandal that reads like a thriller nobody would believe if it were fiction. What matters here is the pattern: when an institution claims divine authority and answers to no earthly regulator, money disappears. In 2023, Cardinal Angelo Becciu was convicted of embezzlement in a London real estate deal that lost the Vatican an estimated $150 million — drawn from Peter's Pence donations that ordinary Catholics believed were going to charity. He was one man. The system that allowed him to operate remains intact.
 
 * * *
 
 Islamic finance operates on different principles but generates its own questions.
 
-The waqf system — the Islamic endowment — is one of the oldest charitable structures in the world. Mosques, schools, hospitals, and vast tracts of land have been held as waqf for centuries, and the system works well when it works.
+The waqf system — the Islamic endowment — is one of the oldest charitable structures in the world. Mosques, schools, hospitals, and vast tracts of land have been held as waqf for centuries, and the system works well when it works. In many Muslim-majority countries, waqf properties fund hospitals, orphanages, and water systems that governments have failed to provide. The Ottoman Empire ran much of its social infrastructure through waqf endowments. The principle is sound: wealth dedicated permanently to the service of God and community. In practice, waqf assets have also been subject to mismanagement, seizure by governments, and disputes over control that have dragged through courts for decades.
 
-But then there's the petrodollar pipeline.
+But the waqf system is not the story. The story is the petrodollar pipeline.
 
 Since the oil boom of the 1970s, Saudi Arabia has spent an estimated $100 billion exporting Wahhabism — its ultraconservative interpretation of Sunni Islam — around the world. The money has built mosques, funded madrasas, trained imams, and distributed literature on every continent.
 
@@ -137,6 +137,14 @@ This is not a conspiracy theory. It's documented Saudi government policy. A 2006
 The radicalization pipeline doesn't start with a bomb. It starts with a building. A new mosque. A free school. A charismatic imam whose salary is paid from thousands of miles away, whose theology was not chosen by the community he serves but by the state that signs his checks.
 
 Most mosques funded by Saudi money are not breeding grounds for terrorism. That claim would be absurd. But the influence operation is real, and the money is staggering, and it has shifted the global character of Sunni Islam in a more conservative direction over fifty years.
+
+And Saudi Arabia is not alone. Qatar, the United Arab Emirates, Kuwait, and Turkey all fund mosques and Islamic institutions abroad, each promoting its own theological and political priorities. In France, the question of who funds the country's mosques has become a central political issue — the government has moved to restrict foreign financing and to require imams to be trained domestically. In Germany, the Turkish-Islamic Union for Religious Affairs, or DITIB, operates over nine hundred mosques with imams who are civil servants of the Turkish state, paid by Ankara, answerable to Ankara. When Turkey's political direction shifted under Erdogan, the theology in those German mosques shifted with it, and the communities they served had no say in the change.
+
+This is the international dimension of religious money that extends well beyond the American prosperity gospel. When a mosque in Birmingham or a madrasa in Marseille is funded from Riyadh or Doha, the community that prays there does not choose its theology. The theology is chosen for them, by a donor thousands of miles away, whose priorities may have nothing to do with the lives of the people in the pews. It is colonialism by chequebook, and it operates in every Western European country with a significant Muslim population. The money shapes which version of Islam is available — and in many communities, the version that is funded is the only version that exists.
+
+I spoke with an imam in east London — I won't name him because his position is precarious — who told me that the mosque where he trained was funded by a Gulf donor who required adherence to a specific theological school. The local community, which was largely Bangladeshi and had practiced a far more moderate form of Sunni Islam for generations, found that the mosque's new leadership was preaching a version of the faith they didn't recognise. Women who had attended lectures in the main hall were moved to a separate room. Books by Sufi scholars were removed from the library. The imam described it as a "hostile takeover — except nobody hostile was present. Just money. And the conditions that came with the money."
+
+This is the mechanism. Not violence. Not coercion. Finance. The quietest and most effective form of religious influence in the modern world.
 
 * * *
 
@@ -150,7 +158,7 @@ Tithing. Ten percent.
 
 The concept comes from the Hebrew Bible. Modern churches, particularly evangelical Protestant churches, have turned it into a weekly expectation. Some teach that tithing is mandatory for salvation. Others frame it as obedience. Either way, the social pressure is enormous. In many congregations, giving is tracked. Envelopes are labeled. Some churches publish donor lists.
 
-Americans gave an estimated $135 billion to religious organizations in 2022, according to Giving USA. That's more than they gave to education, human services, and health organizations combined.
+Americans gave an estimated $135 billion to religious organizations in 2021, according to Giving USA. That's more than they gave to education, human services, and health organizations combined.
 
 Where does it go?
 
@@ -170,15 +178,23 @@ The tax exemption question is, at its core, a math problem.
 
 A widely cited 2012 study by University of Tampa professor Ryan Cragun estimated that the total subsidy to religion through tax exemptions is approximately $71 billion per year. That's more than the annual budget of the Department of Homeland Security.
 
-Defenders of religious tax exemption make several arguments, and some of them are strong. The First Amendment — if you can tax a church, you can shut it down. The social services — an estimated $20 billion or more annually. The small churches — the median congregation has seventy-five regular attendees and a budget under $200,000. These are community organizations, not corporations.
+Defenders of religious tax exemption make several arguments, and some of them are strong. I want to give the strongest version of the case, because I take it seriously and because dismissing it too quickly is how secular critics lose credibility.
 
-All of this is true. And none of it addresses the problem.
+The First Amendment argument is not trivial. It rests on a principle that has been tested repeatedly and never overturned: the power to tax is the power to destroy. If the government can levy a property tax on a church, it can set the rate. If it can set the rate, it can set it high enough to close the church. If it can close a church, it can decide which churches survive and which don't — and at that point, you no longer have religious freedom. You have religious freedom for institutions the state approves of. The founders understood this. The principle of non-entanglement is not a loophole; it is a load-bearing wall in the architecture of the First Amendment. Remove it, and the entire structure of church-state separation becomes unstable, because the same government that can tax a megachurch can tax a mosque, and the same political majority that finds televangelists distasteful might find Islam inconvenient.
+
+Then there's the social services argument — an estimated $20 billion or more annually in charitable work. Food pantries, shelters, disaster relief, addiction programmes, hospital chaplaincy. Some of this would vanish overnight if churches lost their exemption. The small churches — the median congregation has seventy-five regular attendees and a budget under $200,000 — would be hit hardest. These are community organisations, not corporations. A property tax bill could shutter a rural church that has been feeding its neighbours for forty years.
+
+I understand all of this. I think the principle is sound. And none of it addresses the problem.
 
 The problem is that the same exemption that keeps a small Baptist church in rural Alabama solvent also shields Lakewood Church's $90 million annual revenue from any public scrutiny. The system makes no distinction between a church that spends everything on its community and a ministry that makes its leader a billionaire.
 
 Because to make that distinction, you'd need oversight. And oversight means entanglement. And entanglement means the First Amendment argument kicks in.
 
 It's a perfect shield. The smallest church and the largest televangelist hide behind the same constitutional principle.
+
+And the shield has consequences beyond America. The US model — total exemption, zero mandatory disclosure — has been exported. In countries across the developing world, American-style megachurches have sprung up, replicating not just the prosperity theology but the financial opacity. In Nigeria, where Pentecostal churches are among the largest economic entities in the country, several church leaders have amassed fortunes rivalling those of their American counterparts. Winners' Chapel, founded by David Oyedepo, operates a private university, a fleet of aircraft, and real estate holdings valued in the hundreds of millions. Oyedepo is estimated to be worth between $50 million and $150 million, depending on which assessment you trust — and you can't fully trust any of them, because the finances are not disclosed.
+
+The pattern is global. The mechanism is local. In each country, the same logic applies: you cannot regulate what you cannot see, and religion has made itself invisible to the instruments of financial oversight. Not by accident. By design. The opacity is not a bug in the system. It is the system.
 
 * * *
 
@@ -195,6 +211,8 @@ That matters. I've sat in enough church basements and community halls to know it
 The problem is the industry that has grown up alongside these efforts. The television empires. The mega-churches with coffee bars and gift shops. The Vatican's investment portfolio. The Saudi export machine. The political lobbying firms that ensure the tax exemption never gets examined too closely.
 
 The problem is that this industry — one of the largest economic systems on the planet — operates in the name of God and reports to no one.
+
+I want to stress what I'm not arguing. I'm not arguing that churches should be taxed like corporations. I'm not arguing that the imam teaching Arabic classes should file the same paperwork as Amazon. I'm arguing that the absence of any financial transparency requirement — any at all — creates a system in which the Joel Osteens of the world are structurally indistinguishable from the seventy-five-member church running on bake sales. And that system is not an accident. It is defended, vigorously, by the very institutions that benefit most from the opacity, which are not the small churches but the large ones. Every time a senator proposes even modest disclosure requirements for religious organisations with revenues above a certain threshold, the lobbying apparatus activates. The argument is always the same: the First Amendment. And the First Amendment is real, and the principle matters. But the principle is being used to shield an industry, and the people paying the price are not the televangelists. They're Denise.
 
 Trillions of dollars. Zero mandatory transparency.
 

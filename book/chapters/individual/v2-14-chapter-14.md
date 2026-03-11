@@ -7,7 +7,7 @@ Here is what is actually happening.
 
 In the Netherlands, in 1958, sixty percent of the population attended church regularly. Today that number is under ten percent. In a single lifetime, a country went from majority churchgoing to almost entirely secular. The churches are still there. You can see them in every Dutch city — beautiful old buildings, now converted into bookshops, apartments, climbing gyms. A friend in Amsterdam told me he lives in a former Catholic church. His bedroom is where the altar was. He said it like he was telling me the previous owner had installed new countertops.
 
-Britain crossed a threshold sometime in the last decade. For the first time in its recorded history, the non-religious are now the majority. The Church of England can't fill its pews. The average age of an Anglican churchgoer is sixty-one. They aren't being replaced.
+In survey after survey, more British people now describe themselves as having no religion than as Christian — a threshold that crept past quietly, without announcement, in the last decade. The Church of England can't fill its pews. The average age of an Anglican churchgoer is sixty-one. They aren't being replaced.
 
 And in the United States — the great outlier, the most religious wealthy nation on Earth — the fastest-growing religious category is "none." Twenty-eight percent of Americans now identify with no religion. Among adults under thirty, it's closer to forty percent. In 1972, the number was five percent.
 
@@ -25,7 +25,7 @@ In Accra, Ghana, the churches aren't closing. They're building. Massive structur
 
 The easy secular response — that this is poverty and ignorance, that Africa will secularize as it develops, the way Europe did — is both patronizing and probably wrong. South Korea developed rapidly and became more Christian, not less. The United States was the richest nation on Earth and stayed stubbornly religious for decades. The link between development and secularization is real in northern Europe. It may be a local phenomenon, not a universal law.
 
-The secularization thesis was not a prophecy. It was a description of what happened in one corner of the world. The rest of the world is writing a different story. Anyone who claims to know how it ends is guessing.
+The secularization thesis was not a prophecy. It was a description of what happened in one corner of the world. The rest of the world is writing a different story. In China, Christianity is growing underground despite government suppression. In Brazil, Pentecostalism has reshaped the political landscape. In India, Hindu nationalism has fused faith and politics in ways that would have been unrecognisable a generation ago. Anyone who claims to know how it ends is guessing.
 
 *     *     *
 
@@ -49,6 +49,12 @@ She told me about Herr Brandt. Retired machinist. Seventy-four. His wife died in
 
 "In the old days," Katrin said, "the pastor would have been there on the second day. Not because the pastor was a saint. Because there was a system."
 
+She told me about another case. A woman — younger, mid-thirties — had moved to the town five years ago and tried to start a community group. A secular alternative to the church coffee mornings that no longer existed. She booked a room at the community centre. She put up flyers. She called it "Tuesday Together." The first week, eleven people came. The second week, seven. By the fourth week, it was her and two retired women. By the sixth week, she stopped.
+
+"She came to see me," Katrin said. "She was upset. She said, 'People came once and didn't come back. They said it was nice but they were busy.' I asked her what she'd offered them. Coffee and conversation. That's it. And I thought — the church didn't offer coffee and conversation. The church offered baptism, confirmation, marriage, burial. It offered a story that said your life matters, that your suffering has meaning, that you are known by name by the creator of the universe. Coffee and conversation cannot compete with that. But she didn't have anything else to offer, because the thing that made the church work was the thing she didn't believe."
+
+The woman moved away the following year. Tuesday Together was never replaced.
+
 Then there was Lena, twenty-eight, single mother. Her grandfather had died and her six-year-old son wanted to know where Opa had gone. Lena didn't believe in heaven. She told her son that Opa was gone and that was it, and the boy cried for a week.
 
 She came to Katrin and asked what she was supposed to say. Katrin told her she didn't know. Because she didn't.
@@ -71,11 +77,21 @@ Not the cartoonish version. The quieter rooms. Forums where people talked about 
 
 "It gave me a purpose," she said. She was leaning against her car, smoking, apologizing for the smoking. "I was nobody. I was a single mom who couldn't sleep. And suddenly I was part of something. I was doing important work. I was saving children."
 
-She described the architecture without knowing she was describing it: a hidden truth known only to the initiated. A great evil. A coming reckoning. A prophet figure who spoke in coded language. A community that reinforced commitment and ostracized doubters. This was eschatology. End-times theology with different vocabulary.
+I asked her what she'd had before QAnon. She thought about it.
+
+"Nothing. I had my kids. I had a job I hated. I had a phone. My friends from before the divorce kind of drifted — you know how it is, couples hang out with couples, and once you're not a couple anymore, you're not invited. My mum's in Florida. My sister and I don't talk."
+
+She described what the community gave her. There were group chats that ran all day. People checked in on each other. If Christine didn't post for a day, someone would message: "You okay? We need you." She hadn't heard that phrase from anyone in years. There were video calls where people shared their "research" and others listened with the intensity of a Bible study group. There were inside jokes, shared enemies, a language that marked you as one of us.
+
+"I had a purpose. I had people who needed me. I had something to do at three in the morning when I couldn't sleep instead of just lying there thinking about how everything went wrong."
+
+She described the architecture without knowing she was describing it: a hidden truth known only to the initiated. A great evil. A coming reckoning. A prophet figure who spoke in coded language. A community that reinforced commitment and ostracised doubters. This was eschatology. End-times theology with different vocabulary.
 
 "I know people think we're crazy," she said. "They thought the early Christians were crazy too."
 
 She said that. She actually said that.
+
+I stood in that parking lot and I thought: every serious person I know would diagnose Christine. They'd talk about misinformation and radicalisation pipelines and media literacy. And they wouldn't be wrong. But they'd be missing the thing that mattered most, which is that Christine was alone, and then she wasn't, and the thing that ended her loneliness was the first community that showed up. It wasn't a good community. It filled her head with poison. But it filled her life with people, and nobody else had bothered to do that.
 
 At a conference in San Francisco, I met Dale. Fifty-three. Retired from tech, living off stock options. He told me, over green juice that tasted like lawn clippings, that artificial intelligence would achieve superintelligence within our lifetimes. Death would become optional. Suffering would be eliminated. The right people — conveniently, the people in the room — would steer humanity toward salvation.
 
@@ -86,6 +102,10 @@ I listened to Dale describe the defeat of death with the same absolute convictio
 He smiled the way believers always smile at that question. "We can't afford to be wrong."
 
 I'd heard that sentence before. From a preacher in Alabama. From an imam in Manchester. The content changes. The structure never does. The human need for a salvation narrative doesn't disappear when you stop believing in God. It puts on a different outfit.
+
+I have spent enough time with these movements to see the pattern clearly. They offer what religion offers. Not the specific content — not heaven, not God, not scripture — but the architecture. A community of believers. A shared vocabulary that marks insiders from outsiders. A sense of mission. An enemy. A story about the future that makes the present bearable. The wellness industry offers it. Political extremism offers it. Multi-level marketing schemes offer it. Cryptocurrency communities offer it, complete with evangelists and heretics and a coming rapture called "the singularity" or "mass adoption" or whatever the faithful are calling paradise this quarter.
+
+The secular world has not replaced religion. It has scattered it. The same human needs that once flowed through a single institutional channel now spray in a dozen directions, and most of those directions lead nowhere good.
 
 *     *     *
 
@@ -99,7 +119,7 @@ Christianity has had two thousand years to develop theological brakes — intern
 
 QAnon has no brakes. Christine's community had no Sermon on the Mount, no tradition of self-questioning. When her beliefs led her to cut off her sister — "not ready to see the truth" — there was no institutional voice saying: be careful, you might be wrong.
 
-Dale's Silicon Valley faith had no brakes either. Effective altruism collapsed the moment its most prominent evangelist turned out to be running one of the largest frauds in history, and nobody within the movement had the architecture to ask, beforehand, whether a twenty-nine-year-old who claimed to be optimizing humanity might be worth scrutinizing.
+Dale's Silicon Valley faith had no brakes either. Effective altruism collapsed the moment its most prominent evangelist turned out to be running one of the largest frauds in history, and nobody within the movement had the architecture to ask, beforehand, whether a thirty-year-old who claimed to be optimizing humanity might be worth scrutinizing.
 
 When people leave religion, they don't stop being religious. They stop having good guardrails. And the impulse, unguarded, produces monsters.
 
@@ -171,11 +191,27 @@ I've been trying to prove her wrong since I left her office. I haven't managed i
 
 *     *     *
 
+But people are trying. I want to be honest about that, because despair is as dishonest as false hope.
+
+In London, a network of neighbourhood groups called Compassionate Neighbours pairs trained volunteers with people who are isolated, elderly, or dying. It is not religious. It is not therapy. It is simply showing up — visiting, listening, being present. The model was developed by a palliative care charity and has spread to dozens of boroughs. The volunteers commit to regular visits over months or years. They go to funerals. They sit with people who are afraid. They do, in other words, exactly what the church used to do — without the theology.
+
+In the Netherlands, where the churches emptied fastest, a movement called Burial Societies Without Faith organises secular funerals that are not the awkward, half-embarrassed affairs that secular death so often produces. They train celebrants. They help families write eulogies. They create rituals — candle-lighting, music, readings from poetry instead of scripture — that mark the gravity of what has happened without pretending anyone knows what comes next.
+
+In Berlin, a project called Nachbarschaftshilfe — neighbourhood help — connects new parents, the recently bereaved, and the newly unemployed with volunteers in their immediate area. It runs on a simple principle: when something hard happens to you, someone who lives nearby should know, and should knock on your door. It is, essentially, an attempt to engineer the thing that churches once provided automatically.
+
+These are small efforts. They don't scale the way a two-thousand-year-old institution scales. They don't have the theological urgency that makes a believer show up in the rain because God said to. But they exist, and the people running them are not naive about what they're up against. They know the church had something they don't have. They're trying to build the closest secular approximation, one door-knock at a time.
+
+Whether it's enough is the question this whole book has been circling. The honest answer, right now, is: probably not. Not yet. The scale is too small, the motivation too diffuse, the infrastructure too fragile. A church doesn't need to recruit volunteers to visit the sick; the theology does the recruiting. A secular neighbourhood initiative needs a coordinator, a budget, a mailing list, and the constant effort of persuading people to do something they have no cosmic obligation to do. The church has God. The secular alternative has a spreadsheet and good intentions.
+
+But that's where we are. And pretending we're somewhere else would be another form of the dishonesty this book has been trying to avoid.
+
+*     *     *
+
 On the train back from Katrin's town, I made a list in my notebook. What would a secular civilization need, I wrote, to do what the church did? Not the belief part. The holding part. The knocking-on-the-door part.
 
 Physical places. Not online communities. Not apps. Rooms with chairs where people show up on a regular schedule, see the same faces, build relationships across age and class. Churches did this every Sunday. Nothing secular has replicated it. The gym doesn't do it. The co-working space doesn't do it. The pub comes closest, but the pub doesn't visit you when you're dying.
 
-Honest rituals. Jean in Glasgow is building these — funerals, weddings, baby-namings that mark the transitions of life without lying about what we know. The humanist movement has made real progress. But the rituals are still thin, still new, still without the accumulated weight of centuries. They need time. They need Jean's granddaughter, and her granddaughter's granddaughter.
+Honest rituals. Margaret in Glasgow is building these — funerals, weddings, baby-namings that mark the transitions of life without lying about what we know. The humanist movement has made real progress here. In Scotland, humanist weddings now outnumber Church of Scotland weddings. That's not nothing. But the rituals are still thin, still new, still without the accumulated weight of centuries. A humanist funeral can be beautiful, but it doesn't have a thousand years of muscle memory behind it. It doesn't have a congregation that knows what to do without being told. It needs time. It needs Margaret's granddaughter, and her granddaughter's granddaughter, doing the same thing until it becomes tradition rather than invention.
 
 A shared moral language that doesn't depend on a deity. This is harder than it sounds. "Because God says so" settles arguments instantly. Without it, we have to build moral consensus from human needs and human suffering, and that work is slow and messy and reversible. That's not a bug. That's what intellectual honesty costs.
 
@@ -195,6 +231,8 @@ We're finding out. In real time. In Katrin's caseload and Christine's parking lo
 
 Herr Brandt is sitting in a chair. My daughter wants to know where Grandma went. Christine is on her phone at three in the morning looking for a community that will have her. And somewhere in Accra a church is going up, concrete and rebar and faith, and the singing from inside can be heard three streets away.
 
-I don't know what comes next. I know what I want it to contain: the willingness to knock on the door.
+I don't know what comes next. I know what I want it to contain: the willingness to knock on the door. The honesty to say "I don't know" when a child asks where Grandma went. The stubbornness to build something that holds people together, even if it takes generations to work, even if it never accumulates the weight that two thousand years of faith have accumulated.
+
+I know what I don't want it to contain: the pretence that this is easy. That rationality is enough. That people can live on evidence alone, the way a body can live on vitamins alone — technically sustained, but hungry for something the pills don't provide.
 
 Now I want to go back to where this started.

@@ -48,13 +48,13 @@ But the broader point holds. Religious institutions maintain power through a sys
 
 Excommunication. Shunning. Disfellowshipping. Cherem. Takfir. Every tradition has a mechanism for expelling members — and the psychological effects are devastating. The Jehovah's Witnesses practice "disfellowshipping," in which members who violate doctrine are cut off from all social contact with the congregation, including family members. Parents stop speaking to their children. Siblings become strangers. A 2021 study published in the Journal of Religion and Health found that former Jehovah's Witnesses who experienced shunning had significantly elevated rates of depression, anxiety, PTSD, and suicidal ideation.
 
-In Islam, apostasy — leaving the faith — is punishable by death under traditional Islamic jurisprudence. This is not a historical relic. As of 2024, apostasy carries the death penalty in at least thirteen countries, including Saudi Arabia, Iran, Afghanistan, and Somalia. Even in countries where the law doesn't mandate execution, social consequences can be devastating. Families disown their children. Communities turn their backs. In some contexts, the apostate simply disappears.
+In Islam, apostasy — leaving the faith — is punishable by death under traditional Islamic jurisprudence. This is not a historical relic. As of 2024, apostasy carries the death penalty in at least twelve countries, including Saudi Arabia, Iran, Afghanistan, and Somalia. Even in countries where the law doesn't mandate execution, social consequences can be devastating. Families disown their children. Communities turn their backs. In some contexts, the apostate simply disappears.
 
 This is the architecture of control. The threat of eternal suffering for disobedience. The threat of social death for doubt. The promise that the all-seeing judge is always watching, always recording, and that the punishment for stepping out of line is infinite.
 
-And if you think this is just historical, consider this: a 2023 Pew Research survey found that 73 percent of American Christians believe in hell. Not metaphorical hell. Actual hell. A real place where real people really suffer for eternity.
+And if you think this is just historical, consider this: a 2023 Pew Research survey found that 72 percent of American Christians believe in hell. Not metaphorical hell. Actual hell. A real place where real people really suffer for eternity.
 
-Seventy-three percent.
+Seventy-two percent.
 
 *     *     *
 
@@ -76,7 +76,7 @@ And in Iran, a woman who appears in public without a hijab can be arrested, impr
 
 On September 13, 2022, Mahsa Amini — her Kurdish name was Jina — was walking near a metro station in Tehran with her brother when she was stopped by Iran's morality police. She was twenty-two years old, visiting from the Kurdish city of Saqqez. The officers said her hijab was too loose. They put her in a van. Three days later, she was dead in a hospital bed. The authorities said she had a heart attack. Her family said she was healthy. Witnesses in the detention center said she was beaten. A CT scan leaked to the media showed skull fractures, brain hemorrhage, and edema.
 
-What followed shook Iran to its foundations. Within days, protests erupted across the country, led overwhelmingly by women removing their hijabs in public, swinging them above their heads like flags. The slogan was three words: "Woman, Life, Freedom" — Zan, Zendegi, Azadi. Schoolgirls chanted it in their classrooms. University students spray-painted it on walls. The movement spread to over 160 cities. The regime responded with live ammunition, mass arrests, and executions. By the time the protests were suppressed, more than five hundred people had been killed, including at least seventy children. Nearly twenty thousand were arrested. At least nine protesters were executed after show trials.
+What followed shook Iran to its foundations. Within days, protests erupted across the country, led overwhelmingly by women removing their hijabs in public, swinging them above their heads like flags. The slogan was three words: "Woman, Life, Freedom" — Zan, Zendegi, Azadi. Schoolgirls chanted it in their classrooms. University students spray-painted it on walls. The movement spread to over 160 cities. The regime responded with live ammunition, mass arrests, and executions. By the time the protests were suppressed, more than five hundred people had been killed, including nearly seventy children. Nearly twenty thousand were arrested. At least nine protesters were executed after show trials.
 
 The law did not change. The morality police are still operating. Mahsa Amini is still dead.
 
@@ -96,7 +96,7 @@ Marlene Winell, the psychologist who coined the term "religious trauma syndrome,
 
 Except the stove is real. And hell is not.
 
-The cognitive damage is measurable. A 2012 study published in the journal Child Abuse & Neglect found that exposure to religious fear and shaming in childhood was associated with increased rates of anxiety disorders, depression, and PTSD symptoms in adulthood — even after controlling for other forms of childhood adversity.
+The cognitive damage is measurable. Research published in the journal Child Abuse & Neglect found that exposure to religious fear and shaming in childhood was associated with increased rates of anxiety disorders, depression, and PTSD symptoms in adulthood — even after controlling for other forms of childhood adversity.
 
 Let me put this plainly. We are telling children — children who cannot reason about abstract claims, who cannot evaluate evidence, who trust adults the way flowers trust the sun — that an invisible being is watching their every thought, and that if they think the wrong thing, they will be tortured forever. And we call this moral education.
 
@@ -110,7 +110,7 @@ LGBTQ people.
 
 I am going to state some facts.
 
-In 2023, the Williams Institute at UCLA estimated that over forty-six thousand LGBTQ youth in the United States had been subjected to conversion therapy — the practice of attempting to change a person's sexual orientation or gender identity through psychological or spiritual intervention. The practice has been condemned by the American Psychological Association, the American Medical Association, and every major mental health organization in the world. A 2020 study published in JAMA Pediatrics found that LGBTQ youth who had undergone conversion therapy were more than twice as likely to attempt suicide as those who had not.
+In 2023, the Williams Institute at UCLA estimated that, according to some estimates, over forty-six thousand LGBTQ youth in the United States had been subjected to conversion therapy — the practice of attempting to change a person's sexual orientation or gender identity through psychological or spiritual intervention. The practice has been condemned by the American Psychological Association, the American Medical Association, and every major mental health organization in the world. A 2020 study published in JAMA Pediatrics found that LGBTQ youth who had undergone conversion therapy were more than twice as likely to attempt suicide as those who had not.
 
 Conversion therapy is overwhelmingly driven by religious conviction. The largest providers have historically been religious organizations. Exodus International, which operated for thirty-seven years as the world's largest conversion therapy network, was an explicitly Christian ministry. When it shut down in 2013, its president, Alan Chambers, publicly apologized for the harm it had caused. "I am sorry for the pain and hurt that many of you have experienced," he said. "I am sorry that some of you spent years working through the shame and guilt you felt when your orientation didn't change."
 
@@ -166,7 +166,7 @@ In the United States, the John Jay Report found that more than four thousand Cat
 
 In Germany, a 2018 study commissioned by the German Bishops' Conference found that at least 3,677 minors had been abused by Catholic clergy between 1946 and 2014. A subsequent investigation by a Munich law firm in 2022 implicated Pope Benedict XVI — then Joseph Ratzinger — in the mishandling of abuse cases during his tenure as Archbishop of Munich. He initially denied any involvement, then acknowledged he had attended a meeting where an abusive priest was discussed — a meeting he had previously said he did not attend.
 
-In France, an independent commission reported in 2021 that an estimated 330,000 children had been victims of sexual abuse within the Catholic Church since 1950. Three hundred and thirty thousand. In one country.
+In France, an independent commission reported in 2021 that an estimated 330,000 children (a figure that includes lay staff and volunteers as well as clergy) had been victims of sexual abuse within the Catholic Church since 1950. Three hundred and thirty thousand. In one country.
 
 In Australia, a Royal Commission found that 7 percent of Catholic priests who served between 1950 and 2010 had been accused of child sexual abuse. Seven percent. In some religious orders, the figure was higher than 20 percent.
 

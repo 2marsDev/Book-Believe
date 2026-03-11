@@ -89,6 +89,20 @@ I read that and I felt something I didn't expect. Not triumph — not "she's com
 
 *     *     *
 
+And Thomas.
+
+I haven't spoken to Thomas since we met. I thought about calling him several times while writing this book and never did. I'm not sure what I'd say. He was the one I couldn't argue with — not because his reasons were better, but because he didn't seem to need reasons. His faith was like his accent: something he'd grown up inside and never thought to question, not because he was incurious but because it fit. It held him without pinching. He went to Mass the way he went to work — not with ecstasy, not with crisis, just with the quiet assumption that this was what a life contained.
+
+I have a photograph from that day. Thomas outside the church after Mass, squinting in the sun, holding a paper cup of tea. He's smiling at someone off-camera. He looks exactly like what he is: a man at ease in a world that makes sense to him.
+
+I thought about Thomas more than I expected. He troubled me — not because his faith was wrong, but because it was working. Quietly, without drama, without the agonies I'd been documenting for three hundred pages. He wasn't harmed by religion. He wasn't deluded by religion. He was held by it, the way a house is held by its foundations — invisibly, without effort, so completely that the question of whether the foundations are made of the right material never arises because the house is warm and the roof doesn't leak.
+
+I don't feel pity for Thomas. I don't feel envy, exactly. I feel something closer to recognition. He has what the data says he should have — community, purpose, structure, peace. He is the person this book can't quite account for. The one who doesn't need rescuing from his beliefs because his beliefs aren't a cage. They're a home.
+
+I couldn't live in that home. I looked too carefully at the foundations. But I can see the light in the windows, and I know what it means to stand outside in the cold, and I am done pretending that the cold is freedom enough.
+
+*     *     *
+
 Here is what I believe, after all of it.
 
 I believe that the supernatural claims at the heart of Christianity, Islam, and Judaism are almost certainly not true. A man did not rise from the dead. An angel did not dictate a book in a cave. A sea did not part. These are human stories — powerful, civilizationally significant — but human.
@@ -125,9 +139,9 @@ She thinks it's beautiful. She's right.
 
 I close my hand around it. I take her hand in mine. We walk back up the beach toward the road.
 
-I am standing in a room where all the furniture has been removed. Same walls. Same windows. But everything that used to fill it is gone. The old certainties. The old comforts. The stories that made the dark feel smaller.
+The old certainties are gone. I'm not going to pretend that doesn't cost something. It does. It costs something every day.
 
-There's more space now. And it's colder. And the light comes in differently.
+But there is more room now. For honesty. For the questions that faith couldn't hold.
 
 Behind us, the sea keeps doing what it has always done.
 
