@@ -10,15 +10,13 @@ The teacher smiled. "That," she said, "is exactly the right question."
 
 I have been thinking about that exchange ever since. Not because it resolved anything. Because it didn't.
 
----
+*     *     *
 
 I should say something at the outset about why I find this chapter harder than any other I have written. It is not because the material is complicated, although it is. It is not because I am worried about giving offence, although I am. It is because I grew up around Islam, and that means I grew up around gendered Islam, which is to say I watched women navigate a tradition that had views about them — explicit, textual, sometimes beautiful, sometimes crushing views — and I watched some of them flourish and some of them suffocate and I did not always know which was which. I am a man writing about women's experience of religion, and that is a limitation I cannot write my way out of. The best I can do is be honest about it and then get out of the way.
 
 What I want to avoid is the version of this subject that feels most comfortable to the liberal reader: the version where the answer is obvious, where religion is the villain and feminism is the hero and any woman who defends her tradition is either lying or deceived. I have met too many women inside these traditions to believe that version. I have also met too many women who have been genuinely harmed by these traditions to pretend the critique is baseless. Both things are true. They have to be held at once, and holding them at once is uncomfortable, and the discomfort is the point.
 
----
-
-**What the texts say**
+*     *     *
 
 Let us start where we always have to start: the texts themselves.
 
@@ -34,9 +32,7 @@ And then Numbers 12. In Numbers 12, Miriam — prophet, leader, the woman who sa
 
 I am not reading these texts in order to build a case for the prosecution. I am reading them because they exist, and they have consequences, and anyone who tells you the consequences are merely the result of misreading is not being straight with you.
 
----
-
-**What the traditions did**
+*     *     *
 
 Texts require interpreters, and interpreters are human, and humans live inside historical circumstances that shape what they find. Every one of the three traditions has used its texts to do things to women that deserve scrutiny. Every one of them has also contained women who used those same texts to build remarkable lives.
 
@@ -52,9 +48,7 @@ Jewish women's history is different again. The halacha has always maintained for
 
 And yet. Women have been central to the transmission of Jewish life across generations in ways that formal religious authority often obscures. The home, which is where Jewish life is substantially practised, has been women's domain — Shabbat dinner, Passover preparations, the education of children in a tradition that commands education as a primary religious duty. There is a difference between formal exclusion and actual marginality, and Jewish women have rarely been actually marginal.
 
----
-
-**The conservative case, heard without condescension**
+*     *     *
 
 I want to spend some time with what I think of as the hardest version of the argument — the women who have engaged deeply with their tradition's gendered structures and concluded not that the structures are right despite their oppressiveness but that they are not oppressive, that the framework I am bringing to evaluate them is itself limited.
 
@@ -70,9 +64,7 @@ I do not know how to dismiss this. And I think that the refusal to dismiss it �
 
 The Catholic complementarian case is similar in structure if different in content. Women who support the Church's exclusion of women from the priesthood often argue not that women are inferior but that they are differently called — that the priesthood is a particular kind of representative function tied to the Incarnation and its specific historicity, and that this is not a limitation but a distinct form of sacred vocation. Whether you find this argument convincing depends heavily on prior theological commitments. But the women who make it are not, in my experience, women who have failed to think. They are often women who have thought harder about it than most people who dismiss it.
 
----
-
-**The women who left**
+*     *     *
 
 But there are also women for whom the moment of departure was specific and undeniable.
 
@@ -82,9 +74,7 @@ What Hana describes is not unusual in its structure — a specific encounter wit
 
 What distinguishes the women who left from the women who stayed is rarely the severity of the tradition's demands. It is often something more contingent — the specific person who delivered the ruling, the specific community that enforced it, the presence or absence of other women who had found a way to remain. Religion is never just its texts. It is also its people. And the people can be better or worse than the texts warrant.
 
----
-
-**The reformers**
+*     *     *
 
 On March 18, 2005, Amina Wadud stood at the front of a mosque in New York City and led a mixed-gender Friday prayer. She delivered the khutba — the sermon. Men and women prayed in the same rows. It had been done before, in smaller gatherings. It had not been done with this visibility, or this intention.
 
@@ -96,9 +86,7 @@ The Women of the Wall have been praying at the Western Wall with Torah scrolls a
 
 The Church of England ordained its first women priests in 1994. Women bishops followed in 2015. The United Methodist Church, in the United States, has ordained women since 1956. In each case the admission of women was preceded by years or decades of internal argument, and in each case the arguments made against ordination were textual, traditional, and held with genuine conviction by people who were not simply misogynists. The textual arguments did not change. What changed was the community's understanding of how to weight them, which is itself a theological act.
 
----
-
-**What I don't know how to say**
+*     *     *
 
 I have tried, in this chapter, not to decide the question that the chapter poses. I am not sure I have managed it.
 
@@ -112,9 +100,7 @@ What I do know is that the women who push from inside — Wadud, the Women of th
 
 I also know that the tradition has in each case, eventually, moved. Not always. Not fully. Not without grievous cost. But moved.
 
----
-
-**What I cannot resolve**
+*     *     *
 
 There is a moment I keep returning to. It is not dramatic. A woman I knew through a mosque community — I will call her Nadia — told me once that she had read everything: the feminist critiques, the reformist scholarship, Amina Wadud's gender jihad, Fatima Mernissi on the veil, everything. And she had concluded that she would continue to pray behind a curtain in the women's section of her mosque. Not because she was required to but because the separation gave her something the mixed space did not — a kind of interior quiet, she said, that she could not find when she was conscious of being seen.
 
