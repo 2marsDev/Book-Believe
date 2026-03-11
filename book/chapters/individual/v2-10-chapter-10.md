@@ -34,7 +34,7 @@ But here's what it looks like in practice.
 
 * * *
 
-Kenneth Copeland is worth an estimated $300 million. He lives in a lakefront mansion valued at roughly $7 million, which is classified as a parsonage — a church-provided home — making it tax-exempt. He owns a fleet of private jets. He has his own airport. Kenneth Copeland Airport. In Newark, Texas. A man of God with his own runway.
+Kenneth Copeland is worth an estimated $300 million. He lives in a lakefront mansion valued at roughly $7 million, which is classified as a parsonage — a church-provided home — making it tax-exempt. He owns a fleet of private jets. He has his own airport. Kenneth Copeland Airport. In Newark, Texas — about fifty miles northwest of Dallas. A man of God with his own runway.
 
 In 2019, a reporter from Inside Edition caught Copeland outside and asked him about the jets. Why does a preacher need a private jet?
 
@@ -106,9 +106,7 @@ This isn't new. The money has always been there. What changes is the scale and t
 
 Oral Roberts built a university, a hospital, and a television empire starting in the 1950s. In 1987, he went on air and told his viewers that God would "call him home" — kill him — if they didn't send $8 million by March. They sent $9.1 million. Roberts lived. God, apparently, was satisfied.
 
-Jim Bakker and his wife Tammy Faye built the PTL Club into a broadcasting powerhouse. They had a satellite network, a theme park called Heritage USA, and an air-conditioned doghouse. In 1989, Bakker was convicted of fraud and sentenced to forty-five years in prison. He'd oversold "lifetime partnerships" — basically timeshares — by 60,000 units. He took in $158 million and spent most of it on operations, personal luxury, and hush money to Jessica Hahn, a church secretary he'd sexually assaulted.
-
-Bakker served five years. He's back on television now, selling survival food buckets.
+Jim Bakker and his wife Tammy Faye built the PTL Club into a broadcasting powerhouse. They had a satellite network, a theme park called Heritage USA, and an air-conditioned doghouse. In 1989, Bakker was convicted of fraud and sentenced to forty-five years in prison, later reduced on appeal. He served five. He'd oversold "lifetime partnerships" — basically timeshares — by 60,000 units. He took in $158 million and spent most of it on operations, personal luxury, and hush money to Jessica Hahn, a church secretary he'd sexually assaulted. He's back on television now, selling survival food buckets.
 
 Jimmy Swaggart was the most-watched televangelist in the world in the mid-1980s. His ministry brought in $150 million a year. He was caught with a prostitute in 1988 and gave his famous crying confession on live television. Caught again in 1991, he told his congregation, "The Lord told me it's flat none of your business."
 
@@ -120,7 +118,7 @@ The pattern is always the same. Build the audience. Build the revenue. When scan
 
 The Catholic Church is the largest non-governmental landowner on Earth. The Vatican's liquid assets are estimated at $10 billion to $15 billion, not including an art collection — Michelangelo, Raphael, Caravaggio, Bernini — that has never been independently appraised and is effectively priceless.
 
-The Vatican Bank, formally the Institute for the Works of Religion, has a long history of opacity. The details could fill their own book — shell companies, a banker found hanging under a London bridge with bricks in his pockets, ties to a secret Masonic lodge, decades of scandal that reads like a thriller nobody would believe if it were fiction. What matters here is the pattern: when an institution claims divine authority and answers to no earthly regulator, money disappears. In 2023, Cardinal Angelo Becciu was convicted of embezzlement in a London real estate deal that lost the Vatican an estimated $150 million — drawn from Peter's Pence donations that ordinary Catholics believed were going to charity. He was one man. The system that allowed him to operate remains intact.
+The Vatican Bank, formally known as the Institute for the Works of Religion, has a long history of opacity. The details could fill their own book — shell companies, a banker found hanging under a London bridge with bricks in his pockets, ties to a secret Masonic lodge, decades of scandal that reads like a thriller nobody would believe if it were fiction. What matters here is the pattern: when an institution claims divine authority and answers to no earthly regulator, money disappears. In 2023, Cardinal Angelo Becciu was convicted by a Vatican tribunal of financial crimes connected to a London real estate deal that lost the Vatican an estimated $150 million — drawn from Peter's Pence donations that ordinary Catholics believed were going to charity. He was one man. The system that allowed him to operate remains intact.
 
 * * *
 
@@ -148,7 +146,7 @@ This is the mechanism. Not violence. Not coercion. Finance. The quietest and mos
 
 * * *
 
-Jewish institutional finance is structurally different. Most Jewish organizations in America operate as secular nonprofits that file Form 990s, and synagogue budgets are generally disclosed. The transparency is genuinely better. But concentrated religious wealth is never immune to abuse: in 2019, a federal investigation into a Lakewood, New Jersey, Orthodox community uncovered a systematic tax fraud scheme involving millions of dollars, enabled by a community structure that resists outside scrutiny on religious grounds. Not representative. But not unthinkable either.
+Jewish institutional finance is structurally different. Most Jewish organizations in America operate as secular nonprofits that file Form 990s, and synagogue budgets are generally disclosed. The transparency is genuinely better. But concentrated religious wealth is never immune to abuse: in 2019, a federal investigation into a Lakewood, New Jersey, Orthodox community uncovered a systematic tax fraud scheme involving millions of dollars, enabled by a community structure that resists outside scrutiny on religious grounds. Not representative. But not unthinkable either. The Jewish Federations of North America system alone raises over $2 billion annually, making it one of the largest philanthropic networks in the world — a scale that, like its Christian counterparts, depends heavily on tax exemption and operates with limited public transparency.
 
 * * *
 

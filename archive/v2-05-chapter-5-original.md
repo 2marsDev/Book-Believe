@@ -62,8 +62,6 @@ In John: "It is finished." A declaration of triumph. Mission accomplished.
 
 Three completely different final statements. Three different emotional registers. Three different theologies of what the crucifixion meant. Mark's Jesus dies in agony and doubt. Luke's Jesus dies in serene trust. John's Jesus dies in conscious triumph. These are not three recollections of the same moment. They are three theological interpretations of a death, each crafted to serve the particular Gospel writer's understanding of who Jesus was and what his death meant. A man has one set of last words. Not three.
 
-Consider the feeding of the five thousand — the only miracle, apart from the resurrection itself, that appears in all four Gospels. You might expect that a story told four times would converge on the details. It doesn't. In Mark, Jesus asks the disciples to check how much bread they have; they report five loaves and two fish. In John, it is the disciple Philip whom Jesus specifically tests, and it is Andrew who locates a boy with the food. In Matthew and Mark, the crowd sits on grass. In John, on grass again, but the detail of the boy is unique to John and absent from the others. After the miracle, Mark says the disciples "had not understood about the loaves; their hearts were hardened." John says the crowd tried to make Jesus king by force. Same event. Different witnesses. Different meanings.
-
 Then take the cleansing of the Temple — the moment Jesus overturns the tables of the money-changers in the Jerusalem temple. In Matthew, Mark, and Luke, this happens in the last week of Jesus's life, immediately before his arrest and crucifixion. It is, in those accounts, the provocative act that triggers the chain of events leading to his death. In John, it happens at the beginning of Jesus's ministry — chapter 2, near the start of the Gospel. Either Jesus cleansed the Temple once, at the beginning or the end of his public life, and some of the Gospel writers got the timing wrong. Or he did it twice, and three of the four writers forgot to mention one of the occasions. Neither option is consistent with divine inspiration ensuring accuracy.
 
 Then the resurrection. The event that Christianity stands or falls on. Who discovered the empty tomb?
@@ -140,19 +138,7 @@ This is not a trivial objection. It explains something that has puzzled me for y
 
 *     *     *
 
-I need to tell you what this felt like. Not because my feelings matter more than the evidence, but because I think the feeling is part of the honest account, and leaving it out would be a kind of dishonesty.
-
-I wasn't looking for reasons to dismiss these books. I wanted — genuinely wanted — to find something that would make me say: this is different from every other ancient text. This could only have come from something beyond human.
-
-I expected to find a mixed verdict. I expected some passages that were inexplicably accurate, some knowledge that the authors couldn't possibly have had, some structural coherence that defied explanation. I expected the kind of ambiguity that would allow me to write a fair-minded chapter that ended with a shrug — "we just don't know."
-
-I didn't find it.
-
-What I found was something more complicated than disappointment. It wasn't triumph. I wasn't pumping my fist over the Gospel contradictions or feeling clever about the Quranic anatomy. If anything, I felt the opposite of clever. I felt like I'd walked into a room I'd been told was full of treasure and found it full of things that were beautiful but ordinary. Beautiful manuscripts. Extraordinary human achievements. But not what was promised. Not what I'd hoped for, against my own expectations.
-
 There was a moment — I remember it precisely — sitting at my desk with three translations of the Quran open, cross-referencing the backbone-and-ribs passage with a Galenic medical text I'd found in a university library database. And I thought: I'm doing this because I'm hoping the apologists are right. I'm hoping the Arabic really does mean something other than what it appears to mean. I'm hoping I'm wrong. And then I realised that hoping I was wrong was itself a kind of evidence — evidence of how badly I wanted these books to be more than human. Evidence of the pull these traditions exert even on someone who never believed.
-
-It didn't feel like finding something. It felt like losing something. Like being told that the house you grew up in — not my house, because I never lived there, but a house I'd always admired from the street, a house I'd always thought I might one day walk into — was being demolished. The blueprints were flawed. The foundation wasn't sound. The house was beautiful, but it couldn't stand, and knowing that didn't make it less beautiful. It just made it less safe.
 
 What I found were books that look exactly like what you'd expect from their time and place. The Bible reads like what it is: a collection of texts written by different people over a thousand years, reflecting different theologies, different political contexts, and different levels of knowledge about the natural world. The Quran reads like what it is: the work of a brilliant, charismatic, seventh-century mind — deeply familiar with Jewish and Christian traditions, steeped in the oral culture of Arabia, and limited by the scientific understanding of his era.
 

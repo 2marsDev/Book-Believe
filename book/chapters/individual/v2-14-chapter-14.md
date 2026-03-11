@@ -89,8 +89,6 @@ She described the architecture without knowing she was describing it: a hidden t
 
 "I know people think we're crazy," she said. "They thought the early Christians were crazy too."
 
-She said that. She actually said that.
-
 I stood in that parking lot and I thought: every serious person I know would diagnose Christine. They'd talk about misinformation and radicalisation pipelines and media literacy. And they wouldn't be wrong. But they'd be missing the thing that mattered most, which is that Christine was alone, and then she wasn't, and the thing that ended her loneliness was the first community that showed up. It wasn't a good community. It filled her head with poison. But it filled her life with people, and nobody else had bothered to do that.
 
 At a conference in San Francisco, I met Dale. Fifty-three. Retired from tech, living off stock options. He told me, over green juice that tasted like lawn clippings, that artificial intelligence would achieve superintelligence within our lifetimes. Death would become optional. Suffering would be eliminated. The right people — conveniently, the people in the room — would steer humanity toward salvation.
@@ -119,9 +117,9 @@ Christianity has had two thousand years to develop theological brakes — intern
 
 QAnon has no brakes. Christine's community had no Sermon on the Mount, no tradition of self-questioning. When her beliefs led her to cut off her sister — "not ready to see the truth" — there was no institutional voice saying: be careful, you might be wrong.
 
-Dale's Silicon Valley faith had no brakes either. Effective altruism collapsed the moment its most prominent evangelist turned out to be running one of the largest frauds in history, and nobody within the movement had the architecture to ask, beforehand, whether a thirty-year-old who claimed to be optimizing humanity might be worth scrutinizing.
+Dale's Silicon Valley faith had no brakes either. Effective altruism was thrown into crisis the moment its most prominent evangelist turned out to be running one of the largest frauds in history, and nobody within the movement had the architecture to ask, beforehand, whether a thirty-year-old who claimed to be optimizing humanity might be worth scrutinizing.
 
-When people leave religion, they don't stop being religious. They stop having good guardrails. And the impulse, unguarded, produces monsters.
+When people leave religion, they don't stop being religious. They stop having good guardrails. And the impulse, unguarded, produces genuine harm.
 
 *     *     *
 
@@ -211,7 +209,7 @@ On the train back from Katrin's town, I made a list in my notebook. What would a
 
 Physical places. Not online communities. Not apps. Rooms with chairs where people show up on a regular schedule, see the same faces, build relationships across age and class. Churches did this every Sunday. Nothing secular has replicated it. The gym doesn't do it. The co-working space doesn't do it. The pub comes closest, but the pub doesn't visit you when you're dying.
 
-Honest rituals. Margaret in Glasgow is building these — funerals, weddings, baby-namings that mark the transitions of life without lying about what we know. The humanist movement has made real progress here. In Scotland, humanist weddings now outnumber Church of Scotland weddings. That's not nothing. But the rituals are still thin, still new, still without the accumulated weight of centuries. A humanist funeral can be beautiful, but it doesn't have a thousand years of muscle memory behind it. It doesn't have a congregation that knows what to do without being told. It needs time. It needs Margaret's granddaughter, and her granddaughter's granddaughter, doing the same thing until it becomes tradition rather than invention.
+Honest rituals. Margaret Campbell, the humanist celebrant I met in Glasgow, is building these — funerals, weddings, baby-namings that mark the transitions of life without lying about what we know. The humanist movement has made real progress here. In Scotland, humanist weddings now outnumber Church of Scotland weddings. That's not nothing. But the rituals are still thin, still new, still without the accumulated weight of centuries. A humanist funeral can be beautiful, but it doesn't have a thousand years of muscle memory behind it. It doesn't have a congregation that knows what to do without being told. It needs time. It needs Margaret's granddaughter, and her granddaughter's granddaughter, doing the same thing until it becomes tradition rather than invention.
 
 A shared moral language that doesn't depend on a deity. This is harder than it sounds. "Because God says so" settles arguments instantly. Without it, we have to build moral consensus from human needs and human suffering, and that work is slow and messy and reversible. That's not a bug. That's what intellectual honesty costs.
 
@@ -235,4 +233,4 @@ I don't know what comes next. I know what I want it to contain: the willingness 
 
 I know what I don't want it to contain: the pretence that this is easy. That rationality is enough. That people can live on evidence alone, the way a body can live on vitamins alone — technically sustained, but hungry for something the pills don't provide.
 
-Now I want to go back to where this started.
+We built the secular world. We are still learning what to put inside it.

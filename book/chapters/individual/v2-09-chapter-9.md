@@ -154,11 +154,19 @@ I need to talk about the Catholic abuse crisis. Not briefly. Not with the euphem
 
 Before the statistics, I want you to hear one voice.
 
-A woman I'll call Marie grew up in a parish outside Lyon. In 1987, when she was eleven, a priest began abusing her after catechism class. She told her mother. Her mother told the diocese. The diocese transferred the priest to another parish. No police report. No investigation. No warning to the new community. He was still serving in 2004 — seventeen years later, with access to a new group of children every few years, because the institution chose him over every child who came after Marie.
+A woman I'll call Marie grew up in a parish outside Lyon. In 1987, when she was eleven, a priest began abusing her after catechism class. It happened in a room adjacent to the sacristy, on Wednesdays, after the other children had left. She told her mother within weeks. Her mother — a devout woman who had never missed Sunday Mass — believed her immediately. That is worth pausing on, because in many of these stories the first failure is disbelief, and Marie's mother did not fail her. She went to the diocese the following day.
 
-When I spoke with her, she told me something I haven't been able to forget: "They didn't just fail to protect me. They used me up and moved on. I was eleven, and I was already a problem to be managed. Not a child to be saved. A problem."
+The diocese transferred the priest to another parish. No police report. No investigation. No warning to the new community. Marie's mother was told, she said, that the matter was being "handled internally" and that it would be best for everyone — including Marie — if the family did not discuss it further. The implication was clear: silence was being framed as care. Speaking would cause scandal, and scandal would hurt the parish, and hurting the parish would hurt the community that Marie's family depended on. The machinery of suppression was not crude. It was gentle, solicitous, almost kind.
 
-She had been telling this story for a long time. Nobody had listened for most of it.
+He was still serving in 2004 — seventeen years later, with access to a new group of children every few years, because the institution chose him over every child who came after Marie.
+
+Within the parish, the story was half-known in the way such stories often are — whispered, never confirmed, never quite denied. Some families quietly moved their children to other catechism groups. Nobody confronted the situation directly. Marie's family stayed in the parish for another three years before moving to a different part of the city. Her mother stopped attending Mass. Her father, who had not been told the full details, didn't understand why. The family fractured along the fault line of a secret that was not Marie's to carry but became hers anyway.
+
+When I spoke with her, she was in her late forties. She had eventually spoken publicly — first to a victims' advocacy group in 2012, then to the independent commission that investigated abuse in the French Catholic Church. Giving testimony, she said, was not the liberation people imagine it to be. "You tell the story and they write it down and they thank you and you go home and you're still the person it happened to. Nothing transfers. You just have witnesses now." She works in social services. She has a daughter. She does not attend any church. She described herself, without self-pity, as someone who had been "made allergic to institutions."
+
+She told me something I haven't been able to forget: "They didn't just fail to protect me. They used me up and moved on. I was eleven, and I was already a problem to be managed. Not a child to be saved. A problem."
+
+She said the word "problem" twice. Both times it landed like a stone dropped into still water.
 
 Now the numbers.
 

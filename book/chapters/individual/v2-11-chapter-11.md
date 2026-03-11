@@ -2,7 +2,7 @@
 
 I was eight years old the first time someone told me I might go to hell.
 
-I don't remember the exact words. I remember the feeling. A Sunday school teacher describing a lake of fire. A place where you burned and burned and never died. A place God sent people who didn't believe the right things.
+It was a Church of England primary school — religion was embedded in the curriculum whether you chose it or not — and the lesson was about sheep and goats. I don't remember the exact words. I remember the feeling. A Sunday school teacher describing a lake of fire. A place where you burned and burned and never died. A place God sent people who didn't believe the right things.
 
 I was eight. I went home and couldn't sleep.
 
@@ -74,7 +74,7 @@ The harm is structural. It doesn't require bad people. It just requires a bad id
 
 Now let's talk about education.
 
-In late 2004, the school board of Dover, Pennsylvania, voted to require that a statement about "intelligent design" be read to students in ninth-grade biology class. The case went to trial in 2005 — Kitzmiller v. Dover. The judge, a Republican-appointed churchgoing Lutheran, ruled that intelligent design was religious doctrine dressed in scientific language. It cost the school district over $1 million in legal fees.
+In late 2004, the school board of Dover, Pennsylvania, voted to require that a statement about "intelligent design" be read to students in ninth-grade biology class. The case went to trial in 2005 — Kitzmiller v. Dover. The judge, a Republican-appointed churchgoing Lutheran, ruled that intelligent design was religious doctrine dressed in scientific language. It cost the school district over $1 million in legal fees paid to the plaintiffs alone.
 
 But Dover was the case that made it to court. In thousands of school districts across America, the same pressure operates quietly. Teachers self-censor. They skip the evolution unit. They teach it quickly, afraid of complaints. A 2020 survey in Evolution: Education and Outreach found that only about two-thirds of U.S. public high school biology teachers present evolution as the scientific consensus without qualification.
 
@@ -92,7 +92,7 @@ In 2015, a group called Young Advocates for Fair Education, or YAFFED, filed a c
 
 The city investigated. Slowly. Over the course of years.
 
-In 2022, the New York Times published a major investigative report that examined Hasidic schools receiving more than $1 billion in government funding over the previous four years. The investigation found that in many of these schools, boys could not read English at a functional level. They could not do basic arithmetic. They had never been taught science. In the schools the Times examined, fewer than one percent of students in grades three through eight passed the state standardized tests in English. Fewer than one percent.
+In 2022, the New York Times published a major investigative report that examined Hasidic schools receiving more than $1 billion in government funding over the previous four years. The investigation found that in many of these schools, boys could not read English at a functional level. They could not do basic arithmetic. They had never been taught science. In the schools the Times examined, fewer than one percent of students in grades three through eight passed the state standardized tests in English.
 
 Graduates described leaving the yeshiva system unable to fill out a job application in English. Unable to read a lease. Unable to navigate a world they had been deliberately kept separate from.
 
@@ -104,7 +104,7 @@ And that's the point. You don't need to keep someone in a room to trap them. You
 
 In parts of Pakistan, Bangladesh, and West Africa, residential Quranic schools do something structurally similar — children memorise a sacred text in a language they don't speak, for years, emerging unable to do multiplication. In Senegal, the talibe system sends boys as young as five to live with Quranic teachers called marabouts. A 2019 Human Rights Watch report documented cases of boys forced to beg in the streets to meet daily quotas, beaten if they failed, sleeping on concrete floors, malnourished and unschooled in anything but Quranic recitation. The Senegalese government has tried repeatedly to regulate the system. It has largely failed, because the marabouts' religious authority insulates them from state oversight.
 
-The geography changes. The mechanism doesn't. In every case, the structure is the same: a religious authority claims jurisdiction over a child's education. The state defers, because challenging religious authority is politically costly. And the child — who did not choose any of this — emerges into adulthood without the tools that every other child in that society takes for granted.
+The comparison is imperfect: the talibe system involves physical abuse and forced labour that goes beyond curriculum deprivation. But the structural question — who benefits from keeping these children inside — applies to both. The geography changes. The mechanism doesn't. In every case, the structure is the same: a religious authority claims jurisdiction over a child's education. The state defers, because challenging religious authority is politically costly. And the child — who did not choose any of this — emerges into adulthood without the tools that every other child in that society takes for granted.
 
 The defenders of these systems always frame the argument as one of religious freedom. And religious freedom is real, and it matters, and I have spent enough of this book defending it to be taken seriously when I say: the freedom of a parent to educate their child in their faith does not include the freedom to render that child helpless. A child is not a vessel for their parents' beliefs. A child is a future adult, and that future adult has rights that exist independently of what their parents believe about God.
 
@@ -190,7 +190,7 @@ Teach them your tradition. But give them enough education to survive outside it.
 
 * * *
 
-I don't have children yet. I think about this more than you'd expect from someone who doesn't.
+When I first wrote this chapter, I didn't yet have children. I thought about this more than you'd expect from someone who doesn't.
 
 I think about it because of Sarah, and the flannel board, and the nightmares that followed her out of childhood and into her thirties. I think about it because of David, and the warmth in his voice when he talked about Friday nights, and the fact that warmth was real and I have nothing in my life that replicates it. I think about it because someday I might have a child, and I will have to decide what to do with their open, trusting, defenseless mind.
 
@@ -234,6 +234,6 @@ I think about that laugh sometimes. Not the nightmares. The laugh. The fact that
 
 And then I think about all the children who are hearing it right now. Tonight. In Sunday school classrooms and church basements and bedrooms where a well-meaning parent is reading from a book they believe is the word of God. Children who don't have the language to push back. Who will carry it for decades. Who may never fully put it down.
 
-I don't know how to end this chapter. I don't have a closing argument that ties it all together. I have Sarah's voice in my head, asking people not to tell the children. And David's voice, warm with gratitude, talking about Friday nights. And the silence of a boy in Brooklyn who can recite the Talmud but can't read his own lease. And my own voice, eight years old, whispering prayers into a dark ceiling, trying to believe hard enough to be safe.
+I don't know how to end this chapter. I don't have a closing argument that ties it all together. I have Sarah's voice in my head, asking people not to tell the children. And David's voice, warm with gratitude, talking about Friday nights. And the silence of a boy in Brooklyn — a figure drawn from documented cases — who can recite the Talmud but can't read his own lease. And my own voice, eight years old, whispering prayers into a dark ceiling, trying to believe hard enough to be safe.
 
 That's all I have. The voices. And the question that won't stop: what do we owe the children who can't yet speak for themselves?

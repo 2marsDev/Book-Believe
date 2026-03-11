@@ -2,6 +2,8 @@
 # EXPOSING
 Chapter 8: The Beautiful Answer
 
+I sat still in a quiet room and something settled. I don't know what it was. I'm not sure it matters what it was — not yet. What matters is what happens next. Because the person who gets up from prayer, who opens their eyes after meditation, who finishes the dhikr or the davening or the rosary, does not stay in that room. They walk out the door. They re-enter the world. And the question shifts: from what does this practice do inside a person, to what does it do when that person meets other people? When they join institutions, build communities, vote, raise children, go to war? The interior life is real. I've seen enough to say that honestly. But religion does not stay interior. It never has.
+
 The same mechanisms that make religion false are also what make it work.
 
 The brain that manufactures God — the pattern-seeking, agent-detecting, meaning-hungry brain I described in the last chapter — is the same brain that benefits from believing in God. The cognitive bias that invents a divine plan is also the cognitive bias that makes suffering bearable. The social instinct that creates ritual is the same instinct that creates community.

@@ -146,9 +146,9 @@ There's a word for what I was experiencing at this point in my research, and it'
 
 Grief.
 
-Not for my own faith — I'd never had one. But for the idea that this might all be true. For the door that was closing. I had started this process genuinely hoping to find something extraordinary. Some piece of evidence, some uncanny detail, some quality of these texts that would make me say: this is different from every other human story. This really could be divine.
+Not for my own faith — I'd never had one. But for the door that was closing.
 
-I knew what I hoped to find, and I can be specific about it, because the specificity matters. I hoped to find a single detail in these ancient texts that could not be explained by the knowledge available to their authors at the time they wrote. A piece of astronomy that predated telescopes. A medical insight that predated anatomy. A historical fact that the author could not have known. Something — anything — that would constitute a fingerprint of genuinely superhuman knowledge. Not beauty. Not moral wisdom. Not the feeling of transcendence that comes from reading great literature. I can get all of those from Shakespeare, and no one claims he was taking dictation from God.
+I can be specific about what I hoped to find, because the specificity matters. I hoped to find a single detail in these ancient texts that could not be explained by the knowledge available to their authors at the time they wrote. A piece of astronomy that predated telescopes. A medical insight that predated anatomy. A historical fact that the author could not have known. Something — anything — that would constitute a fingerprint of genuinely superhuman knowledge. Not beauty. Not moral wisdom. Not the feeling of transcendence that comes from reading great literature. I can get all of those from Shakespeare, and no one claims he was taking dictation from God.
 
 I hoped to find something that Shakespeare couldn't have produced. Something that required access to information no human in that century had.
 
@@ -159,14 +159,6 @@ Instead I found borrowed flood myths, recycled hero patterns, creation stories e
 Human stories. All the way down.
 
 Every one of them human. Every one of them borrowed. Every one of them passed down with total conviction by people who didn't know any of this.
-
-And the grief was not for a belief I had lost but for a belief I had wanted to gain. I had wanted to be persuaded. I had wanted to sit down with these texts and find myself outmatched — to encounter a mind so far beyond my own that the only honest response was awe. Instead I found minds like mine. Brilliant, sometimes. Profound, often. But human. Limited in the ways humans are limited. Wrong about the things humans are wrong about.
-
-What would it have looked like, the thing I hoped to find? I can tell you, because I spent a long time imagining it. It would have looked like a text that knew something its author couldn't have known. A passage in Genesis that described the structure of DNA. A verse in the Quran that named the moons of Jupiter. A prophecy in Isaiah that gave the date and location of an event centuries in the future with a specificity that excluded lucky guessing. Not metaphorical resonance. Not after-the-fact reinterpretation. Actual knowledge, demonstrably beyond the reach of the person holding the pen.
-
-That would have been different. That would have stopped me in my tracks. That would have been the fingerprint of something genuinely other — a mind that was not limited by the century it appeared in. And I would have said so, clearly and without hedging, because that is what the evidence would have demanded.
-
-Instead, every text I examined was perfectly consistent with human authorship. The knowledge in them was the knowledge available at the time. The errors in them were the errors common at the time. The stories in them were the stories circulating at the time. There was nothing left over. Nothing unexplained. Nothing that required a supernatural author to account for.
 
 And that is a loss, even for someone who never believed. It is the loss of a possibility. The closing of a door you never walked through but always liked knowing was there.
 
