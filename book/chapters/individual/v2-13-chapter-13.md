@@ -1,163 +1,169 @@
-## Chapter 13: What We Keep
+Chapter 13: What We Keep
+
+The humanist celebrant's office was on the second floor of a converted Victorian house in the west end of Glasgow, above a letting agency. The stairwell smelled of damp carpet and old radiator paint. Her door had a small brass nameplate that read MARGARET CAMPBELL, HUMANIST SOCIETY SCOTLAND, and below it, in smaller letters, CELEBRANT -- FUNERALS, WEDDINGS, NAMINGS.
+
+She was in her early sixties. Short grey hair. Reading glasses pushed up on her forehead. She was wearing a dark blazer over a jumper, the kind of outfit that says: I take this seriously, but I'm not performing. There was a mug of tea going cold on her desk and a stack of folders -- each one, I realized, a person who had died.
+
+She'd just come from conducting a funeral for a man who'd worked in the Govan shipyards his whole life. No religion. No faith. No interest in God. But a life. A full, specific, unrepeatable life.
+
+"I sat with his wife for two hours," she told me. "She told me everything. How they met at a dance in 1974. How he always burned the toast. How he sang in the shower -- badly, every morning, for forty-seven years. How he held her hand in the hospital at the end and said, 'Don't be daft, hen. I'll be fine.' He wasn't fine. He died the next day."
+
+I asked her what happened at the funeral.
+
+"When I stood up and told that story," she said, "his wife cried. His son cried. The shipyard lads cried. Big men, hands like shovels, crying in a crematorium on a Tuesday morning. And then one of them laughed, because the toast thing was funny -- he'd apparently set off the smoke alarm so many times they'd taken the battery out -- and then they all laughed, and that moment, the crying turning to laughing, that's the ritual. That's the sacred. You don't need God for that. You need someone who listened."
+
+Outside the window it was raining. Glasgow rain -- not dramatic, just persistent, the kind that makes everything look like it's been recently washed. Margaret Campbell took a sip of her cold tea and set it back down.
+
+"People think what I do is the easy version," she said. "No theology, no doctrine, just say some nice things and play a song. It's not. It's harder. A minister can lean on two thousand years of liturgy. I have to build it fresh every time, from the materials of one life. I have to find the structure in the specific. The toast. The singing. The hand-holding. Those aren't just details. Those are the sacraments. Forty-seven years of bad singing in the shower -- that's a marriage. That's the whole thing."
+
+I sat in that office for most of a morning. I went because I was writing a book about religion and I wanted to understand what comes after. What I found was someone who had already started building it.
+
+* * *
 
 Here's what I keep coming back to.
 
 Religion got the cosmology wrong. It got the history wrong. It got the biology, the geology, the astronomy, and the archaeology wrong. I've spent most of this book documenting that.
 
-But religion got something else right. Something that has nothing to do with where the universe came from and everything to do with how human beings should live in it. And the question of this chapter — the question that matters more than any other in this book — is whether you can keep the second thing after you've discarded the first.
+But religion got something else right. Something that has nothing to do with where the universe came from and everything to do with how human beings should live in it. And the question of this chapter -- the question that matters more than any other question in this book -- is whether you can keep the second thing after you've discarded the first.
 
 I think you can.
 
 I think you have to.
 
-*     *     *
+* * *
 
-Start with the ethics. Because the ethics are the easiest case.
+Start with the ethics, because they're the easiest to separate.
 
-The Sermon on the Mount, in Matthew chapters five through seven, contains the most radical moral teaching in the Western tradition. Love your enemies. Pray for those who persecute you. If someone strikes you on the right cheek, turn the other. Do not store up treasures on earth. Whatever you wish others would do to you, do to them.
+The Sermon on the Mount, in Matthew chapters five through seven, contains the most radical moral teaching in the Western tradition. Love your enemies. If someone strikes you on the right cheek, turn the other. If someone takes your coat, give them your shirt as well. Blessed are the poor in spirit. Blessed are the meek. Blessed are the merciful. Blessed are the peacemakers.
 
-You don't need to believe Jesus was the Son of God to recognize that this is an extraordinary ethical framework. Almost no one lives this way. Including most Christians. But the standard itself — as a secular ethical benchmark — is worth preserving. Not because Jesus said it. Because it's good.
+You don't need to believe Jesus was the Son of God to recognize that this is extraordinary. You don't need to believe in heaven or hell to see that a society organized around these principles would be radically better than one organized around self-interest and acquisition.
 
-In Judaism, there's tikkun olam. Repair of the world. The idea that human beings have a responsibility to fix what is broken — not just in their own lives, but in the world itself. You don't need a covenant with God to find this compelling. The idea that every generation inherits a damaged world and has an obligation to leave it less damaged — that's the basis for every serious civic and environmental movement that has ever existed.
+In Judaism, there's tikkun olam. Repair of the world. The idea that human beings have a responsibility to fix what is broken -- not just in their own lives, but in the world itself. That the work of repair is never finished, and that doing it is not optional.
 
-In Islam, there's zakat. An obligatory contribution of two and a half percent of your wealth, every year, to the poor. Not charity. An obligation. Zakat says: this money was never entirely yours. A portion of it belongs to those who have less. You're not being generous when you give it. You're being just.
+In Islam, there's zakat. An obligatory contribution of two and a half percent of your wealth, every year, to the poor. Not charity. An obligation. A structural commitment to redistribution baked into the operating system of the faith. Zakat says: this money was never entirely yours. A portion of it belongs to those who have less. You're not being generous when you give it. You're being just.
 
-These ideas — enemy-love, world-repair, mandatory redistribution — don't need God to stand on. They stand on their own moral weight. They survive the loss of the metaphysics.
+These ideas don't need God to stand on. They stand on their own moral weight. They survive the loss of the metaphysics. And they're better than most of what secular liberal philosophy has produced to replace them, which tends to be either too abstract to motivate action or too individualistic to build community.
 
-Keep the ethics. Retire the theology.
+Keep the ethics. Retire the theology that claimed to own them.
 
-*     *     *
+* * *
 
-Now the rituals. This is the hard one. This is where I want to slow down, because I watched it happen in a hired hall in Glasgow and it changed how I think about what's possible.
+The contemplative tradition.
 
-Jean is a humanist celebrant. She's been doing it for eleven years. I spent a morning with her in a cafe near the Necropolis, and then she invited me to come that afternoon and watch.
+Every major religion discovered, independently, that sitting still and paying attention to the contents of your own mind is one of the most transformative things a human being can do.
 
-The funeral was for a man named Alistair. He'd worked in the shipyards his whole life. No religion. No faith. No interest in God. But a life — a full, specific, unrepeatable life.
+Buddhism built an entire practice around it. Christianity has the Desert Fathers, Meister Eckhart, Thomas Merton, Centering Prayer -- seventeen hundred years of contemplative discipline. Judaism has Kabbalistic meditation. Islam has dhikr -- the remembrance of God through repeated phrases and focused attention. Sufism is essentially an entire branch of Islam organized around the contemplative experience.
 
-"I sat with his wife Moira for two hours," Jean told me. "She told me everything. How they met at a dance in 1974. How he always burned the toast. How he sang in the shower — badly, every morning, for forty-seven years. How he held her hand in the hospital at the end and said, 'Don't be daft, hen. I'll be fine.' He wasn't fine. He died the next day."
+Jon Kabat-Zinn stripped Buddhist meditation of its metaphysics in the 1970s and created Mindfulness-Based Stress Reduction, which is now prescribed by the NHS. It works. The clinical data is strong. Eight weeks of practice produces measurable changes in brain structure and function.
 
-The service was in a hired hall — not the crematorium, which would have given them twenty-five minutes on a conveyor belt, but a proper room. Chairs in rows. A table at the front with a photograph of Alistair and a bottle of Irn-Bru, because that was his drink, every day, without fail.
+But here's what gets lost in the secular translation: the depth.
 
-Jean opened with a welcome. Not a prayer. She said: "We are here because Alistair Cameron lived, and because his life mattered, and because we need to say that out loud to each other before we go back to a world that doesn't have him in it anymore."
+Kabat-Zinn's program works for stress. It works for anxiety. But the contemplative masters -- the monks, the mystics, the Sufis -- weren't doing it for stress relief. They were doing it to confront the fundamental nature of consciousness itself. To sit with questions that have no answers. To encounter the limits of the self and discover what lies beyond them.
 
-Then she told the story. The dance in 1974. Moira in a green dress, Alistair too shy to ask her, his mate pushing him across the floor. The shipyard years. The strike in the eighties when he walked the picket line for eleven weeks and came home to find Moira had taken in ironing to keep the bills paid and never told him. The three sons. The caravan holidays in Ayrshire. The burned toast, every morning for decades, and Moira scraping it over the bin and him eating it anyway.
+Secular mindfulness takes the first three steps of a thousand-step journey and packages them as the whole thing. The contemplative traditions have something secular culture needs: the willingness to sit with not-knowing. Not as a failure. Not as a problem to be solved. As a practice. As a discipline. As a way of being in the world that acknowledges the limits of human understanding and finds in those limits not despair but a strange, hard-won peace.
 
-People laughed. The shipyard lads — big men in dark suits who looked like they hadn't cried since 1983 — were wiping their eyes and laughing at the same time.
+Keep the practice. Let go of the theology that framed it. But don't lose the depth in the process.
 
-Then Jean read something. Not a religious text. A passage from a novel Moira said Alistair had loved, about the Clyde, about men who built ships that sailed to places they'd never go. She read it slowly. The room went quiet.
+* * *
 
-Then the sons spoke. One by one. Short. Raw. The middle son couldn't finish and his brother put a hand on his back and he stood there for ten seconds with his eyes closed and then said, "He was the best man I ever knew," and sat down.
+The grammar of awe.
 
-Jean closed it. She didn't say Alistair was in a better place. She didn't say he was watching over them. She said: "Alistair Cameron is gone. That is the truth and it is terrible. What is also true is that every person in this room carries a piece of him — a phrase he used, a habit you picked up, a way of seeing the world that you learned from watching him. He is not in heaven. He is in you. And as long as you are here, something of him remains."
+This is the one that keeps me up at night.
 
-Moira cried. The middle son cried. The shipyard lads cried. And then one of them said something about the toast, and they all laughed, and that moment — the crying turning to laughing — was the ritual. That was the sacred. Not a word anyone used. But I watched it happen.
+Religious language points at real human experiences. Grace. Mercy. Forgiveness. Redemption. Sin. Sacred. Holy. These are not just religious concepts. They are the most precise words we have for some of the most important experiences a human being can have.
 
-I stood at the back and I thought: this works. This is real. This has weight.
+You don't need to believe in God to know what it feels like to need forgiveness. To have done something so wrong that the weight of it bends your posture. To need someone -- anyone -- to say: you can come back from this. You are not the worst thing you've ever done.
 
-*     *     *
+Religion has the word for that. Redemption. Secular culture has -- what? Therapy? Self-care? A wellness podcast telling you to practise self-compassion? These are not the same thing. Redemption implies a moral universe in which falling is real and rising is possible. Self-compassion implies a psychological universe in which you should be kinder to yourself. One has weight. The other has advice.
 
-But then I talked to Jean about the numbers.
+Grace. The experience of receiving something you haven't earned and don't deserve. Not as a transaction. Not as a reward. As a gift. The gratuitousness of it -- the fact that you did nothing to merit it -- is the whole point. Secular culture is obsessed with merit. You earn your salary. You earn your degree. You earn your place. But the most important things in life -- being loved, being born, being alive at all -- were never earned. They were given. Religion had a word for that. We need that word.
 
-She can do fifteen funerals a month. There are half a million deaths a year in the UK. Humanist weddings are now legal in Scotland, and they outnumber Church of Scotland weddings — real progress. But the infrastructure is thin. Jean is one person. The tradition is decades old, not centuries. There's no building that holds the accumulated weight of every funeral ever held there. Every ceremony starts from scratch.
+Sin. Not the cartoon version -- God keeping a list. The deeper version. The recognition that human beings are capable of profound moral failure. That we hurt the people we love. That we know the right thing to do and don't do it. Secular psychology calls this cognitive distortion or maladaptive behaviour. These are accurate descriptions. They are also utterly without moral weight. Sin says: this matters. What you did matters. Not because a god is watching but because you damaged something real -- a relationship, a trust, a person -- and that damage has to be acknowledged before it can be repaired.
 
-I put this to her. I said: isn't the whole thing too new? Too thin? Where's the depth?
+Sacred. The feeling that some things are set apart. That not everything is available for consumption, commodification, or ironic detachment. That a forest can be more than a resource. That certain moments -- the birth of a child, the death of a parent, the silence after a piece of music -- carry a weight that resists explanation.
 
-She looked at me like I'd said something she'd heard a hundred times.
+We need this language. Not because it proves anything about the supernatural. Because without it, we are trying to describe the most profound human experiences with a vocabulary designed for shopping.
 
-"Of course it's thin," she said. "It's a sapling. You don't look at a sapling and say, 'This isn't an oak.' You look at a sapling and you water it."
+Keep the words. Redefine them if you have to. But don't abandon them just because they grew up in a house you've decided to leave.
+
+* * *
+
+Some people are already building.
+
+Alcoholics Anonymous was founded in 1935 by two alcoholics who borrowed explicitly from Christianity -- surrender to a higher power, moral inventory, making amends, helping others -- and created a framework that has helped millions of people get sober. The twelve steps work. Not for everyone. Not perfectly. But they work. And they work because they took the psychological architecture of religious conversion -- confession, surrender, community, service -- and applied it to a specific human problem without requiring belief in a specific God. Step Two says "a Power greater than ourselves." Not Jesus. Not Allah. Not Yahweh. It could be the group. It could be the process. The architecture is religious. The application is secular. And it saves lives.
+
+Sunday Assembly launched in London in 2013 -- an atheist church. Weekly gatherings. Singing. A talk. Community. It spread to seventy cities worldwide. It also mostly struggled. Many chapters closed. Attendance dropped. The ones that survived did so in cities with enough secular, educated, community-hungry people to sustain them.
+
+This tells us something important. The form alone isn't enough. Religion works because it's embedded in everything -- your calendar, your diet, your family structure, your sense of identity. Sunday Assembly offered one hour a week. The mosque offers a complete architecture of daily life. The competition isn't close.
+
+The pattern is consistent: secular alternatives to religion work best for people who need them least. The people who most need what religion provides -- community, meaning, structure, comfort in the face of death -- are often the people with the fewest resources to find secular alternatives.
+
+This is the gap. This is what we haven't solved.
+
+* * *
+
+But I met someone who made me think the gap might be narrower than I'd assumed.
+
+His name was Tom. He was sixty-three, a retired electrician, living alone in a council flat in Lewisham after his wife left and his daughter moved to Canada. No religion. Raised in a family where church was something other people did. He told me he'd gone through a period, in his late fifties, when he didn't speak to anyone for days at a time. He'd go to the shop for milk and realize, in the queue, that it was the first sentence he'd said out loud since Friday.
+
+"I wasn't depressed exactly," he said. "I just didn't have anywhere to go. Nothing was pulling me out the door."
+
+What pulled him out was, of all things, a community volunteering group. Someone showed up at his door one afternoon -- a young woman in running shoes -- helped him clear his garden, and stayed for tea.
+
+"The first time, I thought they were selling something," he said. "Nobody just shows up."
+
+Within a year he was volunteering himself. He couldn't run -- bad knees -- but he walked to other people's homes and did what had been done for him. He told me about a man named Arthur, ninety-one, who he visited every Thursday. They watched football together. Arthur supported West Ham. Tom supported Millwall. They argued about it with the dedication of people who have found a reason to care about something.
+
+"It's not church," Tom said. "I wouldn't know what to do in a church. But it's something. Arthur expects me on Thursday. I expect to be there. That's enough. That's more than I had."
+
+I tell you about Tom not because his story solves the problem. It doesn't. He found one connection, in one city, through one organisation. It's not a calendar. It's not a cosmology. It's not a tradition stretching back centuries. But it's a man who went from silence to Thursday, and Thursday is something.
+
+The question is whether we can build a million Thursdays. Whether we can construct, without God, the web of obligation and showing-up that religion built with Him. I don't know the answer. But Tom made me think it's worth trying.
+
+* * *
+
+Back in Glasgow. The rain hadn't stopped. Margaret Campbell was telling me about the hardest funeral she'd ever conducted. A teenager. Seventeen. Suicide. No faith in the family. No framework.
+
+"I sat with the mother for three hours," she said. "She couldn't stop talking and she couldn't say anything. She kept starting sentences and stopping. I just sat there. I didn't try to make it make sense. It doesn't make sense. A seventeen-year-old dying doesn't make sense and anyone who tells you it does is lying to you."
 
 She paused.
 
-"I'm planting a tree I'll never sit under. Every funeral I do, every ceremony, it's one more layer. My granddaughter, if she does this work — her ceremonies will be better. Because they'll have mine underneath them. And her granddaughter's will be better again. That's how you build depth. Not by borrowing someone else's ancient tree. By planting your own and being patient."
+"A minister would have said God has a plan. I couldn't say that. But I could say: I'm here. I'm going to sit with you in this. I'm going to help you find words for it, even if the words aren't enough. And then on the day, I'm going to stand up and say those words out loud, and the people who loved him will hear them, and it won't fix anything, but it will be a shape. A container. Somewhere to put it."
 
-Alain de Botton made the argument in 2012, in Religion for Atheists, that secular culture should steal religion's forms. The architecture. The repetition. The seriousness. He was right about the diagnosis. What he didn't reckon with was time. A ritual performed ten thousand times in the same building has a weight that a ritual performed for the first time in a hired hall does not. That weight isn't supernatural. It's accumulated human experience — the knowledge that the same words were said over your grandmother and will be said over your grandchild. You can't manufacture that in a generation. You can only begin it.
+I asked her if she ever wished she could offer what the ministers offer. The afterlife. The reunion. The plan.
 
-Jean knows this. She's beginning it. And what I saw in that hall in Glasgow — the crying and the laughing and the Irn-Bru on the table — was as real as anything I've seen in a cathedral. It just hadn't been repeated enough times yet to feel ancient.
+"Every day," she said. "Every single day. Especially with the young ones. I'd love to be able to say, he's somewhere, he's all right, you'll see him again. I can't. And the honesty of that -- it costs something. It costs me and it costs the families. But I think they'd rather have the truth and a real person sitting with them than a comfortable story and nobody looking them in the eye."
 
-Give it time. Give it a hundred years. Give it a thousand. The sapling needs water, not complaint.
+* * *
 
-After the funeral, I went back to the cafe with Jean. She ordered soup. I asked her what she'd stolen from religion. She didn't flinch at the word.
+Four thousand years of religious tradition discovered real things about how human beings work. About what we need. About what sustains us. About how to face suffering and how to face death and how to build communities that hold people together in the worst moments of their lives.
 
-"Everything," she said. "The structure — opening, reflection, tribute, commitment, closing — that's a religious structure. I just took out the God parts and kept the architecture. Because the architecture works. It works because human beings need containment. They need to know: this is the beginning of the grief, this is the middle, this is the moment when we let go."
-
-She ate her soup. Then she said something quieter.
-
-"The Passover seder. Have you been to one? A structured meal — readings, questions, songs, specific foods, each carrying symbolic meaning. It's one of the most effective ritual technologies ever invented. You don't need to believe God freed the Israelites from Egypt to see that sitting down once a year with your family, eating specific foods, and asking 'why is this night different from all other nights?' is a profound act of communal memory. Secular families could do this. With different stories. Different questions. The same structure."
-
-She looked at me.
-
-"Take it. Use it. Call it whatever you want. Just don't throw it away because it was built by people who believed something you don't."
-
-I wrote that down. I've thought about it since. She's right that the form can be separated from the belief. The question is whether enough people will bother. Religion made it easy — you were born into the calendar, the rituals, the community. You didn't choose them. They chose you. The secular version requires choosing. And choosing, week after week, year after year, without the pressure of divine mandate — that's harder. Not impossible. Harder.
-
-That's the honest gap. Not between sacred and secular. Between mandatory and optional. Religion made the important things mandatory. Secular culture made them optional. And when the important things are optional, most people don't do them.
-
-*     *     *
-
-There's something else religion gave us that I didn't expect to miss. A vocabulary for moral life.
-
-I felt this most sharply not at a funeral but on an ordinary Thursday night when I'd done something I was ashamed of.
-
-Nothing criminal. Nothing newsworthy. I'd lied to someone I cared about. A selfish lie, told to protect myself, and it worked — the person believed me — and I went home and sat on my couch and felt something I couldn't name in secular language.
-
-Guilt, yes. But something more. Something that felt like a stain. Like I'd damaged something in the fabric of things — not just the relationship but something in myself, some internal accounting that knew the ledger didn't balance.
-
-Religion has the word for this. Sin. Not the cartoon version — God keeping score. The deeper version. The recognition that human beings are capable of moral failure. That we hurt people we love. That we know the right thing and don't do it. And that this matters — not because a deity is watching, but because something real was damaged.
-
-Secular psychology calls it cognitive distortion. Maladaptive behaviour. Accurate descriptions. Utterly without moral weight. They describe what happened without touching what it means.
-
-And then religion gives you the exit. Confession. Repentance. Atonement. Yom Kippur — an entire day set aside, once a year, for the whole community to stand together and say: we fell short. We did wrong. We ask forgiveness.
-
-I sat on my couch that Thursday night and I wanted that. Not God. Not absolution from a supernatural authority. A structure. A practice. Something that said: here is what you do when you've done wrong. Here is how you name it. Here is how you face the person you harmed. Here is how you begin again.
-
-I didn't have it. I had my couch and my shame and a vague sense that I should "talk to someone" — meaning a therapist, meaning someone who would frame the problem as something happening inside my head rather than something I had done to someone else.
-
-The language was missing. Grace. Mercy. Redemption. Atonement. These words grew up inside religion and they point at real experiences — experiences that happen to everyone, believer and unbeliever alike. The experience of receiving something you haven't earned. The experience of being forgiven when you didn't deserve it. The experience of falling and needing a way back up. De Botton wrote about this — that secular culture should reclaim these words. He was right. But reclaiming words isn't enough if you don't build the practices around them. "Redemption" means nothing if there's no ritual of repair, no community that witnesses the falling and the rising, no structure that says: you are not the worst thing you've ever done.
-
-We need this language back. Stripped of the supernatural, but not stripped of the weight. The weight is the point.
-
-I eventually told the truth to the person I'd lied to. Not because I had a ritual. Not because a community held me accountable. Because I couldn't sleep. Because the stain was still there. She forgave me. Not easily. Not immediately. But she forgave me, and the forgiveness — when it came — felt like something I had no secular word for. It felt like grace. Unearned. Given not because I deserved it but because she decided to give it. And I thought: this is what religion was pointing at. This experience. This specific thing that happens between two people when one has harmed the other and the other chooses restoration over punishment.
-
-The experience is real whether or not God is behind it. But religion gave it a name and a home and a calendar date and a community practice. We gave it away when we left. We need to go back and collect it.
-
-*     *     *
-
-So here's where I land.
+These discoveries are real. They were found by people who believed they were doing God's work, and in that attribution they were wrong. But the discoveries themselves -- the practices, the ethics, the rituals, the language, the orientation toward something beyond the self -- these are human discoveries about human beings. And they belong to all of us.
 
 The argument of this book is not burn it all down. It was never burn it all down. If you've read it that way, I've failed.
 
-The argument is this: four thousand years of religious tradition discovered real things about how human beings work. About what we need. About what sustains us. About how to face suffering and death and how to build communities that hold people together in the worst moments.
-
-These discoveries are real. They were found by people who believed they were doing God's work, and in that attribution they were wrong. But the findings themselves — the practices, the ethics, the rituals, the language — are human discoveries about human beings. And they belong to all of us.
-
-Keep the fire. Question the story of who lit it.
-
-Keep the Sermon on the Mount. Let go of the virgin birth.
-
-Keep tikkun olam. Let go of the covenant.
-
-Keep zakat. Let go of the Day of Judgment.
-
-Keep sitting shiva. Let go of Olam Ha-Ba.
-
-Keep the grammar of grace and mercy and forgiveness and the sacred. Let go of the God who was supposed to be behind them.
-
-The story is ours. It always was. We wrote it. We refined it across four thousand years. The fact that we attributed it to God doesn't change what it is: the accumulated wisdom of a species trying to figure out how to live together on a planet that didn't come with instructions.
-
-We don't need the instructions to have been written by God. We just need them to be good.
-
-And some of them — the best of them — are very good indeed.
-
-Keep those. Build on them. Go and do the work that religion claimed to be doing. Feed the hungry. Shelter the homeless. Sit with the dying. Mark the passages of life with seriousness and love. Knock on the door. Not because God told you to. Because you noticed the silence on the other side.
+The argument is this: question the story. Keep the fire. Do the work that religion claimed to be doing. Feed the hungry. Shelter the homeless. Sit with the dying. Gather weekly with people who are trying to live well. Mark the passages of life with seriousness and love. Teach children that they are part of something larger than themselves. Look up at the stars and let yourself feel small.
 
 You can do all of this without believing a single supernatural claim.
 
-You just have to do it. Not because heaven awaits. Not because hell threatens.
+You just have to do it.
+
+That's the hard part. Not the believing. The doing. Religion made the doing easier by wrapping it in belief. Without the belief, the doing requires something more demanding: the decision to do it anyway. Not because God is watching. Not because heaven awaits. Not because hell threatens.
 
 Because it's right. Because other people need it. Because you need it.
 
-We left the house of God. The foundation was cracked and some of the rooms were dangerous.
+Because a life without community, ritual, meaning, awe, and some framework for facing death is not a liberated life. It's an impoverished one.
 
-But we took the fire with us.
+* * *
 
-Don't let it go out.
+I keep thinking about that morning in Glasgow. Margaret Campbell in her office above the letting agency, the rain on the window, the stack of folders on her desk -- each one a life, each one a person whose story she'd sat with and shaped into something that could be said out loud in a room full of grieving people.
+
+And I keep thinking about the shipyard worker's funeral. The wife who cried. The son who cried. The big men with hands like shovels. The toast story. The smoke alarm. The moment when the crying turned to laughing.
+
+That moment. That's what I want to end with. Not a programme. Not a slogan. Not a list of what to keep and what to discard.
+
+Just that room. Those people. The sound of laughter breaking through grief, because someone had listened carefully enough to find the thing that was funny inside the thing that was unbearable. No God in the room. No afterlife on offer. No cosmic plan. Just a woman who'd sat with a widow for two hours and learned about forty-seven years of burned toast and bad singing, and who'd stood up and given it back to them -- their own life, their own love, their own loss -- in words that made them cry and then made them laugh.
+
+That's not nothing.
+
+That might be enough.
