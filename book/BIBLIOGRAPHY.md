@@ -1,4 +1,4 @@
-# Beyond Belief — Bibliography and Source Notes
+# Proximity — Bibliography and Source Notes
 
 This file provides sources for readers who wish to verify the factual claims made in the book. It is organised by chapter. Where claims are drawn from widely reported events, that is noted rather than a single URL cited. Where scholarly works are referenced, full publication details are given.
 

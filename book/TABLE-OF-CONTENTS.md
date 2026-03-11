@@ -1,5 +1,5 @@
-# Beyond Belief
-### What I Found When I Looked at What Four Billion People Believe
+# Proximity
+### An Investigation of Islam, Christianity, Judaism, and the Cost of Looking Closely
 
 ---
 
@@ -26,8 +26,7 @@
 ### Part Two: The Investigation
 
 - **Chapter 4: The Receipt**
-- **Chapter 5: The Books Don't Agree**
-- **Chapter 6: Older Gods**
+- **Chapter 5: Older Gods**
 - **Chapter 7: The God-Shaped Hole**
 - **The Inner Life**
 
